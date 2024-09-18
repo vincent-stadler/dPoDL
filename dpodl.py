@@ -96,7 +96,7 @@ def _training(x_train, y_train, model, batch_size, threshold, max_epoch, max_ite
     
     return model
 
-def _training_fresh_(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path):
+def _training_fresh(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path):
     init_model = create_model(x_train.shape[1:])
     batch_size, learning_rate, model = hash_to_architecture(hash_val, init_model)
     model.compile(optimizer=Adam(learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
@@ -105,7 +105,7 @@ def _training_fresh_(hash_val, x_train, y_train, threshold, max_epoch, max_itera
 
 def main_training(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path, load_path=None, referred=None):
     if load_path is None and referred is None:
-        return _training_fresh_(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path)
+        return _training_fresh(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path)
     elif load_path is not None and referred is None:
         # Load the pre-trained model from the given path
         referred = load_model(load_path)
