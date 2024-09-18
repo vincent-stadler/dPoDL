@@ -69,7 +69,7 @@ def pre_pow(prev_hash, difficulty):
             return nonce, new_hash_bin
         nonce += 1
 
-def _training_(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path):
+def _training(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path):
     # Create an instance of the custom batch logger callback
     batch_logger = BatchLogger()
     # Create an instance of the early stopping callback
@@ -101,7 +101,7 @@ def _training_fresh_(hash_val, x_train, y_train, threshold, max_epoch, max_itera
     batch_size, learning_rate, model = hash_to_architecture(hash_val, init_model)
     model.compile(optimizer=Adam(learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
 
-    return _training_(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path)
+    return _training(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path)
 
 def main_training(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path, load_path=None, referred=None):
     if load_path is None and referred is None:
@@ -115,7 +115,7 @@ def main_training(hash_val, x_train, y_train, threshold, max_epoch, max_iteratio
     # Set the learning rate for the optimizer without resetting the learnable parameters
     referred.optimizer.learning_rate.assign(learning_rate)
 
-    return _training_(x_train, y_train, referred, batch_size, threshold, max_epoch, max_iteration, save_path)
+    return _training(x_train, y_train, referred, batch_size, threshold, max_epoch, max_iteration, save_path)
 
 import os
 import base64
