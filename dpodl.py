@@ -2,53 +2,16 @@ import hashlib
 import random
 import keras
 from keras import backend as K
-from keras.callbacks import Callback
 from keras.datasets import mnist
 from keras.models import Sequential, clone_model, load_model
 from keras.layers import Input, Dense, Flatten
 from keras.optimizers import Adam
 import numpy as np
-
+from utils import *
 from DL_task import create_model, load_data
 
 BATCHES = [8 * i for i in range(1, 17)]
 LRS = [0.001 * i for i in range(1, 11)]
-
-class BatchLogger(Callback):
-    def on_train_batch_end(self, batch, logs=None):
-        # print(f"Batch {batch}: Loss = {logs['loss']:.4f}, Accuracy = {logs['accuracy']:.4f}")
-        pass
-
-class EarlyStoppingByBatchAccuracy(Callback):
-    def __init__(self, threshold, monitor="accuracy", verbose=0):
-        super(EarlyStoppingByBatchAccuracy, self).__init__()
-        self.threshold = threshold
-        self.monitor = monitor
-        self.verbose = verbose
-
-    def on_train_batch_end(self, batch, logs=None):
-        logs = logs or {}
-        accuracy = logs.get(self.monitor)
-        if accuracy is not None and accuracy >= self.threshold:
-            self.model.stop_training = True
-            if self.verbose > 0:
-                print(f"\nBatch {batch + 1}: early stopping because {self.monitor} reached {accuracy:.4f}")
-
-class EarlyStoppingByAccuracy(Callback):
-    def __init__(self, threshold, monitor="accuracy", verbose=0):
-        super(EarlyStoppingByAccuracy, self).__init__()
-        self.threshold = threshold
-        self.monitor = monitor
-        self.verbose = verbose
-
-    def on_epoch_end(self, epoch, logs=None):
-        logs = logs or {}
-        accuracy = logs.get(self.monitor)
-        if accuracy is not None and accuracy >= self.threshold:
-            self.model.stop_training = True
-            if self.verbose > 0:
-                print(f"\nEpoch {epoch + 1}: early stopping because {self.monitor} reached {accuracy:.4f}")
-
 
 def reset_weights(model):
     # Clone the model to create a new instance with the same architecture
