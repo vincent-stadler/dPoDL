@@ -96,6 +96,7 @@ def _training_fresh(hash_val: str, x_train: np.ndarray, y_train: np.ndarray, thr
     """
     init_model = create_model(x_train.shape[1:])
     batch_size, learning_rate, model = hash_to_architecture(hash_val, init_model)
+    print(f"Hyperparameters of freshly instantiated model are batch_size: {batch_size} and learning_rate: {learning_rate}")
     model.compile(optimizer=Adam(learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
 
     return _training(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path)
