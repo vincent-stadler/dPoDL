@@ -5,4 +5,4 @@ Distributed Proof-of-Deep-Learning". The goal of D-PoDL is to use deep learning 
 
 ## Requirements
 - Python 3.x
-- TensorFlow
+- keras
