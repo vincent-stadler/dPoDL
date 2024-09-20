@@ -63,6 +63,7 @@ def dpodl_solver(prev_hash: str,
     # At the same time a valid model could be discarded, and has to train at least one more epoch (or batch if the
     # callback EarlyStoppingByAccuracy is replaced by the  EarlyStoppingByBatchAccuracy callback)
     while valid == 0 and post_check_iteration < max_post_check_iteration:
+        print("Post hash verification failed. Continuing to train model")
         model = main_training(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path, None, model)
         print("Performing post hash verification of trained model")
         valid, post_hash = post_check(post_difficulty, nonce, model)
@@ -71,7 +72,7 @@ def dpodl_solver(prev_hash: str,
     _, accuracy = model.evaluate(x_train, y_train, verbose=0)
 
     if accuracy >= threshold and valid == 1:
-        print(f"D-PoDL complete: Model accuracy {accuracy:.4f} with post hash {post_hash}.")
+        print(f"D-PoDL complete: Model accuracy {accuracy:.4f} with valid post hash {post_hash}.")
     else:
         print(f"D-PoDL failed: Reached max iterations (max_iteration: {max_iteration}, max_post_check_iteration: {max_post_check_iteration}) with final accuracy {accuracy:.4f}. Desired accuracy threshold is at {threshold}")
 
