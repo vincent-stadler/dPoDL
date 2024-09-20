@@ -80,15 +80,3 @@ def reset_weights(model: Model) -> Model:
                 layer.set_weights([kernel])
 
     return new_model
-
-
-def load_model(model_path) -> Model:
-    """
-    Loads a Keras model from disk and returns a new Keras model.
-    Args:
-        model_path: The path to the saved model.
-
-    Returns:
-        Model: A Keras model
-    """
-    pass

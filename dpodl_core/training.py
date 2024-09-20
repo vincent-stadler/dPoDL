@@ -1,8 +1,8 @@
 from keras.optimizers import Adam
 import random
 import numpy as np
-from keras.models import Model
-from models.model_utils import reset_weights, load_model
+from keras.models import Model, load_model
+from models.model_utils import reset_weights
 from models.mnist_task import create_model
 from callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
 from typing import Optional, Tuple
