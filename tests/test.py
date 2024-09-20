@@ -90,15 +90,17 @@ def plot(res1: List[float], res2: List[float]) -> None:
     """
     plt.figure(figsize=(10, 6))
 
-    plt.plot(res1, label='PoW Runtime', color='blue', linestyle='-', marker='o')
-    plt.plot(res2, label='D-PoDL Runtime', color='green', linestyle='--', marker='x')
+    x_values = range(1, len(res1) + 1)
+    plt.plot(x_values, res1, label='PoW Runtime', color='blue', linestyle='-', marker='o')
+    plt.plot(x_values, res2, label='D-PoDL Runtime', color='green', linestyle='--', marker='x')
 
-    plt.xlabel('Number of experiments')
-    plt.ylabel('Runtime')
+    plt.xlabel('Experiment number')
+    plt.ylabel('Runtime (s)')
     plt.title('Runtime History')
 
     plt.legend()
     plt.grid(True)
+    plt.xticks(x_values)
     plt.show()
 
 
@@ -112,11 +114,11 @@ if __name__ == "__main__":
     pow_results: List[float] = []
     dpodl_results: List[float] = []
 
-    for i in range(3):
+    for i in range(2):
         print(f"Experiment {i + 1}:")
         pow_results.append(test_pow(4))
         dpodl_results.append(
-            test_dpodl(4, 0.98, 2, max_epoch, max_iteration, max_post_check_iteration, save_path, load_path)
+            test_dpodl(10, 0.98, 2, max_epoch, max_iteration, max_post_check_iteration, save_path, load_path)
         )
 
     plot(pow_results, dpodl_results)
