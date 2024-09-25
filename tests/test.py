@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 from dpodl_core.verification import pre_pow
 from dpodl_core.dpodl import dpodl_solver
-from models.mnist_task import load_data
+from models.mnist_task import MNISTtask
 from typing import Optional, List
 
 
@@ -58,8 +58,9 @@ def test_dpodl(difficulty: int, threshold: float, post_difficulty: int, max_epoc
     Returns:
         float: The time taken to complete the D-PoDL process in seconds.
     """
+    task = MNISTtask()  # for this test we use the MNIST task
     prev_hash = gen_random_string()
-    x_train, y_train, _, _ = load_data()
+    x_train, y_train, _, _ = task.load_data()
 
     t1 = time.time()
     dpodl_solver(
