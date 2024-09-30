@@ -5,13 +5,11 @@ from dPoDL.models.model_utils import reset_weights
 from dPoDL.callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
 from typing import Optional, Tuple
 
-BATCHES = [8 * i for i in range(1, 17)]
-LRS = [0.001 * i for i in range(1, 11)]
 
 
-def hash_to_architecture(hash_val: str, task) -> Tuple[int, float]:
-    bsize = int(hash_val, 16) % len(BATCHES)
-    lr = int(hash_val, 16) % len(LRS)
+def hash_to_architecture(hash_val: str, task):
+    bsize = int(hash_val, 16) % len(task.batches)
+    lr = int(hash_val, 16) % len(task.lrs)
 
     # Generate initial learnable parameters by setting a seed
     seed = int(hash_val, 16) % (2 ** 32)
@@ -20,8 +18,7 @@ def hash_to_architecture(hash_val: str, task) -> Tuple[int, float]:
 
     # Reinitialize the model weights
     task.model = reset_weights(task.model)
-
-    return BATCHES[bsize], LRS[lr]
+    task.batch_size, task.learning_rate = task.batches[bsize], task.lrs[lr]
 
 
 def _training(threshold: float,
@@ -50,7 +47,7 @@ def _training(threshold: float,
 def _training_fresh(hash_val: str,  threshold: float, max_epoch: int,
                     max_iteration: int, save_path: str, task):
 
-    task.batch_size, task.learning_rate = hash_to_architecture(hash_val, task)
+    hash_to_architecture(hash_val, task)
     task.create_model(save_path)
 
     print(f"Hyperparameters of freshly instantiated model are batch_size: {task.batch_size} and learning_rate: {task.learning_rate}")
@@ -67,7 +64,7 @@ def main_training(hash_val: str, threshold: float, max_epoch: int,
         task.model = load_model(load_path)
 
     # Generate batch size, learning rate from the hash value
-    task.batch_size, task.learning_rate = hash_to_architecture(hash_val, task)
+    hash_to_architecture(hash_val, task)
     # Set the learning rate for the optimizer without resetting the learnable parameters
     task.model.optimizer.learning_rate.assign(task.learning_rate)
 

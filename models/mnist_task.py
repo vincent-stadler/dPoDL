@@ -22,6 +22,8 @@ class MNISTtask(TaskInterface):
         self.batch_size = None
         self.learning_rate = None
         self.save_path = save_path
+        self.batches = [8 * i for i in range(1, 17)]
+        self.lrs = [0.001 * i for i in range(1, 11)]
 
 
     def load_data(self):
