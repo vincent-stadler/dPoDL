@@ -1,27 +1,15 @@
-from keras.optimizers import Adam
 import random
 import numpy as np
 from keras.models import Model, load_model
-from models.model_utils import reset_weights
-from models.mnist_task import create_model
-from callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
+from dPoDL.models.model_utils import reset_weights
+from dPoDL.callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
 from typing import Optional, Tuple
 
 BATCHES = [8 * i for i in range(1, 17)]
 LRS = [0.001 * i for i in range(1, 11)]
 
 
-def hash_to_architecture(hash_val: str, model: Model) -> Tuple[int, float, Model]:
-    """
-    Generates a batch size, learning rate, and reinitializes the model based on the provided hash value.
-
-    Args:
-        hash_val (str): A hexadecimal string hash used to generate model architecture and parameters.
-        model (Model): A Keras model whose weights will be reset.
-
-    Returns:
-        Tuple[int, float, Model]: The batch size, learning rate, and the reinitialized model.
-    """
+def hash_to_architecture(hash_val: str, task) -> Tuple[int, float]:
     bsize = int(hash_val, 16) % len(BATCHES)
     lr = int(hash_val, 16) % len(LRS)
 
@@ -31,29 +19,13 @@ def hash_to_architecture(hash_val: str, model: Model) -> Tuple[int, float, Model
     random.seed(seed)
 
     # Reinitialize the model weights
-    new_model = reset_weights(model)
+    task.model = reset_weights(task.model)
 
-    return BATCHES[bsize], LRS[lr], new_model
+    return BATCHES[bsize], LRS[lr]
 
 
-def _training(x_train: np.ndarray, y_train: np.ndarray, model: Model, batch_size: int, threshold: float,
-              max_epoch: int, max_iteration: int, save_path: str) -> Model:
-    """
-    Trains the model until the desired accuracy threshold is reached or the maximum number of iterations is met.
-
-    Args:
-        x_train (np.ndarray): Training data.
-        y_train (np.ndarray): Training labels.
-        model (Model): The Keras model to train.
-        batch_size (int): Batch size for training.
-        threshold (float): Desired accuracy threshold for early stopping.
-        max_epoch (int): Maximum number of epochs per training iteration.
-        max_iteration (int): Maximum number of iterations to attempt.
-        save_path (str): Path to save the final trained model.
-
-    Returns:
-        Model: The trained Keras model.
-    """
+def _training(threshold: float,
+              max_epoch: int, max_iteration: int, task):
     batch_logger = BatchLogger()  # Custom batch logger callback
     early_stopping = EarlyStoppingByAccuracy(threshold=threshold, verbose=0)  # Early stopping callback
 
@@ -61,10 +33,9 @@ def _training(x_train: np.ndarray, y_train: np.ndarray, model: Model, batch_size
     accuracy = 0
     while accuracy < threshold and iteration < max_iteration:
         print(f"Iteration {iteration + 1}/{max_iteration}")
-        model.fit(x_train, y_train, epochs=max_epoch, batch_size=batch_size, verbose=0,
-                  callbacks=[batch_logger, early_stopping])
+        task.train(max_epoch=max_epoch, callbacks=[batch_logger, early_stopping])
         # Evaluate accuracy on the training set
-        _, accuracy = model.evaluate(x_train, y_train, verbose=0)
+        _, accuracy = task.evaluate()
         print(f"Current Training Accuracy = {accuracy:.4f}")
         iteration += 1
 
@@ -73,64 +44,31 @@ def _training(x_train: np.ndarray, y_train: np.ndarray, model: Model, batch_size
     else:
         print(f"Training stopped: Reached max iterations ({max_iteration}) with final accuracy {accuracy:.4f}.")
 
-    model.save(save_path)  # Save the trained model
-    return model
+    task.save()  # Save the trained model
 
 
-def _training_fresh(hash_val: str, x_train: np.ndarray, y_train: np.ndarray, threshold: float, max_epoch: int,
-                    max_iteration: int, save_path: str) -> Model:
-    """
-    Trains a new model initialized from scratch based on a hash value.
+def _training_fresh(hash_val: str,  threshold: float, max_epoch: int,
+                    max_iteration: int, save_path: str, task):
 
-    Args:
-        hash_val (str): Hash value used to generate batch size and learning rate for the model.
-        x_train (np.ndarray): Training data.
-        y_train (np.ndarray): Training labels.
-        threshold (float): Desired accuracy threshold for early stopping.
-        max_epoch (int): Maximum number of epochs per training iteration.
-        max_iteration (int): Maximum number of iterations to attempt.
-        save_path (str): Path to save the final trained model.
+    task.batch_size, task.learning_rate = hash_to_architecture(hash_val, task)
+    task.create_model(save_path)
 
-    Returns:
-        Model: The trained Keras model.
-    """
-    init_model = create_model(x_train.shape[1:])
-    batch_size, learning_rate, model = hash_to_architecture(hash_val, init_model)
-    print(f"Hyperparameters of freshly instantiated model are batch_size: {batch_size} and learning_rate: {learning_rate}")
-    model.compile(optimizer=Adam(learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
-
-    return _training(x_train, y_train, model, batch_size, threshold, max_epoch, max_iteration, save_path)
+    print(f"Hyperparameters of freshly instantiated model are batch_size: {task.batch_size} and learning_rate: {task.learning_rate}")
+    return _training(threshold, max_epoch, max_iteration, task)
 
 
-def main_training(hash_val: str, x_train: np.ndarray, y_train: np.ndarray, threshold: float, max_epoch: int,
-                  max_iteration: int, save_path: str, load_path: Optional[str] = None,
-                  referred: Optional[Model] = None) -> Model:
-    """
-    Main function to handle model training. It either trains a fresh model or continues training from a preloaded one.
+def main_training(hash_val: str, threshold: float, max_epoch: int,
+                  max_iteration: int, save_path: str, task, load_path: Optional[str] = None):
 
-    Args:
-        hash_val (str): Hash value to generate batch size and learning rate.
-        x_train (np.ndarray): Training data.
-        y_train (np.ndarray): Training labels.
-        threshold (float): Desired accuracy threshold for early stopping.
-        max_epoch (int): Maximum number of epochs per training iteration.
-        max_iteration (int): Maximum number of iterations to attempt.
-        save_path (str): Path to save the trained model.
-        load_path (Optional[str], optional): Path to load a pre-trained model. Defaults to None.
-        referred (Optional[Model], optional): Pre-trained Keras model for further training. Defaults to None.
-
-    Returns:
-        Model: The trained or fine-tuned Keras model.
-    """
-    if load_path is None and referred is None:
-        return _training_fresh(hash_val, x_train, y_train, threshold, max_epoch, max_iteration, save_path)
-    elif load_path is not None and referred is None:
+    if load_path is None:
+        return _training_fresh(hash_val, threshold, max_epoch, max_iteration, save_path, task)
+    elif load_path is not None and task.model is None:
         # Load the pre-trained model from the given path
-        referred = load_model(load_path)
+        task.model = load_model(load_path)
 
     # Generate batch size, learning rate from the hash value
-    batch_size, learning_rate, _ = hash_to_architecture(hash_val, referred)
+    task.batch_size, task.learning_rate = hash_to_architecture(hash_val, task)
     # Set the learning rate for the optimizer without resetting the learnable parameters
-    referred.optimizer.learning_rate.assign(learning_rate)
+    task.model.optimizer.learning_rate.assign(task.learning_rate)
 
-    return _training(x_train, y_train, referred, batch_size, threshold, max_epoch, max_iteration, save_path)
+    return _training(threshold, max_epoch, max_iteration, task)

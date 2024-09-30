@@ -13,15 +13,13 @@ class TaskInterface(ABC):
         pass
     
 
-    @abstractmethod
-    def load_data(self) -> Tuple[np.array, np.array, np.array, np.array]:
+    def load_data(self):
         """
         Load dataset and split into training and test sets
         :return: tuple of (X_train, y_train), (X_test, y_test)
         """
         pass
 
-    @abstractmethod
     def create_model(self) -> Model:
         """
         Initializes and returns a compiled Keras model.
@@ -31,6 +29,3 @@ class TaskInterface(ABC):
         """
         pass
 
-    @abstractmethod
-    def train(self):
-        pass
