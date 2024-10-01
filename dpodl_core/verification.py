@@ -1,5 +1,5 @@
 import hashlib
-from models.model_utils import model_to_string
+from dPoDL.models.model_utils import model_to_string
 from typing import Tuple, Optional
 from keras import Model
 

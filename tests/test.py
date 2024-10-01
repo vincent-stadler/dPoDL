@@ -76,7 +76,7 @@ def test_dpodl(difficulty: int, threshold: float, post_difficulty: int, max_epoc
     )
     t2 = time.time()
 
-    return t2 - t1
+    return t2 - t1, task
 
 
 def plot(res1: List[float], res2: List[float]) -> None:
@@ -103,6 +103,54 @@ def plot(res1: List[float], res2: List[float]) -> None:
     plt.show()
 
 
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.cm as cm  # Import cm to access colormaps
+
+def plot_aggregate_histories(histories, save_path='aggregate_metrics.png'):
+    plt.figure(figsize=(12, 5))
+
+    # Get the colormap
+    colormap = plt.colormaps['plasma']
+
+    epoch_range = range(1, len(histories[0].get('accuracy', [])) + 1)
+
+    # Plotting Training Accuracy
+    plt.subplot(1, 2, 1)
+    for idx, history in enumerate(histories):
+        color = colormap(idx / len(histories))  # Generate a color for each model
+        if 'accuracy' in history:
+            plt.plot(epoch_range, history['accuracy'], label=f'Model {idx + 1} Training', color=color, linestyle='-')
+        if 'val_accuracy' in history:
+            plt.plot(epoch_range, history['val_accuracy'], label=f'Model {idx + 1} Validation', color=color, linestyle='--')
+    plt.title('Aggregate Model Accuracy')
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.legend()
+
+    # Plotting Training Loss
+    plt.subplot(1, 2, 2)
+    for idx, history in enumerate(histories):
+        color = colormap(idx / len(histories))  # Generate a color for each model
+        if 'loss' in history:
+            plt.plot(epoch_range, history['loss'], label=f'Model {idx + 1} Training', color=color, linestyle='-')
+        if 'val_loss' in history:
+            plt.plot(epoch_range, history['val_loss'], label=f'Model {idx + 1} Validation', color=color, linestyle='--')
+    plt.title('Aggregate Model Loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.savefig(save_path)
+    plt.show()
+
+
+
 if __name__ == "__main__":
     max_epoch = 3
     max_iteration = 4
@@ -112,12 +160,15 @@ if __name__ == "__main__":
 
     pow_results: List[float] = []
     dpodl_results: List[float] = []
+    dpodl_models: List[float] = []
 
     for i in range(2):
         print(f"Experiment {i + 1}:")
         pow_results.append(test_pow(4))
-        dpodl_results.append(
-            test_dpodl(10, 0.98, 2, max_epoch, max_iteration, max_post_check_iteration, save_path, load_path)
-        )
+        t, task = test_dpodl(10, 0.95, 0, max_epoch, max_iteration, max_post_check_iteration, save_path, load_path)
+        dpodl_results.append(t)
+        dpodl_models.append(task.history)
+
 
     plot(pow_results, dpodl_results)
+    plot_aggregate_histories(dpodl_models)

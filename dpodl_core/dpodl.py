@@ -71,3 +71,4 @@ def dpodl_solver(prev_hash: str,
     else:
         print(f"D-PoDL failed: Reached max iterations (max_iteration: {max_iteration}, max_post_check_iteration: {max_post_check_iteration}) with final accuracy {accuracy:.4f}. Desired accuracy threshold is at {threshold}")
 
+    #task.plot_metrics()

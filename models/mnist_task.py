@@ -7,7 +7,7 @@ from typing import Tuple
 import numpy as np
 from keras import Model
 from keras.optimizers import Adam
-
+import matplotlib.pyplot as plt
 
 
 class MNISTtask(TaskInterface):
@@ -32,14 +32,54 @@ class MNISTtask(TaskInterface):
         self.x_test = x_test.astype("float32") / 255.0
         self.y_train = keras.utils.to_categorical(y_train, 10)
         self.y_test = keras.utils.to_categorical(y_test, 10)
+        print(f"Loaded MNIST dataset\nShape X: {self.x_train.shape}\nShape Y: {self.y_train.shape}")
 
 
     def evaluate(self):
         return self.model.evaluate(self.x_train, self.y_train, verbose=0)
 
     def train(self, max_epoch, callbacks):
-        self.model.fit(self.x_train, self.y_train, epochs=max_epoch, batch_size=self.batch_size, verbose=0,
-                  callbacks=callbacks)
+        history = self.model.fit(self.x_train,
+                                 self.y_train,
+                                 epochs=max_epoch,
+                                 batch_size=self.batch_size,
+                                 verbose=0,
+                                 callbacks=callbacks,
+                                 validation_data=(self.x_test, self.y_test))
+        self.history = history.history
+
+    def plot_metrics(self):
+        # Plot accuracy
+        plt.figure(figsize=(12, 5))
+
+        plt.subplot(1, 2, 1)
+        plt.plot(self.history['accuracy'], label='Training Accuracy')
+        if 'val_accuracy' in self.history:
+            plt.plot(self.history['val_accuracy'], label='Validation Accuracy')
+        plt.title('Model Accuracy')
+        plt.xlabel('Epoch')
+        plt.ylabel('Accuracy')
+        plt.legend()
+
+        # Plot loss
+        plt.subplot(1, 2, 2)
+        plt.plot(self.history['loss'], label='Training Loss')
+        if 'val_loss' in self.history:
+            plt.plot(self.history['val_loss'], label='Validation Loss')
+        plt.title('Model Loss')
+        plt.xlabel('Epoch')
+        plt.ylabel('Loss')
+        plt.legend()
+
+        plt.tight_layout()
+
+        # Save the plot to a file
+        img_path = f"MNIST-lr{self.learning_rate}-bs{self.batch_size}.png"
+        plt.savefig(img_path)
+
+        # Display the plot
+        plt.show()
+
 
     def create_model(self):
         input_shape = (28, 28)
