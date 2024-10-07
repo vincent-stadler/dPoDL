@@ -159,4 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 /tests/result.keras
-/local-ToDo.txt
+/local-ToDo.md
+/tests/*.png
