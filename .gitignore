@@ -161,3 +161,4 @@ cython_debug/
 /tests/result.keras
 /local-ToDo.md
 /tests/*.png
+/experiments/*.csv
