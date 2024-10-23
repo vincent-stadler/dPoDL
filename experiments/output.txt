@@ -1,0 +1,1071 @@
+ref,title,author,lastRunTime,totalVotes
+adhamtarek147/cifar-10,CIFAR-10 📷🖼️🤖,Adham Tarek,2024-10-09 16:41:10,13
+matinmahmoudi/from-scratch-linear-regression-using-oop,🌿 📈 From Scratch: Linear Regression Using OOP,Matin Mahmoudi ✨,2024-10-09 13:34:31,23
+abhishek0032/data-science-toolkit-codes-skills-to-succeed,Data Science Toolkit: Codes & Skills to Succeed🏆,Abhishek0032,2024-10-09 18:04:51,5
+whisperingkahuna/geospatial-analysis-top-50-hotels-worldwide,Geospatial analysis Top 50 Hotels Worldwide,Kamran Ali,2024-10-09 16:17:53,4
+junaid512/real-vs-fake-img,Real_VS_Fake_IMG,Junaid-Khan,2024-10-09 15:12:30,4
+conradkleykamp/loan-approval-prediction-lgbm-w-optuna,Loan Approval Prediction LGBM w/ Optuna,Conrad Kleykamp,2024-10-09 15:01:51,5
+alkidiarete/votingclassifier,VotingClassifier,Nukman Hakim,2024-10-09 06:27:49,22
+pritesbera/fifa-wc-final-and-semi-final-eda,FIFA WC Final and Semi-Final EDA,PRITES,2024-10-09 12:11:33,6
+gauravduttakiit/ex2-org-pss4e10-lightautoml-ml-model,Ex2 : Org+PSS4E10 : LightAutoML : ML Model,Gaurav Dutta,2024-10-09 17:11:13,3
+karnavivek/loan-approval-prediction-using-logistic-regression,Loan Approval Prediction using Logistic Regression,Karna Vivek,2024-10-09 12:25:09,5
+polygot13/child-internet,CHild_Internet,Arky1923,2024-10-09 14:47:12,4
+mahmoudredagamail/top-50-luxury-hotels-worldwide-2024,Top 50 Luxury Hotels Worldwide 2024,Mahmoud  Gamil,2024-10-09 14:45:24,4
+owm4096/academic-success-classification-w-ann,Academic Success Classification w/ANN,Omar Wagih,2024-10-09 16:22:29,2
+arabidopsisthalian/cube555-400-2024-2024-2024-512,Cube555 400 2024*2024*2024*512,Arbidos,2024-10-09 16:34:50,2
+emangope/lone-prediction,lone_prediction,Eman Gope,2024-10-09 14:03:47,3
+dellalkhaled/onehot-encoding,OneHot encoding ++,Khaled DELLAL,2024-10-09 14:17:42,3
+dellalkhaled/getting-categorical-columns,Getting categorical columns,Khaled DELLAL,2024-10-09 13:51:53,3
+manarmohamed24/airline-passenger-satisfaction-acc-95-7,Airline Passenger Satisfaction(acc 95.7%),ManarMohamed,2024-10-09 16:51:35,18
+evilspirit05/pytorch-made-easy-a-quick-overview,PyTorch Made Easy: A Quick Overview,Evil Spirit05,2024-10-09 13:47:50,3
+seifosamahosney/cancerprobabilities,CancerProbabilities,Seif Osama Hosney,2024-10-09 15:58:32,2
+swayamsingh48/tutorial,Tutorial,Swayam Singh,2024-10-09 12:06:36,4
+farihomar/mobile-price-classification-94-2-accuracy,Mobile Price Classification - 94.2% Accuracy,Omar Amine Farih,2024-10-09 11:56:28,4
+ahmedfawzy2/eda-feature-importance,EDA + Feature Importance,Ahmed Fawzy,2024-10-09 18:33:56,1
+syedmuhammadebad/breast-cancer-prediction-lr,Breast Cancer Prediction - LR,Syed Muhammad Ebad,2024-10-09 18:28:44,1
+clemencetravers/s4-e10,S4 E10,clemence travers,2024-10-09 17:12:43,4
+muhammadzainurrahman/obesity-prediction-92-accuracy,Obesity Prediction 92% Accuracy,Muhammad Zainurrahman,2024-10-09 14:58:55,2
+whisperingkahuna/geospatial-analysis-bear-attacks,🌍 Geospatial Analysis  | 🐻 Bear Attacks ,Kamran Ali,2024-10-09 18:02:00,1
+hideyukizushi/rsna-yolo11x-colab-b-500-501-502-lb-48,RSNA[YOLO11X]Colab-B-500-501-502[LB.48],yukiZ,2024-10-09 15:42:37,5
+amirtaymourpour/dm-excercise-week01-eda,DM-Excercise-Week01: EDA,Amir Taymourpour,2024-10-09 11:08:14,4
+mahmoudmaster1/pca-full-case-study,PCA | Full Case Study ,Mahmoud Mamdouh,2024-10-09 14:54:23,2
+vineetgupta2023/xgboost-2-5492-blood-glucose,xgboost:- 2.5492 Blood Glucose ,Vineet Gupta,2024-10-09 07:13:00,8
+vaidehi14/rsna-anatomy-dataset-overview,RSNA_Anatomy_&_Dataset_Overview,VaidehiKale14,2024-10-09 14:02:47,23
+rv1922/s4-e10-loan-status-prediction-lgbm,S4:E10|Loan Status Prediction|LGBM,vishwa,2024-10-09 16:24:36,14
+shahbodsobhkhiz/fraud-detection-auc-96-weighted-random-forest,Fraud detection AUC 96% - Weighted Random Forest ,Shahbod Sobhkhiz,2024-10-09 14:13:43,2
+mahfuzulkabirsourav/qlora-fine-tuning-deepseek-ai-7b-instruct,qLORA Fine-Tuning Deepseek AI 7B Instruct,A F M Mahfuzul Kabir,2024-10-09 14:12:02,3
+enesgok/loan-approval-prediction-eg17,🥇🏆Loan_Approval_Prediction_EG17🏆🥇,Enes Gok,2024-10-09 10:16:09,16
+danilocardoso/car-prices-rf-xgb-power-bi,"🚗Car Prices - (RF, XGB , Power BI)",Danilo Cardoso,2024-10-09 17:19:50,2
+mxmlnv/climber-elo-mmr-ratings,Climber Elo-MMR ratings,MXMLNV,2024-10-09 09:17:54,5
+pradiptadatta/ex2-pss4e10-lightautoml-ml-model,Ex2 : PSS4E10 : LightAutoML : ML Model,Pradipta Datta,2024-10-09 17:12:39,1
+devaanshpuri/loan-approval-prediction,Loan Approval Prediction,Devaansh Puri,2024-10-09 11:45:08,3
+snehalkhandewale/loan-eligibility,Loan Eligibility,Snehal,2024-10-09 09:12:45,12
+soleil31/hm-1-1-binary-classification,hm_1.1_binary_classification,Soleil31,2024-10-09 13:43:15,2
+arabidopsisthalian/3-cube555-200-2048-2048-2048-1024-512,3 Cube555 200 2048*2048*2048*1024*512,Arbidos,2024-10-09 16:59:53,1
+shreyasur965/global-energy-substitution-sample-notebook,global energy substitution sample notebook,Shreya Sur965,2024-10-09 13:42:52,2
+ratikaanand/data-cleaning-of-car-price-prediction,Data_cleaning_of_car_price_prediction,Ratika Anand,2024-10-09 17:56:06,3
+mpwolke/chinese-poetry-gemma2keras,Chinese Poetry 中國詩歌 Gemma2Keras,Marília Prata,2024-10-09 03:03:01,15
+yunsuxiaozi/brist1d-yunbase,BrisT1D Yunbase,yunsuxiaozi,2024-10-09 07:05:31,15
+nirmalgaud/good-and-bad-sperm-classification,Good And Bad Sperm Classification,Nirmal Gaud,2024-10-09 08:41:32,5
+gkitchen/quick-start,🏧 Quick Start 💲,Wonderer,2024-10-09 13:28:31,2
+syedasmarali/indian-airlines-review-eda,Indian Airlines Review EDA,Asmar Ali,2024-10-09 13:26:58,2
+ref,title,author,lastRunTime,totalVotes
+berlianaaazain/car-number-plate-yolo-detection,Car Number Plate YOLO Detection ,Berliana AA Zain,2024-10-09 08:32:39,5
+khelifayacine/approbation-du-pr-t-bancaire,Approbation du prêt bancaire   ,KHELIFA Yacine,2024-10-09 20:07:33,3
+francescoliveras/ps-s4-e10-eda-model-en-es,🌟PS-S4-E10🌟 | 📊EDA | Model [EN/ES],Francesc Oliveras,2024-10-09 09:40:14,4
+rv1922/s4-e10-loan-status-predictor,S4:E10|Loan Status Predictor,vishwa,2024-10-09 12:36:17,5
+santhankarnala/speech-2,speech-2,Santhan Karnala,2024-10-09 09:17:01,6
+soleil31/hm-1-0-regression,hm_1.0_regression,Soleil31,2024-10-09 13:05:27,2
+whisperingkahuna/reddit-engagement-insights-an-analys,📊 Reddit Engagement Insights: An analys,Kamran Ali,2024-10-09 18:29:43,6
+mpwolke/chinese-culture-gemma2keras,Chinese Culture 中國文化 Gemma2Keras,Marília Prata,2024-10-09 02:35:22,14
+nzhao34/nick-s-notebook,Nick's Notebook,Nick Zhao,2024-10-09 15:27:57,3
+enzocr/perfis-e-padroes-de-clientes-de-cartao-de-credito,Perfis e Padroes de Clientes de Cartao de Credito,EnzoCR,2024-10-09 13:04:17,2
+primus11/spinef,spineF,PRIMUS 11,2024-10-09 13:32:12,2
+seifosamahosney/gender-classification-p,gender_classification_p,Seif Osama Hosney,2024-10-09 16:11:29,1
+sjung1/use-cases,Use Cases,Seunghye Jung,2024-10-09 13:42:42,3
+sridhar3555/ipl-data-analysis,IPL Data Analysis,Sridhar Guggilla,2024-10-09 12:44:05,2
+t1rckun/acv-lab6-cnn-pretrained-models,aCV Lab6 CNN PreTrained Models,T1 Ráckun,2024-10-09 13:27:28,2
+yogeshwarbala/mockdatasetgenerator,MockDatasetGenerator,Yogeshwar Bala,2024-10-09 12:37:37,2
+vctormerchan/cnn-94-test-rocks-classifiction,CNN 94 %  test Rocks classifiction ,Víctor Merchan,2024-10-09 15:51:35,1
+belalsafy/skin-cancer-model-interface,Skin Cancer Model Interface,Belal Safy,2024-10-09 15:46:50,1
+aleksandrmorozov123/object-detection-models-in-cv,Object detection models in CV,Aleksandr Morozov123,2024-10-09 18:00:16,6
+trungvit/tictactoe-with-sarsa,TicTacToe with SARSA ,Trung Việt,2024-10-09 15:44:46,1
+khelifayacine/pr-diction-des-prix-de-vente-des-maisons,Prédiction des prix de vente des maisons,KHELIFA Yacine,2024-10-09 15:47:55,2
+rishikumaryadav/advanced-loan-approval-prediction-using-logistic-r,Advanced Loan Approval Prediction using Logistic R,Rishikumar Yadav,2024-10-09 07:29:38,5
+gokaysirin/water-quality-analysis-prediction,Water Quality Analysis&Prediction,Gökay Şirin,2024-10-09 07:22:51,5
+faisalirfan17/simple-linear-regression-on-study-hours,Simple Linear Regression on Study Hours,Faisal_Irfan_17,2024-10-09 14:48:23,3
+adaluodaa/min-len-sant,min len sant,Ada Luo daa,2024-10-09 15:26:48,1
+moridata/nlp-ham-spam-sms,NLP Ham Spam SMS,MoriData,2024-10-09 10:00:42,3
+samybtt/wild-03-lgbm-0-996-auroc,wild-03-LGBM-0.996-AUROC,samybtt,2024-10-09 15:24:42,1
+iosifpetrupuha/vitprova,ViTProva,Iosif Petru Puha,2024-10-09 15:20:01,1
+lukalafaye/llm-hw1,LLM HW1,lukalafaye,2024-10-09 12:01:32,2
+yasirshafique0/caramelizer-dutch-bros-price,caramelizer dutch bros price,Yasir Shafique0,2024-10-09 11:57:59,2
+ssyyhh/eda-of-mobile-device-prediction-of-class,EDA of Mobile Device & Prediction of Class,HSY0913,2024-10-09 15:10:56,1
+ssameer18/sameer-luhn-method,Sameer_Luhn_Method,Shaik Sameer,2024-10-09 11:55:19,2
+ssameer18/sameer-sumy-method,Sameer_Sumy_Method,Shaik Sameer,2024-10-09 11:54:44,2
+philurame/mscoco-512-imgs-annotations,MSCOCO 512 imgs+annotations,philurame,2024-10-09 15:03:27,1
+belalsafy/eye-disease-interface,Eye Disease Interface,Belal Safy,2024-10-09 15:01:31,1
+vineethawijayakoon/equation-of-a-line,Equation of a Line,Vineetha Wijayakoon,2024-10-09 12:00:58,2
+vyacheslavbolotin/stat-ensemble-of-solutions,Stat | Ensemble of solutions,invisible,2024-10-09 14:40:44,12
+dogukantabak/lung-cancer-images-classification-99,Lung Cancer Images Classification | 99%,Dogukan,2024-10-09 12:28:56,2
+hevin6027/mouleesh-ai,MOULEESH_AI,Hevin_6027,2024-10-09 15:46:18,1
+muhammadnoumanzia/beginner-s-guide-to-imputing-data-and-handling,"# ""Beginner's Guide to Imputing Data and Handling ",Muhammad  Nouman Zia,2024-10-09 11:46:50,2
+nadezhda2019/spaceship-test,Spaceship-test,Nadezhda,2024-10-09 14:35:51,1
+rishikumaryadav/loan-approval-prediction-xgboost,Loan Approval Prediction - XGBoost ,Rishikumar Yadav,2024-10-09 07:10:28,4
+abdulxoliqmirzayev/avia-qoniqishlar,Avia_qoniqishlar,Abdulxoliq Mirzayev,2024-10-09 14:55:58,1
+akashroutpec/covid-pneumonia-efficientnet,Covid_Pneumonia_Efficientnet,AkashRoutPEC,2024-10-09 14:01:06,1
+taweilo/ml-dimension-reduction,ML - Dimension reduction,Ta-wei Lo,2024-10-09 06:53:48,4
+gkanamoto/cmi-ensemble-stacking,CMI | Ensemble + Stacking,Gakushi Kanamoto,2024-10-09 14:27:29,2
+sahilkrishna/average-filters,Average Filters,SAHIL KRISHNA,2024-10-09 13:56:30,1
+jacekpardyak/co-wie-llama,Co wie Llama?,Jacek Pardyak,2024-10-09 13:53:20,1
+fernandosr85/gemma-pt,Gemma-PT 🌐🇧🇷 ,Fernandosr85,2024-10-09 02:44:18,8
+asemmustafa/fake-news-detection-using-natural-language-process,Fake News Detection Using Natural Language Process,Asem@93,2024-10-09 08:10:16,3
+ref,title,author,lastRunTime,totalVotes
+asemmustafa/medical-appointment-dataset-analysis,Medical-appointment-dataset-analysis,Asem@93,2024-10-09 08:05:17,3
+renjiabarai/multi-label-weather-condition-prediction,Multi Label Weather Condition Prediction,sadık,2024-10-09 08:02:22,4
+luvathoms/my-solution-jin-thing-finance-or-wtv,My Solution Jin Thing Finance or wtv,Thomas Gaehtgens,2024-10-09 19:26:57,1
+happykiter/flame-2024-lstm1d-dimless,FLAME 2024 LSTM1D dimless,HappyKiter,2024-10-09 13:52:04,1
+miki400/16-2fcaide-70-15-15-32-covid19-large-data-30g-5s,16 2FCAIDE 70:15:15 32 COVID19 large data (30G+5S),miki400,2024-10-09 14:04:44,1
+mennakhaled2/diabetes-task-iti-summer-training,Diabetes Task _ ITI_ Summer Training,Menna Khaled,2024-10-09 14:03:59,1
+edgarpauloverchez/smoking-dataset-via-dl,Smoking Dataset via DL,Edgar Paulo Verchez,2024-10-09 07:48:38,3
+iamtapendu/regression-of-used-car-prices-eda-rmse-63k,Regression of Used Car Prices | EDA | RMSE ~63k ,Tapendu Karmakar,2024-10-09 08:49:33,7
+abdulxoliqmirzayev/avia-pridiction,Avia_pridiction,Abdulxoliq Mirzayev,2024-10-09 15:01:08,1
+susant4learning/2020-2024-smoking-a-concern,(2020-2024)🚭Smoking a Concern,Susant_Achary🎲,2024-10-09 03:43:14,6
+furkan09/customer-churn-prediction,Customer churn prediction,Furkan,2024-10-09 13:05:16,1
+johnsonhk88/cmi-problematic-internet-use-ml,CMI-Problematic-Internet-Use-ML,Johnson chong,2024-10-09 13:05:35,1
+nidhisatyapriya/sihsih2024,sihsih2024,Nidhi Satyapriya,2024-10-09 13:03:45,1
+alexryzhkov/pyboost-multioutput-data-with-strange-loss,PyBoost multioutput data with strange loss,Alexander Ryzhkov,2024-10-09 16:32:42,4
+zeel0725/loan-approval-prediction-score-0-95905,Loan Approval Prediction | score- 0.95905,Zeel,2024-10-09 04:43:38,5
+oscarm524/ps-s4-ep10-eda-submission-modeling,PS-S4-Ep10 | EDA 📊 | Submission + Modeling 🚀,Oscar Aguilar,2024-10-08 23:50:07,42
+muhammedtariq99/hand-sign-multi-class-classification-cnn-97,Hand-Sign✊🖖: Multi-class classification CNN (97%),Muhammed Aboseif,2024-10-09 12:58:09,1
+ucas0v0zhuoqunli/simple-evaluate-use-skimage,simple evaluate use skimage,zhuoqun,2024-10-09 03:18:27,6
+taweilo/capital-bikeshare-demand-prediction,Capital bikeshare_ demand prediction,Ta-wei Lo,2024-10-09 07:17:51,3
+japanajitsinghgandhi/gen-ai-detoxify,Gen AI - Detoxify,Japan Ajit Singh Gandhi,2024-10-09 12:53:56,1
+dogusirt/09102024-tbbai-day3,09102024 - TBBAI - Day3,Doğu SIRT,2024-10-09 12:40:51,1
+kmjoshi8/disaster-prediction-nlu,Disaster prediction - NLU,krinal joshi,2024-10-09 12:32:07,1
+curtiscoding1/s4e10-stacking-ensemble-optuna-v2,S4E10|🔬Stacking Ensemble + 🛠️Optuna| V2,Curtis,2024-10-09 14:01:32,11
+lixysc/lab4-spark-data-source-and-data-types,Lab4 Spark Data Source and Data Types,lixysc,2024-10-09 12:27:41,1
+alancano/gold-price-historical-data-analysis,Gold price Historical Data Analysis,Alan Itzae Cano,2024-10-09 06:45:46,4
+t1rckun/cnn-pretrained-models,CNN PreTrained Models,T1 Ráckun,2024-10-09 12:21:23,1
+whisperingkahuna/geospatial-analysis-world-s-best-restaurants,Geospatial analysis - World's Best Restaurants,Kamran Ali,2024-10-09 17:12:54,2
+aniketmuthal/text-classification,Text Classification,Aniket Muthal,2024-10-09 12:15:44,1
+samriddhabasu464/eedi-training,EEDI Training,Samriddha Basu,2024-10-09 12:11:02,1
+arnavkaushik/kaggle-2,Kaggle_2 ,Arnav Kaushik,2024-10-09 12:08:37,1
+carlosramirez292/mobile-user-behavior-classification-using-svc,Mobile user behavior classification using SVC,CarlosRamirez292,2024-10-09 18:43:51,0
+mikhailbystrov/extra-hw-bystrov-m-a,Extra HW. Bystrov M.A.,Mikhail_Bystrov,2024-10-09 18:43:33,0
+jerometam/machine-learning-portfolio-management,Machine Learning Portfolio Management ,Jerome Tam,2024-10-09 19:59:30,0
+aparoski/not-my-kid-child-internet-overuse-eda,not my kid!: child internet overuse EDA,Anton,2024-10-09 16:54:50,3
+chaenys/cahya-distilbert-base-indonesian,cahya/distilbert-base-indonesian,CHAENYS,2024-10-09 11:50:13,1
+krishnakhistariya/iml-practical-12-226270307051,IML_PRACTICAL_12_226270307051,Krishna Khistariya,2024-10-09 16:47:26,1
+dariabalanutsa/hw2-brabrabra,HW2. Brabrabra....,Daria Balanutsa,2024-10-09 18:29:10,0
+a3amat02/app-store-reviews-classification,App Store Reviews Classification,a3amaT02,2024-10-09 18:29:04,0
+oksanaturii/myrtitanicmlwithcorrelation,MyRTitanicMLwithCorrelation,OksanaTurii,2024-10-09 18:25:31,0
+antongalysh/practice10,Practice10,Anton Halysh,2024-10-09 18:24:32,0
+ssameer18/sameer-frequency-method,Sameer_Frequency_Method,Shaik Sameer,2024-10-09 11:41:07,1
+artemmmtry/depth-models-comparison,Depth-Models-Comparison,Artem Trybushenko,2024-10-09 12:07:25,1
+calistavimalametta/slp-asr-pretrained,SLP ASR Pretrained,Calista Vimalametta,2024-10-09 18:46:38,0
+sagnikdebnath007/meld-for-text,MELD for text,SAGNIK DEBNATH,2024-10-09 17:26:11,1
+alikken/recommendation-system,recommendation system,aLIK,2024-10-09 18:20:30,0
+piyounggulsuparsorn/conanthedetective-sqlcrime,Conanthedetective_SQLcrime,Piyounggul Suparsorn,2024-10-09 11:36:56,1
+zafarali27/gdp-analysis-and-map-plot,GDP analysis and map plot,Zafar Ali khan,2024-10-09 18:09:21,0
+ivanblch/9-2-1-text-embeddings,9.2.1_Text_embeddings,Ivan Aleksandrov,2024-10-09 18:05:27,0
+devraai/analyzing-international-football-match-data,Analyzing International Football Match Data,Devra AI,2024-10-09 18:04:17,0
+yehorosipov/goit-cv-hw12,goit-cv-hw12,Yehor Osipov,2024-10-09 18:04:11,0
+ref,title,author,lastRunTime,totalVotes
+devraai/house-price-prediction-and-analysis-notebook,House Price Prediction and Analysis Notebook,Devra AI,2024-10-09 18:03:18,0
+devraai/analyzing-apple-and-affiliates-stock-correlations,Analyzing Apple and Affiliates Stock Correlations,Devra AI,2024-10-09 18:02:37,0
+yousefelbaz/rainfall-timeseries,RainFall_Timeseries,Yousef Elbaz,2024-10-09 18:02:41,0
+devraai/exploring-biodiversity-in-us-national-parks,Exploring Biodiversity in US National Parks,Devra AI,2024-10-09 18:01:49,0
+avirdee/learning-path-index-gpt,Learning Path Index GPT,Amrit Virdee,2024-10-09 18:01:37,0
+devraai/analyzing-social-media-hashtags-in-global-confl,Analyzing Social Media Hashtags in Global Confl...,Devra AI,2024-10-09 18:00:54,0
+devraai/mumbai-rainfall-analysis-and-prediction,Mumbai Rainfall Analysis and Prediction,Devra AI,2024-10-09 18:00:02,0
+devraai/analyzing-indian-stock-market-indices-trends,Analyzing Indian Stock Market Indices Trends,Devra AI,2024-10-09 17:59:14,0
+devraai/analyzing-trends-in-worlds-best-restaurant-rank,Analyzing Trends in Worlds Best Restaurant Rank...,Devra AI,2024-10-09 17:58:03,0
+khelifayacine/playground-series-saison-4-pisode-10,Playground_Series_Saison_4_Épisode_10,KHELIFA Yacine,2024-10-09 09:27:19,6
+richolson/eedi-llm-benchmark,Eedi LLM Benchmark,Rich Olson,2024-10-09 19:15:36,15
+jibnorge/e-commerce-churn-analysis,E-commerce Churn Analysis,Jibin George,2024-10-09 18:25:00,0
+mamdouhjr/svm-assignment,SVM Assignment,Amr Mamdouh,2024-10-09 17:53:29,0
+dimabutko/cmi-solution,CMI - Solution,Dima Butko,2024-10-09 13:28:33,7
+syednazmussakib/ps4e10-pytorch-tabnet,PS4E10 | Pytorch-TabNet,Syed Nazmus Sakib,2024-10-09 17:50:40,0
+bhavnoorsingh123/deepfake-bcs,Deepfake-BCS,Bhavnoor Singh_123,2024-10-09 17:47:07,0
+deepeshkansotia/united-airlines-hackathon-project,United Airlines Hackathon Project,Deepesh Kansotia,2024-10-09 17:39:16,0
+rv1922/s4-e10-loan-status-approval-catboost,S4:E10|Loan Status Approval|Catboost🏦,vishwa,2024-10-09 16:43:25,1
+minaeghtedarian/my-first-python-programming,My first python programming,Mina Eghtedarian,2024-10-09 10:51:42,1
+manuelshaw/titanic-competition-machine-learning,Titanic competition Machine Learning,Manuel Shaw,2024-10-09 18:55:08,4
+hamimhuzaifa/mnist-with-basic-nn,MNIST with basic NN,Hamim Huzaifa,2024-10-09 17:34:00,0
+ign333/hotels-rate-predicate,Hotels rate predicate,ign333,2024-10-09 17:45:07,0
+tarachanrana/loanaprvl-prediction,loanaprvl_prediction,Tarachan Rana,2024-10-09 07:13:03,2
+timothylovett/99-f1-shrunken-vit-model,99% F1 Shrunken ViT Model,TimothyLovett,2024-10-09 13:40:33,5
+utkarshshukla070/task1b,Task1B,Utkarsh Shukla .,2024-10-09 17:22:26,0
+wanizyanaqila/face-mask-detection-mobilenetv2,Face Mask Detection - MobileNetV2,Wan Izyan A'qila,2024-10-09 07:06:58,2
+anji2705/ordinal-label-encoding,Ordinal&Label_Encoding,Anji_2705,2024-10-09 04:43:18,3
+omidsakaki1370/nlp-with-ml-dl-transformers,NLP with ML & DL & Transformers,omid sakaki ghazvini,2024-10-09 17:15:23,0
+olgadabiprashad/different-ways-of-testing-h0-for-a-mean,Different ways of testing H0 for a mean,Olga Dabi,2024-10-09 17:15:10,0
+shahdalaa11111111/mnist-comparasion-between-models,mnist_comparasion_between_models,Shahd Alaa,2024-10-09 17:07:53,0
+gramchelle/building-an-artificial-neural-network,building_an_artificial_neural_network,Özlem Nur Duman,2024-10-09 17:00:49,0
+hamza062/cats-vs-dogs-cnn-vgg16-with-98-accuracy,Cats 🐱 VS Dogs 🐶 CNN + VGG16  with 98% Accuracy ,Hamza Pervez,2024-10-09 10:12:41,1
+jobairhasan/photometric-redshift-extraction-desij2158-0257,photometric_redshift_extraction_DESIJ2158+0257,Jobair Hasan,2024-10-09 16:57:47,0
+jobairhasan/photometric-redshift-extraction-desij1624-0129,photometric_redshift_extraction_DESIJ1624+0129,Jobair Hasan,2024-10-09 16:57:41,0
+jobairhasan/photometric-redshift-extraction-desij1554-0443,photometric_redshift_extraction_DESIJ1554+0443,Jobair Hasan,2024-10-09 16:57:35,0
+jobairhasan/photometric-redshift-extraction-desij1537-1443,photometric_redshift_extraction_DESIJ1537+1443,Jobair Hasan,2024-10-09 16:53:57,0
+jobairhasan/photometric-redshift-extraction-desij0923-1829,photometric_redshift_extraction_DESIJ0923+1829,Jobair Hasan,2024-10-09 16:53:48,0
+jobairhasan/photometric-redshift-extraction-desij0618-5018,photometric_redshift_extraction_DESIJ0618+5018,Jobair Hasan,2024-10-09 16:53:37,0
+jobairhasan/photometric-redshift-extraction-desij0132-1600,photometric_redshift_extraction_DESIJ0132-1600,Jobair Hasan,2024-10-09 16:53:25,0
+abhirupadhikary/geot-eff,GeoT Eff,Abhirup Adhikary,2024-10-09 06:12:15,3
+ivanblch/9-2-embeddings,9.2_Embeddings,Ivan Aleksandrov,2024-10-09 16:47:00,0
+newra008/loan-approval-prediction-using-ols-model,Loan Approval Prediction Using OLS Model,Neelkant Newra,2024-10-09 09:56:32,1
+ivanblch/9-1-neural-networks,9.1_Neural_Networks,Ivan Aleksandrov,2024-10-09 16:39:12,0
+gauravduttakiit/ex1-org-pss4e10-lightautoml-ml-models,Ex1 : Org+PSS4E10 : LightAutoML : ML Models,Gaurav Dutta,2024-10-09 05:46:25,4
+vyacheslavbolotin/ps-s4-e10-ensemble-of-solutions,PS-S4.E10 | Ensemble of solutions,invisible,2024-10-09 01:29:21,39
+dandamb/analise-dos-focos-de-calor-com-python-v2,Analise dos focos de calor com Python v2,DanDamb,2024-10-09 19:28:46,1
+samybtt/wild-04-tl-0-899-auroc,wild-04-TL-0.899-AUROC,samybtt,2024-10-09 16:33:57,0
+ivanblch/8-3-baseline-solution,8.3_Baseline_Solution,Ivan Aleksandrov,2024-10-09 16:32:53,0
+pranavkumarmehta/youth-smoking-drug-dataset-eda-prediction,Youth Smoking & Drug Dataset🚭💊| EDA🔎|Prediction,Pranav Mehta,2024-10-09 06:08:20,2
+whisperingkahuna/english-to-urdu-fine-tuning-gemma-2-2b,English to urdu | Fine-Tuning Gemma 2-2b,Kamran Ali,2024-10-09 07:15:42,3
+ref,title,author,lastRunTime,totalVotes
+pradeeplachireddy/regex-questions-generated,regex_questions_generated,pradeep lachireddy,2024-10-09 05:49:39,2
+ritisheditor/drug-classification-problem,Drug Classification Problem,Ritish Garg,2024-10-09 16:08:45,0
+honganzhu/cmicomp,CMIcomp,Hongan Zhu,2024-10-09 02:03:08,11
+lonnieqin/loan-approval-prediction-with-pytorch,Loan Approval Prediction with PyTorch,Lonnie,2024-10-09 17:19:47,3
+alokkumar175358/um-gaming,UM-Gaming ,Alok Kumar,2024-10-09 15:09:59,1
+klyushnik/stack-classification-loan-approval-prediction,Stack classification|Loan Approval Prediction,KLYUSHNIK-Alexsandr,2024-10-09 12:51:00,4
+mgranada/playground-s4e10-using-optunasearchcv,Playground S4E10 - Using OptunaSearchCV,M Granada,2024-10-09 16:24:56,0
+eu1234/loan-approval-eda-fe-pipeline-optuna-ensemble,Loan approval | EDA FE Pipeline Optuna Ensemble,Danu A.,2024-10-09 10:13:29,5
+sagarrathore/skyhack-analysis,Skyhack Analysis,Sagar Rathore,2024-10-09 16:22:25,0
+minhlnghong/wgan-gp,WGAN-GP,Minh Lương Hoàng,2024-10-09 15:52:24,0
+nguyntrnbo/bucket-gamps,Bucket GAMPS,NGUYÊN TRẦN BẢO,2024-10-09 15:50:47,0
+tranhuyhoang23/nguu2,nguu2,TranHuyHoang23,2024-10-09 15:46:25,0
+vanshikaco21366/nn-practical-4-genai-use-case,NN Practical 4: GenAI Use Case,VANSHIKA co21366,2024-10-09 15:46:34,0
+souhillamarzouk/stellar-classification-dataset-sdss17,Stellar Classification Dataset - SDSS17,Souhaila Alaa,2024-10-09 18:22:15,0
+pranavkumarmehta/top-50-luxury-hotels-worldwide-2024-eda,Top 50 Luxury Hotels Worldwide 2024 | EDA,Pranav Mehta,2024-10-09 15:34:10,0
+marcusniccoloctayag/sales-performance-and-customer-behavior-analysis,"""Sales Performance and Customer Behavior Analysis ",Marcus Niccolo C. Tayag,2024-10-09 15:34:58,0
+roberttwill/uts-datmin,uts_Datmin,roberttwill,2024-10-09 15:33:30,0
+jane162534/dz-topic-12,dz_topic_12,Jane162534,2024-10-09 15:34:29,0
+melihgunaydin/feature-engineering,Feature Engineering,Melih Gunaydin,2024-10-08 17:06:45,18
+luizclaudioandrade/curso-geo1,Curso_Geo1,Luiz Andrade,2024-10-09 19:16:09,0
+hitendusseja/nlp-exp-9,NLP Exp 9,Hiten Dusseja,2024-10-09 15:17:15,0
+yousefelbaz/personal-activity-recommendation,Personal_Activity_Recommendation,Yousef Elbaz,2024-10-09 00:12:07,4
+amay12/loan-approval-prediction-blended-models,Loan Approval Prediction | Blended models,Amay12,2024-10-08 20:15:58,9
+koeiobara/youtubechannel-202108-202409,【YouTubeChannel分析】202108-202409,Koei Obara,2024-10-09 15:04:17,0
+charfeddineiheb/compt-rendu-lab-1,Compt_Rendu_Lab_1,Charfeddine Iheb,2024-10-09 14:59:02,0
+mattlong360/a-look-at-the-world-s-top-restaurants-2002-2023,A Look at the World's Top Restaurants 2002-2023,Matt Long,2024-10-09 15:23:48,0
+tusharkharat/rsnalss200,rsnaLss200,Tushar Kharat,2024-10-09 18:54:44,0
+yuvrajsinghspd09/det-hack,Det-Hack,Yuvrajsinghspd4729,2024-10-09 14:54:01,0
+hadisehkhorasani/2024-data-science-project-hadiseh-khorasani,2024-data-science-project-hadiseh-khorasani,HadisehKhorasani,2024-10-09 14:50:30,0
+arw5902/spaceship-titanic-all-models,spaceship titanic all models,arw5902,2024-10-08 20:00:25,7
+shuvosaha1234/um-game-playing-strength,UM - Game-Playing Strength,shuvosaha1234,2024-10-09 13:49:53,1
+brokennazar/project-recognition,project_recognition,Nazarii Melnyk,2024-10-09 19:37:19,0
+waqi786/youth-smoking-and-drug-analysis-ml-insights,Youth Smoking and Drug: Analysis & ML Insights 🚭,Waqar Ali,2024-10-08 17:52:03,11
+sczhuoffical/s-c-zhu-lap-exporation-h2o,[S.C. Zhu] LAP Exporation(H2O),S.C. Zhu,2024-10-09 06:05:09,5
+manishkashyap1997/using-knn-f1score-94,using KNN- f1score=94%,Manishkashyap1997,2024-10-09 12:02:56,3
+abdelrahmanalaa135/titanic,Titanic,Abdelrahman Alaa,2024-10-08 23:32:33,4
+mpwolke/chinese-json-to-jsonl-json-dumps,Chinese Json to JsonL & json.dumps,Marília Prata,2024-10-08 17:41:15,10
+msvrao/resume-ner,Resume NER,Panindra M,2024-10-09 14:25:09,0
+sczhuoffical/fork-of-s-c-zhu-advanced-lightautoml,Fork of [S.C. Zhu] Advanced LightAutoML,S.C. Zhu,2024-10-09 04:25:25,9
+wanizyanaqila/medical-mask-dataset-inceptionv3,Medical Mask Dataset - InceptionV3 ,Wan Izyan A'qila,2024-10-09 13:21:21,1
+mohammadfahimuddin/ml-final-version,ML Final Version,Mohammad Fahim Uddin,2024-10-09 14:13:31,0
+satyakiranv/nextwordpred,NextWordPred,VantakulaSatyakiran,2024-10-09 13:55:51,0
+godparticle12/cryptocurrency-price-direction-prediction,Cryptocurrency_Price_Direction_Prediction,Praveen_01,2024-10-09 13:51:02,0
+rishikumaryadav/house-price-advance-regression-technique,House Price - Advance Regression Technique,Rishikumar Yadav,2024-10-08 19:03:54,7
+gauravduttakiit/ex1-org-pss4e10-best-quality-gpu,Ex1 : Org+PSS4E10 : best_quality : gpu,Gaurav Dutta,2024-10-09 06:45:34,1
+pranavdekate/96-accuracy-using-cnn,96% accuracy using CNN,Pranav Dekate,2024-10-09 17:59:47,2
+ahmedashrafahmed/plant-village-disease-classifiy-using-hugging-face,Plant Village Disease Classifiy Using Hugging Face,𝔄ℌ𝔐𝔈𝔇 𝔄𝔖ℌℜ𝔄𝔉,2024-10-08 21:59:21,4
+ahmedashrafahmed/plant-village-disease-classifiy-using-xception,Plant Village Disease Classifiy Using Xception,𝔄ℌ𝔐𝔈𝔇 𝔄𝔖ℌℜ𝔄𝔉,2024-10-08 23:42:25,6
+rishikumaryadav/house-prices-xgboost-regression-model,House Prices - XGBoost regression model,Rishikumar Yadav,2024-10-08 17:41:09,7
+khushiaggarwal710/used-car-price-prediction-regression,Used Car Price Prediction - Regression,Khushi Aggarwal,2024-10-09 10:35:49,2
+ref,title,author,lastRunTime,totalVotes
+nikhilpaward/30-basic-operations-in-array,30. Basic operations in array,nikhil pawar d,2024-10-09 11:26:29,1
+farhadhataminia/second-prj,Second PRJ,Farhad Hataminia,2024-10-09 04:29:16,2
+abdullah0a/ensamble-models,Ensamble Models| ????,M abdullah,2024-10-08 15:32:34,45
+maulinniam/etd-ugm-comms,etd-ugm-comms,Maulin Niam,2024-10-09 11:49:38,0
+nguyencaocuong12h/graph-features-v3,Graph-Features-v3,NguyenCaoCuong 12H,2024-10-09 11:44:43,0
+tanmaybakare/loan-default-prediction-99-9-accurate,Loan Default Prediction 99.9% accurate,Tanmay Bakare,2024-10-09 11:13:27,1
+aseediraqi/netflix-analyze,Netflix_Analyze,Aseed iraqi,2024-10-09 04:12:09,1
+sonampriya04/dynamic-pricing-sonam-priya,Dynamic Pricing-Sonam Priya,Sonam Priya04,2024-10-09 08:07:02,4
+susant4learning/121-years-mumbai-rains,121-Years🌧️Mumbai-Rains,Susant_Achary🎲,2024-10-08 19:26:46,5
+arabidopsisthalian/cube444-500-2024-2024-2024-512,Cube444 500 2024*2024*2024*512,Arbidos,2024-10-08 21:22:35,3
+sjung1/business-case,Business Case,Seunghye Jung,2024-10-09 13:06:22,1
+agustinbottos/filmaffinity-netflix-review-rate-prediction,Filmaffinity Netflix review rate prediction,Agustin Bottos,2024-10-09 00:04:29,2
+arunklenin/ps4e10-loan-approval-prediction-fe-ensemble,PS4E10 | Loan Approval Prediction | FE & Ensemble,Minato Namikaze,2024-10-08 19:08:58,33
+mustafacivici/used-car-price-w-detail-data-cleaning-ml-automl,Used Car Price w/Detail Data Cleaning (ML&AutoML) ,M.Cagri Civici,2024-10-09 11:52:00,4
+trystanmarissal/recommandation-for-animes,Recommandation for animes,Trystan Marissal,2024-10-09 15:07:01,0
+taufikhidayatzaza/tugas-3-logika-fuzzy-taufik-hidayat-e1e121094,Tugas 3 Logika Fuzzy_Taufik Hidayat_E1E121094,TaufikHidayatZaza,2024-10-09 10:53:44,0
+mahmoudrafaatsmair/social-networking-ads-knn-logistic-regression,Social Networking Ads | KNN|Logistic_Regression,Mahmoud_Rafaat_Smair,2024-10-09 10:50:53,0
+sanojkumar08/dynamic-pricing-sanoj-kumar,Dynamic_pricing_Sanoj_kumar,Sanoj Kumar,2024-10-09 10:44:22,1
+phckhnhtrnkhc/train-new-ai-chess,Train New AI Chess,Phúc Khánh Trần Khắc,2024-10-09 10:41:16,0
+avisonstevedsouza/pandas,Pandas,Avison Steve Dsouza,2024-10-09 16:37:26,0
+kashishagrawal22/pandas-assignment,Pandas Assignment,Kashish Agrawal,2024-10-09 10:26:10,0
+krishnakhistariya/iml-practical-11-226270307051,IML_PRACTICAL_11_226270307051,Krishna Khistariya,2024-10-09 10:25:22,0
+mybozkir/regression-practices-t-rk-e,Regression Practices | Türkçe,Mert Yasin Bozkır,2024-10-09 06:52:15,4
+akshaypatil11/amazon-fine-food-reviews-sentiment-96-accuracy,Amazon Fine Food Reviews Sentiment  96% Accuracy,Akshay Patil,2024-10-09 10:19:25,0
+saadatkhalid/smartphones-eda, SmartPhones EDA,Saadat Khalid,2024-10-08 12:53:00,15
+krishnakhistariya/iml-practical-5-226270307051,IML_PRACTICAL_5_226270307051,Krishna Khistariya,2024-10-09 10:10:42,0
+aliberkekara/model-oklu-reg,model - çoklu reg,Ali Berke Kara,2024-10-09 10:09:02,0
+krishnakhistariya/iml-practical-4-226270307051,IML_PRACTICAL_4_226270307051,Krishna Khistariya,2024-10-09 10:09:29,0
+aniketmuthal/nlp-textblob-library,NLP - textblob Library,Aniket Muthal,2024-10-09 10:08:22,0
+krishnakhistariya/iml-practical-3-226270307051,IML_PRACTICAL_3_226270307051,Krishna Khistariya,2024-10-09 10:08:43,0
+alamin322/environment-info,Environment Info,Alamin,2024-10-09 10:10:46,0
+aliberkekara/reg-elasticnet,reg - elasticNET,Ali Berke Kara,2024-10-09 10:07:10,0
+aliberkekara/reg-lasso,reg - lasso,Ali Berke Kara,2024-10-09 10:07:24,0
+aliberkekara/reg-ridge,reg - ridge,Ali Berke Kara,2024-10-09 10:07:36,0
+aliberkekara/reg-pls,reg - PLS,Ali Berke Kara,2024-10-09 10:06:28,0
+aliberkekara/veri-ni-leme,veri-önişleme,Ali Berke Kara,2024-10-09 10:06:06,0
+aliberkekara/reg-pcr,reg - PCR,Ali Berke Kara,2024-10-09 10:04:27,0
+prasunmaity/anime-gan,ANIME_GAN_,Prasun Maity,2024-10-09 09:58:59,0
+rishantenis/market-basket-analysis-up-selling-cross-selling,Market Basket Analysis Up Selling & Cross Selling,Rishan Hasan Tenis,2024-10-09 09:57:02,0
+vdisha/titanic-disaster-prediction-using-machine-learning,Titanic disaster prediction using machine learning,vDisha,2024-10-09 09:56:25,0
+mahmoudsalama7/kidney-disease-by-gans,Kidney Disease by GANs,Mahmoud Salama,2024-10-08 14:57:14,7
+akash10rout/covid-pnuemonia-convnext,Covid_Pnuemonia_Convnext,AKASH ROUT,2024-10-09 09:42:22,0
+mybozkir/classification-practices-t-rk-e,Classification Practices | Türkçe,Mert Yasin Bozkır,2024-10-09 06:56:38,3
+aniketmuthal/nlp-text-preparation,NLP - Text Preparation,Aniket Muthal,2024-10-09 09:39:18,0
+liuhanyu1007/tsne-new,TSNE-new,Liuhanyu,2024-10-09 09:39:26,0
+thanh14/run-yolo,run_yolo,Thanh14,2024-10-09 09:38:43,0
+muneebpy/bm25retriever-langchain-quick,BM25Retriever-Langchain-Quick,muneeb.py,2024-10-09 09:33:19,0
+syedasmarali/usa-airport-data-analysis-visualization,USA Airport Data Analysis & Visualization,Asmar Ali,2024-10-09 09:39:53,0
+feiwenxuan/ariel-ensemble-of-solutions-brief-version,Ariel | Ensemble of solutions (Brief Version),feiwenxuan,2024-10-08 14:16:52,5
+vivekmotwani1410/bbc-news-lstm-ann-rnn-cnn,"📰 BBC News - LSTM, ANN, RNN & CNN",Vivek Motwani,2024-10-09 09:26:41,0
+ref,title,author,lastRunTime,totalVotes
+samanyuk/diabetes-using-various-classification-models,Diabetes 💉 (Using Various Classification Models),Samanyu K,2024-10-08 15:06:57,10
+arabidopsisthalian/cube444-300-2024-2024-2024-512,Cube444 300 2024*2024*2024*512,Arbidos,2024-10-08 21:35:31,2
+nguynngcminhzz/dogs-vs-cats-classification-minh-and-tri,"Dogs vs. Cats Classification Minh and Tri"".",Nguyễn Ngọc Minh_zz,2024-10-09 09:21:39,0
+lvnt2001210124/2001210124-levantu-btvn8,2001210124_LeVanTu_BTVN8,Lê Văn Tú,2024-10-09 09:16:33,0
+nehagupta09/loan-prediction-using-ann,Loan Prediction using ANN,Neha Gupta,2024-10-08 11:08:46,13
+alizaahsan/nids-xgboost,NIDS_XGBoost,Aliza Ahsan,2024-10-09 09:01:29,0
+hiendev/2001210234-bt9,2001210234_BT9,Minh Hiền,2024-10-09 08:59:28,0
+uruandriy/linear-and-polinomial-regression-elastic-net,Linear and polinomial Regression + Elastic net,Uru,2024-10-08 20:57:12,2
+pijarpahlawan/linear-regression-with-sklearn,Linear Regression With Sklearn,Pijar Pahlawan,2024-10-09 09:56:57,0
+sirintornphachai/dsi443-speech-recognition-bb-team,DSI443 - Speech Recognition (BB Team),6424650023,2024-10-09 08:57:44,0
+yasirshafique0/half-birthday-calculator,Half Birthday Calculator,Yasir Shafique0,2024-10-09 08:45:09,0
+ngodinhphu/2001210744-th9,2001210744_th9,Ngodinhphu,2024-10-09 08:41:26,0
+eprossinger/ps-s4e10-score-0-95924-eda-datapreprocessing,PS s4e10 | Score 0.95924 | EDA | DataPreprocessing,E. Prossinger,2024-10-08 21:56:49,18
+mayquynh/2001216101-bt9,2001216101_BT9,Trần Nhật Quỳnh,2024-10-09 08:35:24,0
+gallo33henrique/ml-regression-arima-sarima-coffe-price,ML_Regression_ARIMA_SARIMA_Coffe_price,Rafael Gallo,2024-10-08 20:22:39,3
+charlie9578/benchmark-median-wind-speed,Benchmark - median wind speed,Chaz9578,2024-10-09 18:14:41,0
+monkeystat/creditcardfraudmodel,CreditCardFraudModel,chong.t,2024-10-09 14:54:57,0
+paiky1995/fine-tuning-gemma-2-2b-for-english-to-hindi,Fine-Tuning Gemma 2-2b for English to Hindi,Praneeth Paikray,2024-10-08 19:35:44,4
+kyassa9/3label-classifier,3label_classifier,kyassa9,2024-10-09 08:23:30,0
+vuthiminhthu/grobid-5-batch-10-14,grobid-5-batch-10-14,VuThiMinhThu,2024-10-09 08:21:37,0
+haltrng/2001210523-bt9,2001210523_BT9,Hòa Lê Trọng,2024-10-09 08:21:18,0
+tolstoyjustin/flood-risk-prediction-using-mumbai-rainfall-data,Flood Risk Prediction Using Mumbai Rainfall Data,Tolstoy Justin,2024-10-09 00:31:38,1
+shirokaito1412/real-estate,Real estate ,shirokaito1412,2024-10-09 08:19:12,0
+ngoctran260203/2001210032-bt9,2001210032_BT9,Ngọc Trân,2024-10-09 08:15:40,0
+lannguyenthituyet/internvit-for-embeding-image,InternVIT for embeding image,Lan Nguyen Thi Tuyet,2024-10-09 08:13:49,0
+akash10rout/3-convnext,3-ConvNext,AKASH ROUT,2024-10-09 08:10:38,0
+yuhaining/yuhaining,yuhaining,yuhaining,2024-10-09 08:27:49,0
+timurkhabirovich/social-media-analysis-eda,Social Media analysis | EDA,Timur Khabirovich,2024-10-08 13:01:38,9
+phmctrng/btth9-2001210925-phamductrong,BTTH9_2001210925_PhamDucTrong,Phạm Đức Trọng,2024-10-09 08:02:08,0
+lvnt2001210124/phan1-wineqt,Phan1_WineQT,Lê Văn Tú,2024-10-09 08:02:22,0
+dinhhoanghuy/b-i-th-c-h-nh-bu-i-9-data-analyst-09-10,Bài thực hành buổi 9_Data Analyst_09/10,Huy Đinh Hoàng,2024-10-09 08:01:07,0
+ppremepreme/deepface-fake-v2,DeepFace-fake V2,ppremepreme,2024-10-09 07:57:36,0
+soumyakrath/soumyak-rath,Soumyak Rath,Soumyak Rath,2024-10-09 07:57:20,0
+akash10rout/2-convnext,2-ConvNext,AKASH ROUT,2024-10-09 07:56:14,0
+aidenmiele/lab5-aiden-valerie-sophie,"Lab5 - Aiden, Valerie, Sophie",Aiden Miele,2024-10-09 08:10:49,0
+bharratkhanna/cv-classification-warehouse-automation,CV Classification - Warehouse Automation,Bharat,2024-10-09 14:54:38,0
+swandipsingha/cmi-high-accuracy-model,🎯 CMI | High Accuracy Model,Swandip Singha,2024-10-08 14:25:56,13
+shriramvibhute/dog-vs-cat-classifier-using-lenet-and-resnet,Dog vs Cat Classifier using LENET and RESNET 🐶🐈,Shriram Vibhute,2024-10-09 19:50:14,1
+kbjhreiure/bt9-2001216300-hothanhty,BT9_2001216300_HoThanhTy,Hồ Thanh Tỷ,2024-10-09 07:51:26,0
+anhtngdbdsb/2001216269-bt9,2001216269_BT9,Đặng Anh Tú,2024-10-09 07:45:12,0
+adyiemaz/xgb-loan-approval-prediction,XGB Loan Approval Prediction,adyiemaz,2024-10-09 19:49:55,6
+akshaypatil11/imdb-sentiment-analysis,IMDB Sentiment Analysis,Akshay Patil,2024-10-09 07:43:30,0
+linhl26hlhy/2001211752-bt9,2001211752_BT9,Lê Thùy Linh,2024-10-09 07:43:14,0
+quan30/2001216084-thaihoangquan,2001216084_ThaiHoangQuan,Quan30,2024-10-09 08:21:30,0
+hunhthkimqu38/2001210787-huynhthikimquy-bth9,2001210787_HuynhThiKimQuy_BTH9,Huỳnh Thị Kim Quý,2024-10-09 07:40:38,0
+trungtinle123/2001207190-bt9,2001207190_BT9,Trung Tin Le,2024-10-09 07:37:01,0
+akash10rout/convnext,ConvNext,AKASH ROUT,2024-10-09 07:32:04,0
+rahulkumarroy92/chatgpt-sentiment-analysis-using-huggingface,ChatGpt_sentiment_analysis_using_HuggingFace,rahulkumarroy92,2024-10-09 07:32:14,0
+tranhoanghuy2606/2001215829-tranhoanghuy-bttl9,2001215829_TranHoangHuy_BTTL9,Trần Hoàng Huy,2024-10-09 07:29:52,0
+sujansupraj2000/loan-approval-prediction,Loan Approval Prediction,supraj sujan,2024-10-08 17:32:05,6
+ref,title,author,lastRunTime,totalVotes
+akshaypatil11/santander-customer-transaction-prediction,Santander Customer Transaction Prediction,Akshay Patil,2024-10-09 07:24:44,0
+kmjoshi8/premises-with-sentence-similarity,Premises with sentence similarity,krinal joshi,2024-10-09 07:20:45,0
+zeno63/2001210224-bt9,2001210224_BT9,Thong Nguyen,2024-10-09 07:16:23,0
+tranchikhanh/2001210862-th9,2001210862_TH9,TranChiKhanh_2001210862,2024-10-09 07:17:48,0
+hihi23/2001210345-bt9,2001210345_BT9,2001210345_NguyenTanPhat,2024-10-09 07:15:44,0
+rishikumaryadav/house-price-xgbregressor-and-rfregressor,House Price - XGBRegressor and RFRegressor,Rishikumar Yadav,2024-10-08 18:13:54,3
+haihaihai123/2001210571-bt9,2001210571_BT9,haihaihai123,2024-10-09 08:00:40,0
+buixuanloc/bert-classification-text,BERT_classification_text,Jossichi,2024-10-08 18:32:26,2
+vnrblx/sacv00,SACv00,VN _RBLX,2024-10-09 06:06:00,1
+chiendanghuu/2001215634-bt9,2001215634_BT9,chiendanghuu,2024-10-09 07:04:43,0
+h2001215697tandat/2001215697-huynhtandat-buoi9,2001215697_HuynhTanDat_Buoi9,2001215697_HuynhTanDat,2024-10-09 07:04:40,0
+wardiahmohamed/analyzing-filed-landlord-tenant-complaints,Analyzing Filed Landlord-Tenant Complaints,Wardiah Mohamed,2024-10-08 23:00:10,1
+lamtandat/2001215699-baitapthuchanhtuan9,2001215699 - BaiTapThucHanhTuan9,2001215699 - Lâm Tấn Đạt,2024-10-09 07:01:43,0
+willianoliveiragibin/yallamotors-website,YallaMotors_website,willian  oliveira gibin,2024-10-08 22:54:01,1
+qungthianh/2001210241-bt9,2001210241_BT9,quảng thái anh,2024-10-09 07:38:49,0
+prathamagarwal1302/data-generation,data generation,Pratham Agarwal1302,2024-10-09 06:56:50,0
+kevinpava/juegos-olimpicos,Juegos Olimpicos,Kevin A. Pava Leon,2024-10-09 06:53:33,0
+arabidopsisthalian/cube444-2500-2024-1024-1024-1024,Cube444 2500 2024*1024*1024*1024 ,Arbidos,2024-10-08 18:39:20,2
+abhishekininja101/naive-bayes,Naive_Bayes,AbhishekIninja101,2024-10-09 06:51:05,0
+nguynqucbo2003/nguyenquocbao-2001215618-buoi9,NguyenQuocBao_2001215618_Buoi9,Nguyễn Quốc Bảo2003,2024-10-09 06:48:26,0
+ngthanhhai2003/2001210679-bt9,2001210679_BT9,Ngo Thanh Hai,2024-10-09 06:48:52,0
+pranaych100/used-car-price-prediction-advance-notebook,Used Car Price Prediction Advance Notebook  ,Pranay Chauhan,2024-10-09 09:55:33,1
+liuxin000/ml-ch04,ml.ch04,liuxin000,2024-10-09 03:53:49,4
+tucaominh12/2033210533-bt9,2033210533_BT9,Cao Minh Tuệ,2024-10-09 06:44:04,0
+julioam/leads-logreg,Leads-LogReg,Julio Antonio Megu,2024-10-09 06:44:22,0
+rewa77/car-pred-yolov8,car pred- yolov8,rewaa alaa,2024-10-08 22:38:17,1
+karansinghsamant/labsheet-6,Labsheet 6,KARAN SINGH SAMANT,2024-10-09 06:41:38,0
+karansinghsamant/labsheet-2,Labsheet 2,KARAN SINGH SAMANT,2024-10-09 06:39:21,0
+phatnee/2001210216-bt9,2001210216-BT9,2001210216_NguyenThaoTram,2024-10-09 06:55:41,0
+ppremepreme/deep-face,Deep face,ppremepreme,2024-10-09 06:36:13,0
+meerafrey/test-notebook-ignore,test notebook (ignore),Just a test account,2024-10-09 06:33:12,0
+pratss10/clustering-bank-customer-marketing,Clustering_bank_customer-marketing,pratss10,2024-10-09 06:33:33,0
+abhishekininja101/log-reg-ipynb,Log_reg.ipynb,AbhishekIninja101,2024-10-09 06:33:58,0
+kushsheth/kush-basicmoviereccomendation,Kush_BasicMovieReccomendation,Kush Sheth,2024-10-09 06:31:24,0
+oksanaturii/mycompetitiontitanic-o,MyCompetitionTitanic_O,OksanaTurii,2024-10-09 13:48:24,1
+shahzaibmalik44/ann-vs-multiple-machine-learning-models,ANN Vs Multiple machine learning models ,Shahzaib Yaqoob.044,2024-10-09 01:18:44,6
+prathamadhikari/truncation-check,truncation check,Phd.Dr.Drunkenstein,2024-10-09 06:22:12,0
+archismankarmakar/llama-tachygraphy-test,LLAMA-Tachygraphy-test,Archisman Coder,2024-10-09 06:21:09,0
+manarmohamed24/employee-exit-prediction-imbalanced-data,Employee Exit prediction(imbalanced data),ManarMohamed,2024-10-07 19:21:58,13
+dima806/nba-made-shot-prediction-catboost-shap,NBA made shot prediction CatBoost+SHAP,dima806,2024-10-08 17:07:02,3
+emangope/child-mind3,child_mind3,Eman Gope,2024-10-08 13:01:08,7
+rohitkode/rainfall-in-mumbai-analysis,RAINFALL IN MUMBAI | ANALYSIS 📊🌧️,ROHIT_CODE,2024-10-08 17:05:52,2
+ayushmaan2003/c-means2-0,c-means2.0,Ayushmaan_2003,2024-10-09 06:12:03,0
+avinashpatil03/return-rate-prediction-avinash,Return_rate_prediction_Avinash,Avinash patil03,2024-10-09 13:59:02,0
+sehajdeepsingh15/notebook3faadd9a55,notebook3faadd9a55,Sehajdeep Singh,2024-10-09 18:41:05,1
+rishikumaryadav/flower-species-classification-using-dl,FLOWER SPECIES CLASSIFICATION using DL,Rishikumar Yadav,2024-10-08 16:50:10,2
+bkanupam/simple-cnn-autoencoder,simple cnn autoencoder,Anupam Yadav,2024-10-09 05:58:18,0
+moghazy/llama-with-structured-outputs-tutorial,Llama with structured outputs?! [tutorial] 🦙,Moghazy,2024-10-09 11:16:20,1
+furkan09/youth-smoking-drug-analysis,youth smoking & Drug | Analysis,Furkan,2024-10-09 05:57:47,0
+pranavkumarmehta/social-media-hashtag-research-eda-p-modeling,Social Media Hashtag Research🌐| EDA 🔍|P.Modeling,Pranav Mehta,2024-10-09 04:51:04,1
+ref,title,author,lastRunTime,totalVotes
+mahamadoumahidiallo/build-regression-models,Build Regression Models,Mahamadou Mahi Diallo,2024-10-09 05:52:17,0
+abhinav099802/langchain,Langchain,Abhinav099802,2024-10-09 05:51:47,0
+shilton123456/eda-and-analysis-to-store-sales-in-saudi-arabia,EDA and Analysis to store sales in SAUDI ARABIA,Mohammed Hassaan,2024-10-09 05:43:26,0
+ahmedashrafahmed/plant-village-disease-classification-using-nn,Plant Village Disease Classification Using ÇNN ,𝔄ℌ𝔐𝔈𝔇 𝔄𝔖ℌℜ𝔄𝔉,2024-10-08 19:50:45,4
+hudzax/easy-run-comfyui,Easy run ComfyUI,Hammaam,2024-10-09 05:42:09,0
+sulaniishara/s4-e10-loan-approval-prediction-eda-catboost,S4:E10|Loan Approval Prediction|EDA|CatBoost ,Sulani Ishara,2024-10-08 07:28:28,12
+samvelkoch/s4e10-feature-tools-100-features-extractor,S4E10 | Feature Tools | 100+ Features Extractor,Samvel Kocharyan,2024-10-08 11:02:46,8
+mrayasatriatama/rock-papers-scissors,Rock Papers Scissors,Raya Satriatama,2024-10-09 05:29:48,0
+ysqxyxm/ml-ch04,ml-ch04,YSQxyxm,2024-10-09 04:19:54,1
+rv1922/s4-e10-loan-status-prediction-catboost-97,S4:E10|Loan Status Prediction-CatBoost 97% 🎯📊,vishwa,2024-10-08 07:45:36,9
+larryjiang07/final-version-of-code,Final Version of Code,Larry Jiang,2024-10-08 20:56:49,1
+heidarmirhajisadati/safe-credit-risk-assessment-model-german,Safe Credit: Risk Assessment Model German,Heidar Mirhaji Sadati,2024-10-06 23:59:39,26
+pranayjagtap06/instagram-google-play-reviews-for-nlp,Instagram Google Play Reviews for NLP,Pranay Jagtap,2024-10-09 05:14:59,0
+ragulthiagarajan/bert-for-emotion-analysis,BERT for emotion analysis,RagulThiagarajan,2024-10-09 05:14:26,0
+gallo33henrique/ml-kmeans-pca-tsne-best-coffee,ML_KMeans_PCA/tSNE_Best_coffee,Rafael Gallo,2024-10-08 03:26:30,23
+azizinaghsh/et-data,ET_Data,Azizinaghsh,2024-10-09 04:59:49,0
+bjoernholzhauer/ps-s04e10-knn, PS S04E10: kNN,Björn,2024-10-08 06:50:14,9
+thanradabooranarombk/sp2naja,SP2naja,Thanrada Booranarom BK,2024-10-09 04:48:25,1
+arnavsmayan/cnn-xgb,CNN + XGB,Aj,2024-10-09 04:45:01,0
+fatihyavuzz/amazon-sales-eda,Amazon-Sales-EDA,Fatih Yavuz,2024-10-08 11:00:38,13
+alperhakl/recommadion-systems-example,Recommadion systems example,Alper Hakli,2024-10-08 20:05:49,1
+usmannaziiir/worksheet-2-pythonlist-numpylist,Worksheet 2 PythonList-NumpyList,Usman Nazir,2024-10-09 05:05:58,2
+lonnieqin/loan-approval-prediction-with-tabtransformer,Loan Approval Prediction with TabTransformer,Lonnie,2024-10-08 23:48:25,2
+mos3santos/expectativa-de-vida-no-brasil,Expectativa de Vida no Brasil,Márcio Santos,2024-10-08 20:00:40,1
+ahmedashrafhelmi/ecg-classification-rnn-gru-lstm,ECG Classification RNN | GRU | LSTM,Ahmed Ashraf Helmi,2024-10-08 12:31:45,8
+arabidopsisthalian/cube444-1750-2024-2024-2024, Cube444 1750 2024*2024*2024,Arbidos,2024-10-08 20:20:53,1
+heidarmirhajisadati/advancedtechniques-for-detecting-credit-card-fraud,AdvancedTechniques for Detecting Credit Card Fraud,Heidar Mirhaji Sadati,2024-10-05 22:15:22,47
+tolstoyjustin/rf-xgboost-prophet-etc,"RF, XGBoost, Prophet etc",Tolstoy Justin,2024-10-09 04:30:04,0
+jquinteiro/tsp-starter-2024-2025,TSP Starter 2024-2025,jose quinteiro,2024-10-08 19:45:32,1
+elkadaouisouhaila/airline-passenger-satisfaction-auc-96, Airline Passenger Satisfaction_AUC_96%,Elkadaoui souhaila,2024-10-09 04:24:48,0
+cananerva/train-data-titanic,train_data_titanic,Canan Erva Aydın,2024-10-08 19:40:15,1
+kartikd09/genai-lab-6-final,GenAi-Lab_6_final,Kartikd09,2024-10-08 19:39:53,1
+kumarshivam1908/malenoma-skin-cancer-detection-analysis,Malenoma-Skin-Cancer-Detection-Analysis,KumarShivam1908,2024-10-09 02:14:18,1
+balqisnabilaasyra/muhammad-fachru-rozy-tambunan,MUHAMMAD FACHRU ROZY TAMBUNAN (,Balqis Nabila asyra,2024-10-09 04:18:16,0
+liyansha/ml-ch04,ml.ch04,liyansha,2024-10-09 04:10:38,0
+fatmamuhsen/california-data-anaylsis, california_data_anaylsis,Fatma Mohsen Mansour,2024-10-08 19:25:03,1
+ajayvm/bert-base-ner,bert-base-ner,Ajay V M,2024-10-09 04:09:25,0
+manarmohamed24/cnn-fashion-mnist-dataset,CNN fashion_mnist  dataset,ManarMohamed,2024-10-02 13:52:29,15
+sahityasetu/boosting-algorithms-for-machine-learning,Boosting algorithms for Machine Learning,Sahitya Setu,2024-10-07 18:52:35,37
+samanfatima7/loan-catboost-starter-part-2,Loan - CatBoost Starter Part 2 ,Saman Fatima,2024-10-07 18:22:15,39
+zhangyunling/ml-ch04,ml.ch04,zhangyunling,2024-10-09 03:46:40,0
+jim0102/spaceship-titanic,Spaceship Titanic,Jim0102,2024-10-09 04:34:18,0
+phonghoi/2001207319-btvn8,2001207319_BTVN8,Tống Văn Hoài Phong,2024-10-09 03:41:30,0
+mrayasatriatama/house-prices-prediction-using-grid-search,House Prices Prediction Using Grid Search,Raya Satriatama,2024-10-09 04:29:41,0
+arabidopsisthalian/cube444-3900-2024-1024-512,Cube444 3900 2024*1024*512,Arbidos,2024-10-08 18:38:06,1
+manarmohamed24/student-performance-multiple-linear-regression,Student Performance ((Multiple Linear Regression),ManarMohamed,2024-10-07 17:28:32,18
+heidarmirhajisadati/exercise-sol-price-60d,Exercise: SOL Price 60D,Heidar Mirhaji Sadati,2024-10-02 21:10:10,49
+adhamtarek147/fashion-mnist,Fashion MNIST 👕👖👟,Adham Tarek,2024-10-07 13:51:29,34
+abdallahwagih/heart-diseases-detection-using-ml,Heart Diseases Detection using ML,Abdallah Wagih Ibrahim,2024-10-08 18:21:07,1
+cerclewang/ml-ch04,ml-ch04,Cercle.Wang,2024-10-09 03:20:00,0
+ref,title,author,lastRunTime,totalVotes
+dngvnkhng/duongvankhuong-bth9,DuongVanKhuong_BTH9,Dương Vạn Khương,2024-10-09 03:15:04,0
+swandipsingha/s4e10-data-analysis-and-blending,🎯S4E10| Data Analysis and Blending,Swandip Singha,2024-10-08 12:10:22,13
+timothylovett/f1-97-tinyml-animals,F1 97% TinyML Animals,TimothyLovett,2024-10-08 11:44:10,4
+utkarshshukla070/subtask1,Subtask1,Utkarsh Shukla .,2024-10-09 03:09:54,0
+daoquimui/daoquimui-2001215964-th9,DaoQuiMui_2001215964_TH9,2001215964_DaoQuiMui_25/04,2024-10-09 03:08:41,0
+voducdai/2001215688-bt9,2001215688_BT9,VoDucDai,2024-10-09 03:08:41,0
+wanizyanaqila/face-mask-detection-densenet201,Face Mask Detection - DenseNet201,Wan Izyan A'qila,2024-10-08 18:05:09,1
+oguzuzan/ad-click-prediction,Ad Click Prediction 👆🎯🌟,Oguz Enver Uzan,2024-10-08 16:52:27,3
+phngannn/vuthiphuonganh-2001210587-th9,VuThiPhuongAnh_2001210587_TH9,Anh Phương,2024-10-09 03:01:15,0
+mdmahmudunnobi/iris-recognition,Iris Recognition,Nobi,2024-10-09 03:00:31,0
+bhanushrivastava/boosting-models-with-and-w-o-min-max-scaler,Boosting Models with and w/o Min Max Scaler,Bhanu Shrivastava,2024-10-09 03:07:41,0
+backpaker/tabnet-ensemble-ridge-lasso,Tabnet + ensemble: Ridge & Lasso,Backpacker,2024-10-07 12:43:57,21
+mpwolke/a-lar-n-g-zbebekleri-gemma2keras,Açların Gözbebekleri Gemma2Keras,Marília Prata,2024-10-08 02:54:53,15
+phuongloan/nguyenphuongloan-2001215917-th9,NguyenPhuongLoan_2001215917_TH9,Loan Phương,2024-10-09 02:48:46,0
+pankajinos/student-performance-factors-eda,Student Performance factors : EDA,Pankaj Soni,2024-10-08 17:40:44,1
+tolstoyjustin/brain-tumor-mri-classification-using-tensorflow,🧠 Brain Tumor MRI Classification using TensorFlow,Tolstoy Justin,2024-10-09 02:47:38,0
+truongquochuy12321/2001215830-bt9,2001215830_BT9,TruongQuocHuy12321,2024-10-09 02:44:55,0
+nguyenvian0529/nguyenvian-2001210529-th9,NguyenViAn_2001210529_TH9,2001210529_NguyenViAn,2024-10-09 02:41:50,0
+angelarentsi/lstm-cici-2017,LSTM (CICI-2017),Angela Rentsi,2024-10-09 02:41:04,0
+b9game/b9-game-a-new-era-of-mobile-gaming,B9 Game: A New Era of Mobile Gaming,b9 game,2024-10-09 02:40:53,0
+fredericnicholson/where-is-the-money-polars-autogluon,where_is_the_money_polars_autogluon,Frederic Nicholson,2024-10-08 21:26:21,7
+ducng123/2001215733-btvn9-nguyenanhduc,2001215733_BTVN9_NguyenAnhDuc,Nguyễn Anh Đức,2024-10-09 02:34:39,0
+smilenothing/2001210812-bt9,2001210812_BT9,Nguyễn Tấn Thịnh_2001210812,2024-10-09 02:34:54,0
+mohammedragabsaad/pytorch-deep-nn-0-89-auc,PyTorch Deep NN (0.89 AUC),Mohammed R. Attia,2024-10-08 16:43:50,2
+samvelkoch/s4e10-openfe-460-features,s4e10 | OpenFE | 460 Features,Samvel Kocharyan,2024-10-08 10:56:44,3
+devraai/white-wine-quality-analysis-and-prediction,White Wine Quality Analysis and Prediction,Devra AI,2024-10-08 17:12:53,1
+devraai/gym-members-exercise-data-analysis-and-prediction,Gym Members Exercise Data Analysis and Prediction,Devra AI,2024-10-08 17:11:59,1
+nguyncnglun/2001210496-bt9,2001210496_BT9,Nguyễn công Luận,2024-10-09 02:20:16,0
+banu777/handwritten-digits,handwritten digits,Shama,2024-10-09 03:39:44,0
+kapturovalexander/kapturov-s-loan-approval-prediction-s4e10,🐂💵🪙 Kapturov's Loan Approval Prediction (S4E10),Alexander Kapturov,2024-10-08 12:31:31,19
+darkdevil18/ps4e10-loan-approval-catboost,PS4E10 | Loan Approval | Catboost,Dibya S. Barik,2024-10-09 03:07:48,3
+drravikumarc/lb-0-479-top-ranker-notebook-cmi-new,LB: 0.479 _ TOP RANKER NOTEBOOK _ CMI_NEW,Dr. RAVIKUMAR C,2024-10-05 04:59:32,26
+phuongnhuphat/2001216029-phuongnhuphat-bt9,2001216029_PhuongNhuPhat_BT9,34 Phương Nhu Phát,2024-10-09 02:13:07,0
+doancongdanh/2001203070-bt9,2001203070_BT9,2001203070_Đoàn Công Danh,2024-10-09 02:13:01,0
+huynguyenngoc11/2001210516-nguyenngochuy-th9,2001210516_NguyenNgocHuy_TH9,Huy Nguyen Ngoc 11,2024-10-09 02:12:50,0
+hiulngccc/2001215775-bt9,2001215775_BT9,Lê Ngọc Hiếu,2024-10-09 02:17:59,0
+phngnghilphan/2001210551-bt9,2001210551-BT9,Phương Nghi Lê Phan,2024-10-09 02:08:09,0
+ragrit/competition1,competition1,ragrit,2024-10-09 02:08:07,0
+hohienvinh/notebookc427662497,notebookc427662497,ho hien vinh,2024-10-09 15:22:54,1
+nguynngcminhpht/2001216024-bt9,2001216024_BT9,2001216024_NguyenNgocMinhPhat,2024-10-09 02:03:50,0
+huynhavanphu/2001210038-huynhvanphu-buoi09,2001210038_HuynhVanPhu_Buoi09,HuynhaVanPhu,2024-10-09 02:03:56,0
+thoinguyen/2001210729-nguyenanhthoai-bt9,2001210729_NguyenAnhThoai_BT9,2001210729-NguyenAnhThoai,2024-10-09 02:01:22,0
+lehoainamsss/2033210989-bt9,2033210989_BT9,Lê Hoài Nam,2024-10-09 01:49:14,0
+ravaghi/s04e10-ensembling-autogluon-oofs-manually,S04E10 | Ensembling AutoGluon OOFs Manually,Mahdi Ravaghi,2024-10-09 01:02:37,2
+duckymomo00/malaria-project,Malaria project,Sarah Graham,2024-10-09 20:07:27,0
+muhammadzainurrahman/loan-approval-prediction-with-xgb-accuracy-95,Loan Approval Prediction with XGB(Accuracy 95%),Muhammad Zainurrahman,2024-10-08 16:18:54,1
+nikitavet/s04e10-baseline-ensemble,S04E10 | Baseline Ensemble 🤙,Nikita.Vet,2024-10-08 12:02:55,8
+hwbw1202/2001215823-nguyenquocgiahuy-bth9,2001215823_NguyenQuocGiaHuy_BTH9,Nguyễn Quốc Gia Huy,2024-10-09 01:40:28,0
+b2001216317hophivinh/2001216317-bt9,2001216317_BT9,2001216317_HoPhiVinh,2024-10-09 01:40:36,0
+phanthanhhung/2001215839-bt9,2001215839_BT9,PhanThanhHung,2024-10-09 01:39:16,0
+ref,title,author,lastRunTime,totalVotes
+logicbear/gimbal-experiment,gimbal_experiment,Logic Bear,2024-10-09 19:24:01,0
+tolstoyjustin/youth-behavior-analysis,Youth Behavior Analysis,Tolstoy Justin,2024-10-09 01:38:26,0
+atifaliak/mastering-data-visualization-matplotlib,Mastering Data Visualization Matplotlib,Atif Ali AK,2024-10-05 18:16:29,35
+trandinhbien/2001215627-tr-n-nh-bi-n-bttl-buoi9,2001215627_Trần Đình Biển _BTTL_Buoi9,TRẦN ĐÌNH BIỂN,2024-10-09 01:33:40,0
+ngthanhtien/2001210222-nguyenthanhtien-bt9,2001210222_NguyenThanhTien_BT9,Nguyễn Thanh Tiến,2024-10-09 01:31:48,0
+nagendravsagar/student-performance-analysis,Student Performance Analysis ,Nagendra v sagar,2024-10-09 06:24:27,1
+abdelhamidnasser/gun-kills-in-usa,Gun_Kills_in_USA,Abdelhamid Nasser,2024-10-08 15:55:48,1
+andrewjcma/2024-10-08-palindrome-function,2024-10-08_Palindrome Function,Andrew Mari Alonso,2024-10-08 16:00:04,1
+nhutnam1/btn9-nguyen-nhut-nam,BTN9_Nguyen_Nhut_Nam,Nhut Nam 1,2024-10-09 01:28:50,0
+chubar/2001207195-bt9,2001207195_BT9,Kim Phụng,2024-10-09 01:26:35,0
+grooper/check-loan-status-first-eda-train-baseline-model,check loan_status(first EDA+train baseline model),Yutaro Hayashi,2024-10-08 15:09:04,2
+yasirshafique/moolah-777-your-ultimate-guide-to-winning-big,MOOLAH 777: Your Ultimate Guide to Winning Big!,YasirShafique,2024-10-09 01:24:34,0
+trungnhann/2033210409-bt9,2033210409_BT9,2033210409_TranTrungNhan,2024-10-09 01:24:16,0
+williancolombo/cd-rainfall-prediction,CD - Rainfall prediction,Willian Colombo,2024-10-09 01:22:36,0
+mariohdezptor/clusterizacion,clusterizacion,Mario HdezPtor,2024-10-09 01:22:51,0
+shadymohammed205/brain-tumor-classification-cnn-with-pytorch, Brain Tumor Classification | CNN with PyTorch,Shady mohammed,2024-10-07 22:42:13,4
+ravaghi/s04e10-hill-climbing-with-autogluon-oofs,S04E10 | Hill Climbing with AutoGluon OOFs,Mahdi Ravaghi,2024-10-09 00:45:32,2
+angelarentsi/cicids-2017-models-summary,CICIDS'2017 Models Summary,Angela Rentsi,2024-10-09 01:18:27,0
+mahsakhalajzade/eda-using-ydata-profiling-on-don-t-get-kicked,EDA (using ydata-profiling) On Don't Get Kicked!,mahsa khalajzade,2024-10-07 14:27:58,8
+kygapro03/2001215902-bt9,2001215902_BT9,2001215902_NguyenHoangThaiKy,2024-10-09 01:14:10,0
+furkan09/social-medial-hashtag-analysis,social Medial Hashtag Analysis,Furkan,2024-10-08 12:26:06,6
+yousefalbasel/generating-interior-design-dcgan-wgan,Generating Interior Design DCGAN | WGAN,Yousef Albasel,2024-10-08 13:36:04,4
+utkarshshukla070/subtask3,Subtask3,Utkarsh Shukla .,2024-10-09 16:14:57,0
+thomasamgedfathi/brain,brain,Thomas Amged Fathi,2024-10-09 01:09:55,0
+samiratpadkar/ann-approach-with-93-accuracy,ANN Approach With 93% Accuracy,Samir Atpadkar,2024-10-08 14:34:09,3
+mahmoudredagamail/the-car-price-prediction, the Car Price Prediction,Mahmoud  Gamil,2024-10-08 14:45:58,2
+heidarmirhajisadati/mercedes-benz-future-predictions-stock-price,Mercedes Benz future predictions Stock Price,Heidar Mirhaji Sadati,2024-10-08 06:52:16,6
+happykiter/flame-2024-does-not-move,FLAME 2024 does not move,HappyKiter,2024-10-08 13:21:26,4
+paddykb/ps-s4e10-no-keras-no-loan-cv-0-963,"PS s4e10 - No Keras, No Loan (cv 0.963) 🦈🦈🦈 ",paddykb,2024-10-07 13:51:21,16
+andrcesconetto/projetofinal,ProjetoFinal,André Cesconetto,2024-10-09 00:51:21,0
+ahmedabdulhamid/loan-approval-prediction-s4e10,Loan Approval Prediction | S4E10,Ahmed Abulkhair,2024-10-08 12:21:46,15
+emangope/child-mind,child_mind,Eman Gope,2024-10-08 12:20:15,6
+ravaghi/s04e10-loan-approval-prediction-ensemble,S04E10 | Loan Approval Prediction | Ensemble,Mahdi Ravaghi,2024-10-07 07:13:50,40
+backpaker/lgbm-hill-climbing,LGBM+hill climbing,Backpacker,2024-10-04 12:35:44,32
+hunhphcc/load-model-pt,load_model_pt,Huỳnh Phước Đức,2024-10-09 00:28:41,0
+wguesdon/eda-langchain-feature-engineering-autogluon,EDA - Langchain - Feature engineering - AutoGluon,William Guesdon,2024-10-08 14:19:10,3
+backpaker/loan-approval-prediction-eda,Loan Approval Prediction：EDA,Backpacker,2024-10-01 01:47:21,29
+rsakata/cmi-piu-optimize-qwk-by-lgb,[CMI-PIU] Optimize QWK by LGB,Jack (Japan),2024-09-27 00:40:52,39
+pythonafroz/time-series-date-time-formatting-part-01,Time Series Date Time Formatting Part 01,Afroz,2024-10-08 12:05:20,4
+kamelhassan/car-prediction,Car prediction ,Kamel hassan,2024-09-27 09:26:11,8
+vyacheslavbolotin/brist1d-ensemble-of-solutions,BrisT1D | Ensemble  of solutions,invisible,2024-10-09 19:55:02,33
+chanpreetsingh07/problematic,Problematic,JCM,2024-10-06 16:01:30,32
+youssefelbadry10/cnn-image-classification-tensorflow,CNN Image Classification | TensorFlow ,Youssef Elbadry,2024-10-03 13:07:08,26
+medali1992/ensemble-mpnetv2-bge-gte-with-faiss-gpu,Ensemble MPNETV2+BGE+GTE with Faiss-GPU,Med Ali Bouchhioua,2024-10-07 06:27:10,36
+ayaehabramadan/spatial-data,Spatial Data ,Aya Ehab Ramadan,2024-10-08 23:57:34,0
+shadymohammed205/nlp-meets-sms-distilbert-for-spam-detection,NLP Meets SMS: DistilBERT for Spam Detection,Shady mohammed,2024-10-07 03:37:42,7
+litsea/mcts-baseline-fe-lgbm,MCTS | Baseline + FE | LGBM,Tatiana Y.,2024-10-06 11:45:48,34
+businesstech/how-to-effectively-use-video-content,How to Effectively Use Video Content,Harvey Schmidt,2024-10-08 23:50:40,0
+gkitchen/exploring-problematic-internet-usage,  🧒 Exploring Problematic Internet Usage 💻,Wonderer,2024-10-07 15:57:41,44
+fkaanfirat/house-prices-advanced-regression-techniques,House Prices - Advanced Regression Techniques,Furkan Kaan FIRAT,2024-10-08 23:47:05,0
+ref,title,author,lastRunTime,totalVotes
+saifsalama/student-performance-factors-analysis,Student Performance Factors analysis,Saif Salama,2024-10-08 15:43:15,8
+ihsanullah85/cross-validation,Cross Validation,Ihsan Ullah ,2024-10-08 11:55:33,3
+umerhameed786/kfold-cross-validation-pyth,kfold cross validation pyth,umerhameed786,2024-10-08 11:54:38,3
+hainescity/wingo-color-prediction-color-and-price,Wingo Color Prediction - Color and Price,Haines City,2024-09-24 18:46:39,29
+sobiahashmi/introduction-to-python,🐍 🌟 Introduction to Python 🌟 🐍,Sobia Alamgir,2024-10-08 11:55:45,3
+gallo33henrique/llm-engineering-prompt-sentiment-analysis-climate,LLM_Engineering_prompt_Sentiment_analysis_Climate,Rafael Gallo,2024-10-01 04:14:27,31
+hesamhasani/pipeline-carvana-discretization-features,Pipeline_Carvana_discretization features,Hesam Hassani,2024-10-08 14:38:59,9
+timurkhabirovich/price-gears-interactive-car-market-insights,Price Gears: Interactive Car Market Insights,Timur Khabirovich,2024-10-07 13:32:13,24
+elhamkhorsand/eda-using-ydata-profiling-on-don-t-get-kicked,EDA (using ydata-profiling) On Don't Get Kicked! ,Elham Khorsand,2024-10-08 22:02:54,1
+jasonliowyihuan/prediction-of-poisonous-mushroom,Prediction of Poisonous Mushroom,Jason Liow Yi Huan,2024-10-08 22:02:06,1
+imtkaggleteam/lazypredict-diabetes,LazyPredict | Diabetes,Mohamadreza Momeni,2024-10-05 07:19:26,19
+darkdevil18/0-97267-loan-or-no-loan,[0.97267] 🏦 Loan or No Loan ? 💵,Dibya S. Barik,2024-10-07 13:14:24,19
+weirdanalyst/sample-submission,Sample Submission,Adarsh Gupta,2024-10-08 09:36:55,6
+mpwolke/approved-or-denied-rotate-subplots,Approved or Denied Rotate Subplots,Marília Prata,2024-10-04 16:57:52,48
+ingusterbets/nih-chest-x-rays-analysis,NIH Chest X-rays analysis,Ingus T,2019-08-10 17:14:04,48
+mpwolke/freud-die-traumdeutung-mit-gemma2,Freud: Die Traumdeutung mit Gemma2,Marília Prata,2024-10-07 17:40:24,8
+mrkupo/titanic-ml,Titanic ML,Jacob Mitchell,2024-10-08 23:08:12,0
+bebechien/how-to-finetuning-gemma2-for-spoken-language-tasks,How to Finetuning Gemma2 for Spoken Language Tasks,bebechien,2024-10-02 23:49:59,27
+engahmedabdelaziz/lap-top-prices,Lap top prices,Eng Ahmed Abd elaziz,2024-10-08 09:19:30,5
+backpaker/linear-ensemble-hill-climbing,Linear ensemble: hill climbing,Backpacker,2024-10-05 01:21:23,16
+guanlintao/keras-model-design-brain-tumor,📈📚「Keras Model Design」💡 - Brain Tumor,Guan Lin Tao,2024-10-06 13:44:20,24
+alonamoiseyenko/my9notebook,My9notebook,Alona Moiseyenko,2024-10-08 22:51:29,0
+asadozzaman/beginner-friendly-guide-to-understanding-titanic,Beginner-friendly guide to understanding Titanic,Md. Asado zzaman,2024-10-07 11:14:11,13
+elmuatazelhariri/ann-fetal-health-classification,ANN Fetal Health Classification,Elmuataz Elhariri,2024-10-08 20:22:13,2
+andreasbis/mcts-oof-predictions-as-features,MCTS | OOF Predictions as Features,Andrew,2024-10-08 17:42:24,35
+keerthana1711/starter-new-plant-diseases-dataset-0d355400-2,Starter: New Plant Diseases Dataset 0d355400-2,keerthana,2019-09-19 14:14:22,45
+abdulsalam12/mumbai-rainfall-data-analysis,Mumbai Rainfall Data Analysis,Abdul Salam,2024-10-09 12:46:10,1
+niranjan42/uk-retail-sales-through-internet-analysis,UK retail sales through internet analysis,Niranjan Gopalan,2024-10-08 22:46:22,0
+gallo33henrique/model-ml-review-coffe-embeddings-word2vec,Model_ML_review_coffe_Embeddings_Word2Vec,Rafael Gallo,2024-10-06 07:11:03,23
+shahzaibmalik44/iphone-sentiment-analysis-eda,iPhone Sentiment Analysis EDA,Shahzaib Yaqoob.044,2024-10-08 14:18:40,8
+marjanatrrr/car-price-prediction-eda-linear-regression,Car Price Prediction EDA (Linear Regression) ,Marjan Atashkar,2024-10-05 21:48:17,13
+mpwolke/lesya-ukrainka-gemma2keras,Lesya Ukrainka Леся Українка Gemma2Keras,Marília Prata,2024-10-05 01:15:34,23
+sagarrathore/notebook1d1a7ac74f,notebook1d1a7ac74f,Sagar Rathore,2024-10-09 12:32:48,1
+ahmedsamirafattah/credit-card-fraud-model,Credit Card Fraud Model,Ahmed Samir A.Fattah,2024-10-09 11:29:15,0
+abdallahwagih/data-science-end-to-end-project,Data Science end-to-end Project,Abdallah Wagih Ibrahim,2024-09-26 12:10:09,41
+merzaferaka/turkish-cf-startups-eda-catboost-nlp,Turkish CF Startups | EDA 📊 | Catboost | NLP,Ömer Zafer Akça,2024-10-08 17:40:33,4
+yousefzahran/credit-card-fraud-detection,Credit Card Fraud Detection,yousef zahran,2024-10-07 22:15:05,28
+hykevin2/antartica-analisis-diagnostico,Antartica_Analisis_Diagnostico,Hykevin2,2024-10-08 22:11:59,0
+jackgisby/rohlik-orders-model-comparison-lightgbm-lstm,"Rohlik orders: Model comparison [LightGBM, LSTM]",Jack Gisby,2024-10-08 09:44:50,3
+mrisdal/intro-to-lstms-w-keras-gpu-for-text-generation-1,Intro to LSTMs w/ Keras+GPU for Text Generation 1,Meg Risdal,2018-08-09 04:06:39,50
+jackywangkaggle/starter-flowers-recognition-416da8d9-a,Starter: Flowers Recognition 416da8d9-a,Jacky Wang,2018-08-02 19:50:42,50
+trongnghia8696/nesarc-logistics,NESARC - Logistics,Trong Nghia,2024-10-08 22:05:23,0
+dmitrycloud/product-mix-analysis-bakery-sales-dataset,Product Mix Analysis (Bakery Sales Dataset),Dmitry.Cloud,2024-10-08 22:06:00,0
+ammanrizwan/loan-approval-prediction-notebook-xgboost,Loan Approval Prediction Notebook XGBoost,Amman Rizwan,2024-10-06 08:03:23,18
+dilekdd/diabeties-feature-engineering,Diabeties_Feature_Engineering,Dilek Demir,2024-10-09 17:49:15,1
+dansbecker/building-your-model,Building Your Model,DanB,2018-08-06 16:58:00,49
+malakmohamed777/rnn-timeseries,RNN_TimeSeries,Malak Mohamed,2024-10-08 18:15:14,3
+mmddghd/eda-beginner-guide-to-stacked-model,"EDA, Beginner Guide to Stacked Model",Amirmo ranjbaran,2024-10-08 19:23:02,2
+yekenot/mcts-deeptables-nn,MCTS: DeepTables NN,Vladimir Demidov,2024-10-06 06:00:36,28
+mohammedezzeldean/bitcoin-prediction-lstm,Bitcoin Prediction|LSTM,Mohammed Ezzeldean,2024-09-25 16:41:32,48
+ref,title,author,lastRunTime,totalVotes
+awaken007/quora-question-classification-nlp-a-try,Quora Question Classification- NLP- A try,Abhinav Anurag,2024-10-08 22:00:02,0
+mhmdelshoraky/breast-cancer-wisconsin-dataset,Breast Cancer Wisconsin Dataset,Mohamed Elshoraky,2024-10-08 21:50:48,0
+mohammedezzeldean/simple-text-classification-rnn-lstm-gru,Simple Text Classification|RNN&LSTM&GRU,Mohammed Ezzeldean,2024-09-25 17:04:01,47
+yusueframadan/starter-breast-cancer-wisconsin-3bc4908e-4,Starter: Breast Cancer Wisconsin 3bc4908e-4,Yusuef Ramadan,2019-10-06 14:58:25,47
+isha21/starter-google-play-store-apps-27687a93-3,Starter: Google Play Store Apps 27687a93-3,Pragya,2019-01-28 06:47:02,47
+gidutz/starter-autotel-shared-car-locations,Starter: AutoTel Shared Car Locations,Gad Benram,2019-01-14 09:10:43,47
+tsdhanush/skin-diseases-classification-cnn-81-accuracy,Skin Diseases Classification|CNN|81% Accuracy,Dhanush_ts,2024-10-09 18:37:44,0
+nirmalgaud/attention-mechanism,Attention Mechanism,Nirmal Gaud,2024-10-09 11:55:21,1
+ahmedelsayed198/data-analysis-employee-data,Data Analysis Employee data ,AhmedEl-Sayed198,2024-09-27 09:25:36,16
+goduguanilhimam/soon-to-be-god-of-handwritten-digits,(Soon to be 😅🥲) God of Handwritten Digits 🔢,Godugu Anil Himam,2024-10-08 21:33:00,0
+jhskaggle/aiml-l03-2024,AIML-L03-2024,Machine-Leaning-Python(JH),2024-10-08 21:32:43,0
+nischaymahamana/notebookf6af6147ab,notebookf6af6147ab,AISynch,2024-10-09 18:28:56,0
+himanshusinghal19/da331-assignment-2,DA331 Assignment 2,himanshu.singhal19,2024-10-09 05:18:07,0
+crisbebop/loan-initial-notebook,Loan initial notebook,Cristopher Lincoleo,2024-10-04 15:53:17,25
+ramkumarb/starter-face-detection-in-images-f10fe913-6,Starter: Face Detection in Images f10fe913-6,Ram kumar,2019-10-24 03:14:39,45
+jtrotman/f1-race-traces-2013,F1 Race Traces — 2013 🏁,James Trotman,2024-08-15 10:32:13,45
+hortonhearsafoo/fast-ai-v3-lesson-3-head-pose,fast.ai v3 lesson 3 head pose,William Horton,2019-01-26 22:03:18,45
+brookeallred/store-sales-competition-kbb,Store Sales Competition KBB,Brooke Allred,2024-10-08 22:46:05,0
+sczhuoffical/s-c-zhu-faml-method-loan-ap,[S.C. Zhu] FAML method(Loan AP）,S.C. Zhu,2024-10-08 15:29:15,6
+duygujones/sign-language-detection-using-yolo11,🤙Sign Language Detection using YOLO11🟣,Duygu Jones,2024-10-07 11:17:37,15
+rv1922/s4-e10-loan-approval-prediction-eda-catboost,S4:E10|Loan Approval Prediction|EDA📊|CatBoost 🎯,vishwa,2024-10-09 10:01:02,34
+raniaioan/starter-skin-cancer-mnist-ham10000-6a5a3b01-0,Starter: Skin Cancer MNIST: HAM10000 6a5a3b01-0,Rania Ioannou,2019-10-29 14:13:09,51
+sparky42/starter-california-housing-prices-371617f9-6,Starter: California Housing Prices 371617f9-6,Sparky42,2019-08-12 04:45:21,51
+mdey555/starter-plantvillage-dataset-43229150-d,Starter: PlantVillage Dataset 43229150-d,mdey,2019-08-11 01:40:37,51
+vyacheslavbolotin/rsna-ensemble-of-solutions-6-string-guitar,"RSNA | Ensemble of solutions, 6 string guitar",invisible,2024-10-06 20:36:39,5
+arshmankhalid/daily-weather-updates-extensive-eda,Daily_weather_updates_Extensive_EDA,Arshman Khalid,2024-10-08 21:17:58,0
+dhruv5018/house-regression-neural-nets,house_regression_neural_nets,firstfly,2024-06-14 10:37:12,4
+parvizsubkhankulov/data-science-job-postings-analysis,data-science-job-postings-analysis,Parviz S,2024-10-08 21:14:02,0
+shadymohammed205/predicting-heart-disease-a-comparative-analysis,Predicting Heart Disease: A Comparative Analysis ,Shady mohammed,2024-10-07 05:44:12,7
+prasannakasar/transformer-tts-x,Transformer-TTS X,Prasanna Kasar,2024-10-08 21:10:06,0
+hesamhasani/pipeline-carvana-normalization-features,Pipeline_Carvana_normalization features,Hesam Hassani,2024-10-08 12:29:34,8
+paddykb/pg-s4e10-loan-shap,PG s4e10: Loan 🦈🦈🦈 Shap,paddykb,2024-10-03 13:49:00,23
+samanyuk/user-behavior-class-100-accuracy,User Behavior Class (100% Accuracy ),Samanyu K,2024-09-30 14:52:26,33
+esraameslamsayed/generating-realistic-fake-images-with-dc-gans,Generating Realistic Fake Images with DC_GANs,Esraa Meslam Sayed,2024-09-28 10:10:22,33
+imranp/starter-synthetic-financial-datasets-cd6449a6-6,Starter: Synthetic Financial Datasets cd6449a6-6,imranp,2019-02-04 13:38:15,43
+louayfaraj/sales-performance-analysis,Sales Performance Analysis,Louay Faraj,2024-10-08 07:37:28,3
+nirmalgaud/emotion-detection,emotion detection,Nirmal Gaud,2024-10-08 08:26:58,2
+ahmedsho3ib/machine-learning-tutorial,Machine Learning Tutorial,Ahmed Shoaib,2024-09-29 09:31:11,22
+getanmolgupta01/text-summarization-lstm-encoder-decoder,Text Summarization || LSTM Encoder-Decoder📚🔄,Anmol gupta,2024-09-27 11:56:05,32
+aquirogamon/starter-titanic-8106b276-c,Starter: Titanic 8106b276-c,Armando Quiroga,2019-09-29 17:58:09,32
+matskovsky/starter-120-years-of-olympic-history-57e57856-4,Starter: 120 years of Olympic history: 57e57856-4,vladimir,2019-09-08 14:43:49,42
+jocelynallen/starter-european-soccer-database-5bfba1ad-d,Starter: European Soccer Database 5bfba1ad-d,Jocelyn ,2019-01-30 03:42:25,42
+hesankazemnia/tesla-stock-prediction-lstm-tensorflow,📉Tesla Stock Prediction | LSTM-TensorFlow,Hesan Kazemnia,2024-10-02 06:20:10,53
+shiv314/dataloader,DataLoader,shiv_314,2024-10-08 20:52:40,0
+vasanthkumarl/naive-bais-noob-try,Naive Bais Noob Try,vasanth kumar,2024-10-09 11:20:09,1
+monashabanmahmoud/1-model-weather,1-model weather,Mona Shaban Mahmoud,2024-10-08 07:15:40,3
+deniskolenko/digit-recognizer-with-pytorch-tutorial,Digit Recognizer with PyTorch (Tutorial),den1ksk,2024-10-07 21:02:05,5
+mpwolke/bhagavad-gita-gemma2keras,Bhagavad Gita (भगवद्गीता) Gemma2Keras,Marília Prata,2024-10-04 02:40:52,31
+mllion/movies-analysis-and-popularity-prediction-98,Movies 🎥🍿 Analysis and Popularity Prediction 98%,Saksham Nanda,2024-09-30 15:29:47,31
+souviksamanta1053/ipl-complete-eda,IPL_Complete_EDA,Souvik Samanta,2024-09-28 23:11:49,31
+ref,title,author,lastRunTime,totalVotes
+fanconic/starter-skin-cancer-malignant-vs-benign,Starter: Skin Cancer: Malignant vs. Benign,Claudio Fanconi,2019-06-20 06:58:21,41
+pritam1202/pytorch-card-image,Pytorch Card Image,Pritam Chakraborty,2024-10-08 20:44:31,0
+timurkhabirovich/geography-leadership-and-longevity,"Geography, Leadership, and Longevity",Timur Khabirovich,2024-10-07 10:41:09,22
+hanam107/2001210087-nttthao-btvn8,2001210087_NTTThao_BTVN8,HaNam107,2024-10-08 18:03:04,2
+nyastmakh/dsp-lab2,dsp_lab2,Татьяна Стельмах,2024-10-08 20:40:58,0
+mennatullahelzarqa/earthquake-prediction-lr-rf-xgb,"""Earthquake Prediction: LR, RF, XGB""",menna tullah elzarqa,2024-10-08 20:38:21,0
+wurmplekuljit/paperworkfunc,PaperworkFunc,Saha Kuljit Shantanu,2024-10-09 16:59:01,0
+syedfaizanalii/ps4e10-xgb,PS4E10 | XGB,Syed Faizan Ali,2024-10-01 17:27:00,30
+jtrotman/f1-race-traces-2003,F1 Race Traces — 2003 🏁,James Trotman,2024-08-06 02:20:50,40
+antoninadolgorukova/cmi-piu-actigraphy-data-eda,CMI-PIU: Actigraphy data EDA,Antonina Dolgorukova,2024-09-28 18:19:56,52
+borishuljak/mse-mae-autogluon-current-best-shared-nb-score,MSE/MAE + Autogluon (Current best shared NB score),Boris Huljak,2024-09-25 14:25:59,52
+hortonhearsafoo/fast-ai-v3-lesson-3-imdb,fast.ai v3 lesson 3 imdb,William Horton,2019-01-26 22:30:12,52
+vishnu310104/satsot-yolov5,satSOT_yolov5,VISHNUVASAN,2024-10-08 20:26:01,0
+asadozzaman/pathways-to-predicting-student-success,Pathways to Predicting Student Success,Md. Asado zzaman,2024-10-01 13:28:24,19
+jtrotman/f1-race-traces-2016,F1 Race Traces — 2016 🏁,James Trotman,2024-08-18 03:20:41,39
+thrmsnprfs/starter-new-york-city-airbnb-open-data-c2d26609-a,Starter: New York City Airbnb Open Data c2d26609-a,Luis Magana,2019-10-06 22:59:04,39
+dansbecker/data-types-and-missing-data-reference-daily,Data types and missing data reference Daily,DanB,2019-05-14 00:06:12,39
+raghavgoel01/3-efficientnet,3-efficientnet,RaghavGoel01,2024-10-09 17:43:04,0
+jiteshuikey/fine-tuned-resnet50,Fine Tuned ResNet50,Jitesh Uikey,2024-10-09 17:38:44,0
+renjiabarai/purchase-method-prediction,Purchase Method Prediction,sadık,2024-10-08 08:11:02,1
+newra008/loan-approval-predication-using-xg-boost,Loan Approval Predication Using XG Boost,Neelkant Newra,2024-10-09 04:44:52,5
+karahanos/fb-prophet-time-series-analysis,FB Prophet time-series analysis, KarahanOS,2024-10-08 20:18:28,0
+mostafaehab10102000/mercedes-benz-stock-price,Mercedes-Benz Stock Price ,Mostafa Ehab,2024-10-05 19:36:28,28
+mpwolke/genji-monogatari-gemma2-jpn,Genji Monogatari - 源氏物語 Gemma2 jpn,Marília Prata,2024-10-05 18:45:52,18
+annashport/l1correlation-of-binary-images-with-a-spiral-sweep,L1Correlation of binary images with a spiral sweep,Anna Shport,2024-10-08 20:15:33,0
+tngoch/notebook9e932c0e03,notebook9e932c0e03,Tường Đào Chí,2024-10-09 17:38:23,0
+ssyyhh/eda-of-tehran-rooms-prediction-of-prices,EDA of Tehran rooms & Prediction of Prices,HSY0913,2024-10-08 07:04:36,2
+alaaabdelstar/data-files-in-sklearn,Data files in sklearn,A'laa Abdelstar,2024-10-06 16:52:32,26
+jtrotman/f1-race-traces-2011,F1 Race Traces — 2011 🏁,James Trotman,2024-08-13 21:34:20,38
+akash0000/starter-the-movies-dataset-bffc2c5f-f,Starter: The Movies Dataset bffc2c5f-f,Akash,2019-10-02 18:07:55,38
+jackinalltrade/jack-siim-tensorflow2,jack_SIIM_tensorflow2_,Neeraj Tiwari,2019-06-26 09:59:37,38
+jlramirez/ciencias-de-datos-tarea-2,Ciencias de Datos. Tarea 2,Jorge Ramirez,2019-03-01 13:55:46,38
+mahtabezzati/airbnb-practice,Airbnb Practice,Mahtab Ezzati,2024-10-08 20:11:31,0
+valeriandreeva/lab-1,Lab№1,Valeri Andreeva,2024-10-08 20:07:41,0
+kusumakar/rainfall-eda-and-ml,RAINFALL EDA AND ML,Kusumakar,2024-10-08 07:39:59,3
+shreyasur965/sanitation-sample-notebook,sanitation sample notebook,Shreya Sur965,2024-10-08 06:49:13,2
+dheerajcl/brist1d-autogluon,BrisT1D Autogluon,Dheeraj,2024-10-06 16:34:25,7
+sahityasetu/computer-vision-binary-classification,Computer Vision - Binary Classification,Sahitya Setu,2024-09-27 02:41:16,54
+risenfromashes/starter-notebook-dl-sprint-3-0,Starter Notebook | DL Sprint 3.0,Ashrafur Rahman,2024-10-06 08:20:56,16
+mahmoudshaheen1134/movies-sentiment-analysis,Movies Sentiment Analysis,Mahmoud Shaheen,2024-09-26 12:35:20,37
+alaaabdelstar/remote-work-productivity,Remote Work Productivity,A'laa Abdelstar,2024-09-25 22:53:23,37
+musoxy/btk-datathon-2024-private-1,BTK DATATHON 2024 Private 1.,Muso,2024-09-25 11:09:41,37
+jtrotman/f1-race-traces-1999,F1 Race Traces — 1999 🏁,James Trotman,2024-08-02 08:58:05,37
+gagandeep44489/ml-decision-tree-note,ML - Decision tree note,Gagandeep44489,2024-10-08 05:43:07,3
+mohammedezzeldean/mango-leaf-diseases-classification-efficientnetb0,Mango Leaf Diseases Classification|EfficientnetB0,Mohammed Ezzeldean,2024-09-24 16:02:21,41
+kiyarashiranshahi/dm-don-t-get-kicked-project,ِِDM_Don't Get Kicked!_Project,kiyarash iranshahi,2024-10-06 18:24:27,5
+ahmedgmy/predictionprice,predictionPrice,Ahmed Gamal,2024-10-08 19:51:07,0
+alihassanml/fight-dataset-prediction-resnet152,Fight dataset Prediction ResNet152,Ali Hassan,2024-10-08 19:50:05,0
+ahmedezzatibrahem/bank-customer-churn,Bank Customer Churn ,Ahmed Ezzat Ibrahem,2024-10-04 09:12:09,26
+pavankumar4757/global-earthquake-map-interactive-insights,🌍 Global Earthquake Map: Interactive Insights 🌏,Pavan Kumar S,2024-10-03 09:17:05,26
+ref,title,author,lastRunTime,totalVotes
+yousefzahran/car-price-prediction,Car Price Prediction,yousef zahran,2024-10-01 12:42:03,36
+riachoudhari/car-price-prediction-all-regression-models,Car Price Prediction🚗 | All Regression Models📈,Ria Choudhari,2024-09-30 04:48:25,36
+esraameslamsayed/image-generator-using-conditional-gan-cgan,Image Generator using Conditional GAN (CGAN),Esraa Meslam Sayed,2024-09-29 11:42:09,26
+esraameslamsayed/generate-images-by-variational-autoencoder-vae,Generate images by Variational Autoencoder(VAE),Esraa Meslam Sayed,2024-09-25 10:16:28,26
+jtrotman/f1-race-traces-2000,F1 Race Traces — 2000 🏁,James Trotman,2024-08-03 18:58:37,36
+tarunvaka/exercise-group-by-having-count,"Exercise: Group By, Having & Count",Tarun Vaka,2024-10-07 09:11:47,29
+alizaahsan/nids-randomforest,NIDS_RandomForest,Aliza Ahsan,2024-10-09 09:01:51,1
+jecsanches/regress-o-parte-1,Regressão - parte 1,JEC Sanches,2024-10-08 19:44:58,0
+whisperingkahuna/eda-of-hec-accredited-universities,📘 EDA of HEC-Accredited Universities ,Kamran Ali,2024-10-09 05:41:21,2
+kumargautampushkar/machine-learning-lab3,Machine Learning LAB3,Pushkar Kumar Gautam,2024-10-09 19:22:15,0
+tmai56/starter-world-happiness-report-3e383691-d,Starter: World Happiness Report 3e383691-d,TIEN,2019-03-04 05:14:04,53
+saurabhbadole/tatamotors-stock-eda-market-trends-movements,TATAMOTORS Stock EDA: Market Trends & Movements,Saurabh Badole,2024-10-06 23:27:23,35
+damodharrao/starter-breast-histopathology-images-41da081a-1,Starter: Breast Histopathology Images 41da081a-1,Pantala Damodhar Rao,2019-09-22 06:49:38,35
+kandahugues/starter-twitter-ebola-malaria-27e63aa1-b,Starter: TWITTER EBOLA MALARIA 27e63aa1-b,Kanda Hugues,2018-09-19 14:08:57,35
+marlenatpanagiotakou/ieee-ntua-sb-ml-team-digit-recognizer,IEEE NTUA SB: ML Team: Digit Recognizer,Marlena Panagiotakou,2024-10-09 08:29:23,0
+aseediraqi/udemycourses-analyze,UdemyCourses_Analyze,Aseed iraqi,2024-10-08 04:49:57,3
+fabianintech/arc-llm-coding-agent,ARC | LLM Coding Agent,FabianInTech,2024-10-07 16:07:39,4
+rudenkobogdan/ps4e10-eda-experimental-lgb-xgb-catb-line,📊📈 [PS4E10] EDA & Experimental LGB-XGB-CatB line,Bogdan Rudenko,2024-10-07 22:32:37,10
+abdelrahman0xx/linear-regression-model-a-beginners-guide,"Linear Regression Model ""A Beginners Guide""",Xr Ai,2024-09-25 11:48:14,39
+amay12/loan-approval-prediction-ensemble,Loan Approval Prediction | Ensemble,Amay12,2024-10-08 00:25:31,7
+jonathonbriggs/gym-memberships-exercise-data-eda,Gym Memberships Exercise Data - EDA,Jonathon Briggs,2024-10-08 18:02:54,1
+chanchal24/s4e10-eda-xgboost-catboost-lightgbm-optuna,S4E10 EDA + (Xgboost+Catboost+Lightgbm)Optuna,Chanchal Alam,2024-10-05 19:15:21,24
+uridarom/exercise-machine-learning-competitions,Exercise: Machine Learning Competitions,Uri Darom,2024-10-09 17:05:12,0
+jiprud/catboost-baseline-oof-prediction,CatBoost baseline - OOF Prediction,Jiri Prudky,2024-10-08 10:46:35,7
+ironwolf404/churn-modelling-ml,Churn Modelling - ML,Iron Wolf,2024-09-26 13:44:00,24
+totoroseattle/starter-mall-customer-segmentation-8fb8ef47-1,Starter: Mall Customer Segmentation 8fb8ef47-1,totoro,2019-06-10 18:31:56,24
+qiqiu94/starter-student-alcohol-consumption-7b113f2a-7,Starter: Student Alcohol Consumption 7b113f2a-7,hhhh,2019-02-16 16:28:16,34
+salmarashwan/s-p-500-stocks-time-series-regression,S&P 500 Stocks Time Series Regression,Salma Rashwan,2024-10-08 18:04:32,1
+shahp7575/1-eda,1_eda,Parth Shah,2024-10-08 19:16:07,0
+muhammadhamzanawaz/brain-tumor-classification,Brain Tumor Classification,Muhammad Hamza Nawaz,2024-10-09 16:58:05,0
+melhemrekaya/ai-homework-predict-scores,AI Homework Predict Scores,MELİH EMRE KAYA,2024-10-08 20:20:01,0
+wanizyanaqila/face-mask-detection-tensorflow,Face Mask Detection - Tensorflow,Wan Izyan A'qila,2024-10-08 16:24:59,2
+bhavanavaddi/notebook9e8c6f5fe1,notebook9e8c6f5fe1,Bhavana Vaddi,2024-10-09 16:55:23,0
+amnydv17/forgery-detection-2024-dl,Forgery Detection-2024-DL,Aman Yadav,2024-10-08 19:09:20,0
+anji2705/heat-cluster-map,Heat&Cluster_map,Anji_2705,2024-10-07 17:16:40,3
+muhammadnaeem779/apple-appstore-part-1-eda,Apple_appstore_part_1_eda,Muhammad Naeem,2024-10-03 16:22:43,14
+ironwolf404/car-price-prediction-ann,Car Price Prediction - ANN,Iron Wolf,2024-09-29 13:55:39,23
+ebrahimmerza/heart-disease-prediction-ml-acc-90,Heart Disease Prediction|  ML Acc 90%,Ebrahim Merza,2024-09-28 00:42:47,33
+dhruv5018/dog-breed-classsification,dog_breed_classsification,firstfly,2024-10-09 17:11:03,3
+suryarajendhran/starter-gtsrb-german-traffic-sign-4f9b7b92-1,Starter: GTSRB - German Traffic Sign 4f9b7b92-1,Surya Rajendhran,2019-07-06 07:42:18,33
+cuge1995/lstm-for-household-electric-power-cb225cfe-1,LSTM for Household Electric Power cb225cfe-1,zhang jinlai,2019-05-16 08:39:08,33
+arabidopsisthalian/1-cube555-200-2048-1024-1024-1024-512,1 Cube555 200 2048*1024*1024*1024*512,Arbidos,2024-10-09 16:51:57,0
+hagerezz7/stellar1,Stellar1,HagerEzz7,2024-10-09 19:58:27,0
+pettemarush/ml-project1,ML_project1,Pettem Arush .,2024-10-08 19:01:22,0
+dima806/obesity-prediction-catboost-shap,Obesity prediction CatBoost+SHAP,dima806,2024-10-08 16:11:17,2
+annastasy/anomaly-detection-credit-card-fraud,Anomaly Detection | Credit Card Fraud 🕵️‍♂️💳🛡️,Anna Balatska,2024-10-04 21:30:03,58
+jobairhasan/estimate-sigma-10-desij1501-5208,estimate_Sigma_10_DESIJ1501+5208,Jobair Hasan,2024-10-08 18:58:13,0
+sagarbarge/2010-2019-fall-marathons-in-usa,2010-2019 Fall Marathons in USA,Sagar Barge,2024-10-09 16:46:23,0
+anji2705/violin-plot,Violin_plot,Anji_2705,2024-10-07 16:23:30,3
+imenbenamar1/diabetsprediction,diabetsPrediction,Imen BenAmar1,2024-10-08 18:54:39,0
+ref,title,author,lastRunTime,totalVotes
+soroushesnaashari/phone-price-prediction-dt-rf-svm,"Phone Price Prediction (DT, RF, SVM)",Soroush Esnaashari,2024-10-03 07:21:16,12
+samanyuk/lung-cancer-prediction-100-accuracy,Lung Cancer Prediction (100% Accuracy),Samanyu K,2024-10-02 10:24:12,22
+farnooshsoltani/forex-gold-xauusdt-lstm,Forex Gold  📈 XAUUSDT 🚀 LSTM,Farnoosh Soltani,2024-10-02 08:57:38,12
+georgehanyfouad/car-sales-price-prediction-using-ann,Car Sales Price Prediction using ANN,George Hany Fouad,2024-09-29 18:19:32,32
+duygujones/flowers-cnn-10-transfer-learning-part-1,Flowers | CNN | 10 Transfer Learning |Part-1🌻,Duygu Jones,2024-09-27 21:50:03,22
+jtrotman/f1-race-traces-2012,F1 Race Traces — 2012 🏁,James Trotman,2024-08-14 14:34:49,32
+jtrotman/f1-race-traces-1997,F1 Race Traces — 1997 🏁,James Trotman,2024-07-31 16:31:36,32
+jtrotman/f1-race-traces-1996,F1 Race Traces — 1996 🏁,James Trotman,2024-07-31 15:39:08,32
+varadahirwadkar/starter-amazon-fine-food-reviews-503caf78-5,Starter: Amazon Fine Food Reviews 503caf78-5,varad,2019-10-01 15:35:56,32
+bastianbagas/starter-anime-recommendations-database-d0ac17ee-d,Starter: Anime Recommendations Database d0ac17ee-d,Bastian Bagas,2019-07-29 04:05:20,32
+jboscher/starter-pima-indians-diabetes-database-3d235725-1,Starter: Pima Indians Diabetes Database 3d235725-1,jbs ,2019-06-13 08:05:50,32
+paramaggarwal/fashion-product-images-classifier,Fashion Product Images Classifier,Param Aggarwal,2019-04-26 23:33:47,32
+zainabelsayedtaha/fashion-mnist,Fashion MNIST,Zainab El Sayed Taha,2024-10-08 18:53:32,0
+anji2705/box-plot,Box_plot,Anji_2705,2024-10-07 16:04:09,3
+abhinavagg2002/ensemble-learning,Ensemble Learning,abhinavagg2002,2024-10-08 18:49:27,0
+tztang/setup-clone-kaggle-environment-local-env,[SETUP] Clone Kaggle Environment → Local Env,Taizhuo Tang,2024-10-08 18:49:04,0
+jobairhasan/photometric-redshift-extraction-desij1501-5208,photometric_redshift_extraction_DESIJ1501+5208,Jobair Hasan,2024-10-08 18:48:02,0
+jtrotman/f1-race-traces-2015,F1 Race Traces — 2015 🏁,James Trotman,2024-08-17 06:28:02,54
+djsquiggle/starter-red-wine-quality-fd717a1f-3,Starter: Red Wine Quality fd717a1f-3,DJSquiggle,2019-08-28 18:13:39,54
+dngvnkhng/2001215886-duongvankhuong-btvnb8,2001215886_DuongVanKhuong_BTVNB8,Dương Vạn Khương,2024-10-08 18:45:23,0
+juhanfreitas/theresnotimetorelax,theresnotimetorelax,Juhan Freitas,2024-10-08 18:45:37,0
+shgyg99/medicalimagesegmentation,MedicalImageSegmentation,شقایق مطلبی,2024-10-08 15:52:15,2
+phonemyatkyawthu/titanic-competition-phone-myat-kyaw-thu,Titanic Competition-Phone Myat Kyaw Thu,Phone Myat Kyaw Thu,2024-10-07 23:19:30,7
+ashrafsaber/sic-employee-attrition-classification,SIC | Employee Attrition Classification,Ashraf Saber,2024-10-04 09:27:45,21
+alihassanshahid/regression-of-used-car-prices,Regression of Used Car Prices,Ali Hassan Shahid,2024-09-30 16:06:20,31
+mpwolke/are-politicians-speeches-the-same,Are Politicians Speeches the Same?,Marília Prata,2024-09-28 14:20:16,31
+gallo33henrique/sarima-arima-forecast-elnino-lanina,SARIMA_ARIMA_FORECAST_ELNINO_LANINA,Rafael Gallo,2024-09-26 18:52:24,21
+ebrahimmerza/market-basket-analysis,Market Basket Analysis ,Ebrahim Merza,2024-09-26 09:56:56,31
+ucfaibot/data-science-fa19-nfl-intro,data-science-fa19-nfl-intro,AI@UCF,2019-11-07 21:22:28,31
+bhargavi35/starter-cardiovascular-disease-dataset-d2fc2521-9,Starter: Cardiovascular Disease dataset d2fc2521-9,bhargavi,2019-09-24 08:38:57,31
+keshavjangid60/starter-fruits-360-dataset-41015069-5,Starter: Fruits 360 dataset 41015069-5,Keshav Jangid,2019-06-29 15:45:21,31
+cedriclacrambe/starter-grand-debat-2019-wordclouds,Starter: grand debat 2019 wordclouds,Cédric Lacrambe,2019-03-19 15:49:22,31
+adrian1acoran/starter-human-resources-data-set-9a455994-b,Starter: Human Resources Data Set 9a455994-b,adrian pineda moreno,2019-02-09 22:20:48,31
+cuyler72/kaggle-dot-net-4-7-2,Kaggle-Dot_Net-4.7.2,cuyler72,2024-10-08 18:38:28,0
+dumanmesut/we-bears-datathon-2024-rank-5-private-5-7,We Bears Datathon 2024: Rank 5 Private 5.7,Mesut Duman,2024-09-18 15:40:39,22
+gokhanergul/data-analysis-with-apache-spark,Data Analysis with Apache Spark,Gökhan Ergül,2024-10-08 13:01:36,4
+alisaamiella/gpa-predictor-with-pytorch,GPA predictor with pytorch,Alisa_Amiella,2024-10-07 12:20:14,3
+trandinhbien/2001215627-tr-n-nh-bi-n-btnv-bu-i8,2001215627_Trần Đình Biển_BTNV Buổi8,TRẦN ĐÌNH BIỂN,2024-10-08 15:35:52,2
+sakhadib/character-sign-language-detection-densenet201,Character -  Sign Language Detection - DenseNET201,Adib Sakhawat,2024-10-08 16:46:48,2
+sushantakpani/cnn-mnist,CNN_MNIST,Sushanta K. Pani,2024-10-08 18:26:30,0
+kararhaitham/wine-quality,Wine Quality,Karar Haitham,2024-10-08 15:33:42,2
+bishoykamel97/wgan-portrait,WGAN Portrait ,Bishoy Kamel,2024-10-09 02:52:27,0
+asadozzaman/topic-modeling-in-nlp-with-abc-news-sample,Topic Modeling in NLP with ABC news sample,Md. Asado zzaman,2024-10-03 17:37:12,10
+pavankumar4757/predicting-user-behavior-battery-drain,Predicting User Behavior & Battery Drain 📱🔋,Pavan Kumar S,2024-09-29 07:29:49,30
+marjanatrrr/smartphone-price-prediction-dt-rf-svm,"Smartphone Price Prediction(DT , RF , SVM)",Marjan Atashkar,2024-09-28 21:46:35,20
+alaaabdelstar/bear-attacks-north-america,Bear Attacks North America,A'laa Abdelstar,2024-09-26 17:03:16,30
+yunsuxiaozi/brist1d-ridge-valid-2-25-lb-2-64,"BrisT1D Ridge(valid:2.25,lb:2.64)",yunsuxiaozi,2024-09-26 10:25:56,10
+jtrotman/f1-race-traces-2005,F1 Race Traces — 2005 🏁,James Trotman,2024-08-08 21:29:39,30
+jtrotman/f1-race-traces-2004,F1 Race Traces — 2004 🏁,James Trotman,2024-08-07 14:57:58,30
+azeem3331/starter-sample-sales-data-d540d175-7,Starter: Sample Sales Data d540d175-7,Azeem,2019-09-07 05:42:40,30
+ref,title,author,lastRunTime,totalVotes
+dansbecker/dropout-and-strides-for-larger-models-daily,Dropout and Strides for Larger Models Daily,DanB,2019-03-22 18:57:35,30
+alexisbcook/exercise-hello-seaborn,"Exercise: Hello, Seaborn",Alexis Cook,2023-04-20 18:04:28,30
+agustinbottos/mumbai-s-rainfall-prediction,Mumbai's Rainfall prediction,Agustin Bottos,2024-10-07 22:40:45,6
+hassanraof/used-cars-using-lightbgm,used_cars using LightBGM,Hassan Raof,2024-09-20 11:25:27,22
+kaushikar/tweets-covid-csv-to-dat,TWEETS-COVID-CSV_TO_DAT,Kaushik A R,2024-10-08 18:20:23,0
+jobairhasan/estimate-sigma-10-desij1018-0121,estimate_Sigma_10_DESIJ1018-0121,Jobair Hasan,2024-10-08 18:20:14,0
+jobairhasan/photometric-redshift-extraction-desij1018-0121,photometric_redshift_extraction_DESIJ1018-0121,Jobair Hasan,2024-10-08 18:20:59,0
+thmrcode/general,General,ThMrCode,2024-10-08 18:17:45,0
+simjeg/solving-arc-with-vlms,Solving ARC with VLMs,simjeg,2024-09-24 10:51:16,27
+dogukantabak/hair-type-classification,Hair Type Classification,Dogukan,2024-10-08 18:16:53,0
+phngannn/12345678,12345678,Anh Phương,2024-10-09 20:11:02,0
+sehajdeepsingh15/notebookc96a5a9e99,notebookc96a5a9e99,Sehajdeep Singh,2024-10-09 09:29:22,1
+eugeniokukes/distilling-dpo-dataset-from-gemmas,Distilling DPO Dataset from Gemmas ,Eugenio Schiavoni,2024-10-05 22:43:59,9
+muhammadfaizanhassan/boston-housing-using-linear-regression,Boston Housing Using Linear Regression,Muhammad Faizan Hassan,2024-10-08 13:59:58,3
+djathidiro/cr-gan-implementation,CR-GAN Implementation,DJ,2024-10-08 18:12:10,0
+adhamtarek147/mnist,MNIST 🖥️✍️🔢,Adham Tarek,2024-09-30 10:37:55,58
+priyanshujoarder/machinelearninglab2,MachineLearningLAB2,Priyanshu Joarder,2024-10-09 16:17:42,0
+vishnupriyagarige/child-mind-institute-problematic-internet-use,Child Mind Institute Problematic Internet Use,Vishnupriya,2024-10-02 23:47:12,29
+georgehanyfouad/wine-clustering-with-k-means-and-dbscan-and-pca,Wine clustering with K-Means and DBSCAN and PCA,George Hany Fouad,2024-09-29 17:55:05,29
+souviksamanta1053/indian-agriculture-indepth-eda,Indian_Agriculture_Indepth_EDA,Souvik Samanta,2024-09-25 13:34:49,19
+saiprasadpadala/starter-women-s-e-commerce-clothing-72789f05-0,Starter: Women's E-Commerce Clothing 72789f05-0,SaiPrasad Padala,2019-10-21 11:32:18,29
+jtrotman/f1-race-traces-2014,F1 Race Traces — 2014 🏁,James Trotman,2024-08-16 16:30:23,29
+sidduboppana/starter-2015-flight-delays-and-45a4bcdc-f,Starter: 2015 Flight Delays and 45a4bcdc-f,BlueSquid,2019-09-20 19:18:45,29
+svnjgr/starter-pharmaceutical-tablets-dataset-8cf8dc30-9,Starter: Pharmaceutical Tablets Dataset 8cf8dc30-9,jay_svnjgr,2019-09-08 17:05:48,29
+crklausenburg/multivariate,Multivariate,Cristian Coldea,2019-08-09 09:45:54,29
+stunner/starter-twitter-us-airline-sentiment-713aab77-7,Starter: Twitter US Airline Sentiment 713aab77-7,Amrender,2019-07-31 07:46:29,29
+vanwest/starter-students-academic-performance-c514bf95-6,Starter: Students' Academic Performance c514bf95-6,West,2019-07-22 19:58:25,29
+aviadl/starter-chest-x-ray-images-pneumonia-d498de7c-3,Starter: Chest X-Ray Images (Pneumonia) d498de7c-3,Aviad Levy,2019-05-22 00:52:05,29
+tytytb/test-git,test_git,TyTyTB,2024-10-08 18:07:03,0
+sacuscreed/axial-t2-axial-side-segmentation,Axial_T2_axial_side_segmentation,Ángel Jacinto Sánchez Ruiz,2024-10-08 18:04:22,0
+zafarali27/remove-outlier,remove outlier,Zafar Ali khan,2024-10-08 18:03:26,0
+kumargautampushkar/machinelearninglab2,MachineLearningLAB2,Pushkar Kumar Gautam,2024-10-08 18:06:11,0
+sacuscreed/old-axial-t2-axial-side-segmentation,OLD_Axial_T2_axial_side_segmentation,Ángel Jacinto Sánchez Ruiz,2024-10-08 18:00:47,0
+sacuscreed/axial-t2-subarticular-prediction,Axial_T2_subarticular_prediction,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:58:39,0
+sacuscreed/sagittal-t2-spinal-prediction,Sagittal_T2_spinal_prediction,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:54:24,0
+angelarentsi/random-forest-cicids-2017,Random Forest CICIDS'2017,Angela Rentsi,2024-10-08 17:54:52,0
+sacuscreed/sagittal-t2-spine-discriminator,Sagittal_T2_spine_discriminator,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:53:06,0
+sacuscreed/sagittal-t2-sagittal-level-segmentation,Sagittal_T2_sagittal_level_segmentation,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:51:53,0
+twtylerwilson/starter-ecg-heartbeat-categorization-8431d523-6,Starter: ECG Heartbeat Categorization 8431d523-6,Tyler,2019-10-23 23:26:19,55
+dansbecker/tensorflow-programming-daily,TensorFlow Programming Daily,DanB,2019-03-22 18:56:49,55
+msaif90/starter-amazon-reviews-for-sentiment-6ae74616-d,Starter: Amazon Reviews for Sentiment 6ae74616-d,SAIF MUJAHED,2019-03-01 09:28:00,55
+darwinberrio/house-predict-boston,House Predict Boston,Darwin Berrio,2024-10-04 03:34:57,8
+mpwolke/global-communication-gemma2keras,Global Communication Gemma2Keras,Marília Prata,2024-10-03 02:34:15,29
+marjanatrrr/customer-segmentation-k-means,Customer Segmentation(k-Means),Marjan Atashkar,2024-09-30 21:32:45,18
+ravi20076/brist1d-baseline-v1,Brist1D|Baseline|V1,Ravi Ramakrishnan,2024-09-29 08:27:01,28
+mpwolke/does-it-fart-an-animal-fart-code,Does it Fart: An animal fart code.,Marília Prata,2024-09-27 03:45:44,28
+fibyehab/matplotlib-tutorial,Matplotlib Tutorial,Fiby Ehab,2024-09-26 06:40:22,28
+mohammadnaserian/a-b-testing-deep-analyzing,A/B Testing🔎 Deep analyzing⚡,Mohammad Naserian,2024-09-25 06:17:28,18
+jtrotman/user-competition-submission-traces,User/Competition Submission Traces,James Trotman,2024-03-05 05:45:45,28
+sursin27/starter-indian-premier-league-b256bc4a-9,Starter: Indian Premier League b256bc4a-9,Suresh Kumar Viswanathan,2019-08-28 17:16:16,28
+ref,title,author,lastRunTime,totalVotes
+dansbecker/grouping-and-sorting-reference-daily,Grouping and sorting reference Daily,DanB,2019-05-13 15:50:04,28
+riachoudhari/complete-eda-and-recommendation-epirecipes,Complete EDA and Recommendation📑 | EpiRecipes🍽️,Ria Choudhari,2024-10-08 08:36:24,7
+norbertsolymosi/python-course-2024-03,python_course_2024_03,Norbert Solymosi,2024-10-09 16:03:33,0
+sacuscreed/sagittal-t1-axial-side-segmentation,Sagittal_T1_axial_side_segmentation,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:49:26,0
+sacuscreed/sagittal-t1-direction-training,Sagittal_T1_direction_training,Ángel Jacinto Sánchez Ruiz,2024-10-08 18:07:20,0
+sanskarbhushankar/dynamic-pricing-sanskar,Dynamic Pricing -Sanskar,Sanskar Bhushankar,2024-10-08 12:08:49,4
+sacuscreed/sagittal-t1-foraminal-prediction,Sagittal_T1_foraminal_prediction,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:45:39,0
+minhsuihai/tomato-plantviilage-yolovx,tomato_plantviilage_yolovX,Minh Suối Hai,2024-10-09 06:10:49,0
+sacuscreed/sagittal-t1-foramina-discriminator,Sagittal_T1_foramina_discriminator,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:43:02,0
+nhawlao/desbravando-o-mundo-da-engenharia-de-dados,Desbravando o mundo da engenharia de dados,Nayla Chagas,2024-10-08 17:41:51,0
+sacuscreed/sagittal-t1-sagittal-level-segmentation,Sagittal_T1_sagittal_level_segmentation,Ángel Jacinto Sánchez Ruiz,2024-10-08 17:41:03,0
+tttann/ml-ch04,ml.ch04,tttann,2024-10-09 03:35:45,3
+ferlimalkana/top-200-richest-person-in-the-world,Top 200 Richest Person in the World,Ferli Malkan A,2024-10-08 17:35:47,0
+lennarthaupts/cmi-detecting-problematic-digital-behavior,CMI - Detecting Problematic Digital Behavior,Lennart Haupts,2024-10-05 10:15:21,27
+quantum09/exploring-student-performance-factors,📝 Exploring Student Performance Factors,Eunji Goo,2024-09-29 10:38:21,28
+alaaabdelstar/house-price-prediction,House price prediction,A'laa Abdelstar,2024-09-28 07:03:28,27
+ebrahimmerza/credit-card-clustering,Credit Card Clustering,Ebrahim Merza,2024-09-26 00:02:49,27
+ahmedezzatibrahem/customer-segmentation-using-unsupervised-learning,Customer Segmentation Using Unsupervised Learning ,Ahmed Ezzat Ibrahem,2024-09-25 16:36:27,27
+merishnasuwal/starter-breast-cancer-prediction,Starter: Breast Cancer Prediction,Merishna Singh Suwal,2019-04-07 18:39:39,17
+mxmlnv/preprocess,preprocess,MXMLNV,2024-10-08 01:44:29,2
+mrayasatriatama/titanic-model-prediction,Titanic Model Prediction,Raya Satriatama,2024-10-08 17:29:13,0
+jobairhasan/estimate-sigma-10-desij1205-4110,estimate_Sigma_10_DESIJ1205+4110,Jobair Hasan,2024-10-08 17:29:27,0
+jobairhasan/photometric-redshift-extraction-desij1205-4110,photometric_redshift_extraction_DESIJ1205+4110,Jobair Hasan,2024-10-08 17:28:04,0
+mohamedelghannam15/acoustic-fire-extinguisher,Acoustic Fire Extinguisher🔥 ,Mohammed Elghannam,2024-10-06 17:57:09,25
+chirat88/notebook5b422a16b5,notebook5b422a16b5,Chiratchaya Charoenying,2024-10-09 15:48:44,0
+le0lewis/62-game-prediction-model,62% Game Prediction Model,le0lewis,2024-10-08 17:32:10,0
+rohanvarma9187/xgboost,XGBoost,Rohan,2024-10-08 10:22:53,5
+macaronimutton/starter-notebook-rainfall-data,🌦️📊 Starter Notebook: Rainfall Data,Manan Kher,2024-10-07 03:49:35,13
+medouazane/tomato-leaf-disease-detection,Tomato leaf disease detection,Mohamed Ouazane,2024-10-08 13:00:09,3
+stevecoder101/exercise-a-single-neuron,Exercise: A Single Neuron,stevecoder101,2024-10-09 15:46:17,0
+osmanural/diabetesppredictions,DiabetespPredictions,Osman Ural,2024-10-07 17:28:17,15
+ywk8816/cifar10-resnet18-f3ba,cifar10 ResNet18 F3BA,ywk8816,2024-10-08 14:19:15,2
+souviksamanta1053/india-ev-market-data-in-streamlit,India_EV_Market_Data_in_STREAMLIT,Souvik Samanta,2024-10-06 14:35:19,16
+sulaniishara/lifestyle-habits-cancer-risk-eda,Lifestyle Habits & Cancer Risk: EDA 📊 ,Sulani Ishara,2024-10-06 13:58:14,5
+vishnuoum/loan-approval-prediction-eda,Loan Approval Prediction - EDA,Vishnu Murali,2024-10-08 10:11:56,5
+swarnabh31/computervision-lungcancerprediction-acc-99,ComputerVision_LungCancerPrediction_Acc~99%,Swarnabh Das,2024-10-05 13:58:03,6
+docxian/blood-glucose-prediction-explorations,🩸Blood Glucose Prediction - Explorations,Chris X,2024-10-01 18:47:31,16
+pavankumar4757/cricket-analytics-bidding-strategies,Cricket Analytics: Bidding Strategies 🏏📊,Pavan Kumar S,2024-09-25 09:47:39,26
+jtrotman/f1-race-traces-2006,F1 Race Traces — 2006 🏁,James Trotman,2024-08-09 01:14:28,26
+jtrotman/f1-race-traces-1998,F1 Race Traces — 1998 🏁,James Trotman,2024-08-01 16:59:12,26
+kvlkeerthi250299/starter-real-and-fake-face-detection-b7a8f32c-f,Starter: Real and Fake Face Detection b7a8f32c-f,Keerthi Karunakaram,2019-10-11 05:46:44,26
+andy1793/starter-electric-motor-temperature-99369528-7,Starter: Electric Motor Temperature 99369528-7,Andy,2019-10-07 22:37:48,26
+transwert/starter-sentiment140-dataset-with-1-6-cf641b2d-8,Starter: Sentiment140 dataset with 1.6 cf641b2d-8,apoorve kalot,2019-09-24 22:42:46,26
+alexisbcook/exercise-manipulating-geospatial-data,Exercise: Manipulating Geospatial Data,Alexis Cook,2023-04-20 20:47:26,26
+simonchiu/imdb-5000-movie-dataset-exploratory-analysis,IMDB 5000 Movie Dataset Exploratory Analysis,Simon Chiu,2019-09-17 23:52:27,26
+sowmyamaddukuri/starter-fivethirtyeight-comic-4388beb4-a,Starter: FiveThirtyEight Comic 4388beb4-a,Sowmya,2019-09-02 03:49:35,26
+ajrakade/starter-avocado-prices-1f2e523a-f,Starter: Avocado Prices 1f2e523a-f,Ajay Rakde,2019-08-07 09:22:25,26
+matleonard/feature-selection-testing,Feature Selection testing,Mat Leonard,2019-08-19 23:36:49,26
+riteshrhyme/starter-credit-card-scoring-bbe98584-0,Starter: credit card scoring bbe98584-0,Ritesh Paryani,2019-06-02 06:50:12,26
+yudaadityaefendi/yuda-aditya-efendi-2409010188,YUDA ADITYA EFENDI (2409010188),Yuda Aditya Efendi,2024-10-09 03:58:51,1
+ref,title,author,lastRunTime,totalVotes
+erykwitkowski/rule-based-80-accuracy-pipeline-lr-rfc-sgd,"rule-based 80% accuracy | Pipeline LR, RFC, SGD",7ired,2024-10-08 11:32:17,4
+pranavkumarmehta/epicurious-recipes-with-rating-and-nutrition-eda,Epicurious - Recipes with Rating and Nutrition|EDA,Pranav Mehta,2024-10-08 17:06:41,0
+kjatadharasai/dynamic-pricing-k-jatadhara-sai,Dynamic Pricing - K Jatadhara Sai,k Jatadhara sai,2024-10-08 12:48:34,3
+fingnaresh/sky-hack,Sky Hack,fingnaresh,2024-10-08 12:55:41,3
+vanpatangan/hospital-readmission-smote,Hospital Readmission | SMOTE,Van Patangan,2024-10-08 14:02:53,2
+hudzax/easy-mergekit-and-upload-to-huggingface,Easy mergekit and upload to huggingface,Hammaam,2024-10-09 15:34:23,0
+a3amat02/car-prices-eda-regression-performance,Car Prices EDA || Regression performance,a3amaT02,2024-10-08 17:00:44,0
+sarthakaggarwal267/lung-cancer-detection-inception-v3,Lung Cancer Detection | Inception V3 ,Sarthak Aggarwal,2024-10-08 16:59:50,0
+plavak10/top-women-chess-players,Top Women Chess Players,Plavak Das,2024-10-08 16:59:09,0
+realshivarv/loan-approval-predictor-using-tuned-svm,Loan Approval Predictor using Tuned SVM,Shiva Rv,2024-10-05 16:10:37,5
+sriharshachidire/dynamic-pricing-sriharsha,Dynamic pricing-sriharsha,Sriharsha chidire,2024-10-08 12:31:02,3
+pavankumar4757/review-sentiment-classification-accuracy-85,Review Sentiment Classification 📊✨ (Accuracy: 85%,Pavan Kumar S,2024-10-04 11:32:44,25
+esraameslamsayed/pix2pix-gan-for-image-to-image-translation,Pix2Pix GAN for Image-to-Image Translation,Esraa Meslam Sayed,2024-10-01 10:24:49,25
+minanabil11111212/kersa-mlp-on-mnist,Kersa-- MLP on MnIST,Mina Nabil Samir Hanna,2024-10-01 08:05:21,25
+ahmedgaitani/guns-object-detection-code,Guns Object Detection Code,Ahmed Gaitani,2024-10-03 21:41:16,25
+harshavardhanbabu/keras-densenet-aptos,Keras DenseNet APTOS,HarshaVardhanBabu,2019-07-07 15:46:59,25
+styxmoon/starter-mbti-myers-briggs-f0aef3d3-3,Starter: (MBTI) Myers-Briggs f0aef3d3-3,Tony Wang,2019-06-13 11:04:18,25
+amykagg/starter-e-commerce-data-1dc04828-4,Starter: E-Commerce Data 1dc04828-4,AmyKagg,2019-06-13 02:52:53,25
+voducdai/200121588-btvn8,200121588_BTVN8,VoDucDai,2024-10-08 16:54:34,0
+sivas1292/mnist-digit-clasification-pytorch,MNIST digit clasification_PyTorch,Siva Sankari Sivakaminathan,2024-10-08 11:01:58,4
+shahriarkabir/visualizing-decision-tree,Visualizing Decision Tree,Shahriar Kabir,2024-10-06 10:22:39,14
+esraameslamsayed/denoising-autoencoder-dae-for-animal-faces,Denoising Autoencoder (DAE) for Animal faces,Esraa Meslam Sayed,2024-09-24 12:24:57,25
+b2001216317hophivinh/hophivinh-6317-btvn8,HoPhiVinh_6317_BTVN8,2001216317_HoPhiVinh,2024-10-08 16:48:32,0
+abdelwhabmohamed05/notebook1e50eb3eea,notebook1e50eb3eea,Abdelwhab Mohamed05,2024-10-09 18:57:33,0
+anji2705/standardization,Standardization,Anji_2705,2024-10-08 16:47:23,0
+sulaniishara/students-performance-analysis,Students Performance Analysis,Sulani Ishara,2024-10-06 05:25:16,4
+mitsuyasuhoshino/spaceship-titanic-starter-notebook-in-japanese,Spaceship Titanic | Starter Notebook in Japanese,mh,2024-10-08 12:14:27,3
+jayashreevenkatesan/dynamic-pricing-jayashree,Dynamic Pricing - Jayashree,Jayashree Venkatesan,2024-10-08 12:15:51,3
+dt2001216212/2001216212-nguyenduytien-btvn8,2001216212_NguyenDuyTien_BTVN8,2001216212_DuyTien,2024-10-08 12:12:53,3
+tnglmng/drugbank-parse-xml,DrugBank Parse XML,Tùng Lâm Ngô,2024-10-08 16:43:22,0
+halilbrahimkurnaz/student-grades-prediction-with-keras,Student Grades  .Prediction With Keras,Halil İbrahim Kurnaz,2024-10-08 12:10:36,3
+lunacbum/2001210736-nguyenngochailuan-btvnb8,2001210736_NguyenNgocHaiLuan_BTVNB8,Nguyễn Ngọc Hải Luân,2024-10-08 16:41:32,0
+sulaniishara/fitness-data-eda-calories-prediction,Fitness Data 🏋️‍♂️|EDA 📊|Calories Prediction 📈,Sulani Ishara,2024-10-06 05:29:18,4
+piotrmachaj/house-prices-prediction,House Prices prediction,Piotr Machaj,2024-10-08 14:06:32,2
+kanishbkhagat/100-accuracy-lung-cancer-detection,100%  Accuracy | Lung Cancer Detection,bujo,2024-10-08 12:17:38,3
+ccbabamc/students-grades-prediction-with-keras,Students Grades Prediction with Keras,Ccbabamc,2024-10-08 12:05:13,3
+mllion/apple-eda-prediction-accuracy-99-7,Apple  | EDA 📈📊 | Prediction Accuracy 99.7%,Saksham Nanda,2024-10-04 13:01:47,14
+datatheatre/pima-indians-diabets-data-modelling-w-supervised,Pima Indians Diabets Data Modelling w/ Supervised ,Kutay Sari,2024-10-08 16:37:21,1
+sulaniishara/iris-dataset-analysis-classification,Iris Dataset Analysis - Classification,Sulani Ishara,2024-10-01 18:43:11,4
+ahmedashrafhelmi/brain-tumor-classification-using-cnn-nasnetmobile,Brain Tumor Classification using CNN &NASNetMobile,Ahmed Ashraf Helmi,2024-10-01 14:24:59,24
+georgehanyfouad/analysis-on-data-science-salaries-2023,Analysis on Data Science Salaries 2023,George Hany Fouad,2024-09-30 15:21:51,24
+bijayshrestha7q/bellabeat-data-analysis,Bellabeat Data Analysis,Bijay Shrestha7q,2024-09-29 12:46:31,4
+zafarali27/car-prices,Car_Prices,Zafar Ali khan,2024-09-27 18:25:02,4
+mohamedalabasy/churn-modelling-using-lazy-classifier-and-boosting,Churn Modelling using Lazy Classifier and Boosting,Mohamed Alabasy,2024-09-26 14:05:26,24
+mpwolke/segment-anything-cool-sam2,Segment anything: Cool SAM2,Marília Prata,2024-09-26 01:31:26,24
+ahmedsho3ib/heart-disease-by-decisiontree-and-randomforest-93,Heart-Disease by DecisionTree and RandomForest 93%,Ahmed Shoaib,2024-09-25 20:45:26,14
+alfredkondoro/working-with-llama3-1-prompt-basics,Working with Llama3.1 : Prompt Basics,Alfredo,2024-09-24 01:36:46,24
+sulaniishara/handwritten-digit-recognition,Handwritten Digit Recognition,Sulani Ishara,2024-09-23 20:00:02,4
+sulaniishara/regression-of-used-car-prices-19-9-24,Regression of Used Car Prices-19/9/24,Sulani Ishara,2024-09-21 15:16:28,4
+smartsunny/starter-bitcoin-historical-data-1d758000-5,Starter: Bitcoin Historical Data 1d758000-5,Sunny P,2019-09-01 16:14:20,24
+ref,title,author,lastRunTime,totalVotes
+srikiranv/dynamic-pricing-srikiranv,Dynamic-Pricing-Srikiranv,Srikiran V,2024-10-08 12:03:00,3
+mohammedezzeldean/breast-cancer-prediction-pytorch, Breast Cancer Prediction|PyTorch,Mohammed Ezzeldean,2024-09-24 10:26:26,38
+hebaaadel/brain-tumor-classification,Brain Tumor Classification ,Heba Adel,2024-10-08 16:34:20,0
+piotr25691/unsloth-with-liger-kernel-and-galore-alpaca-tuning,Unsloth with Liger Kernel and GaLoRE Alpaca tuning,Piotr Zalewski,2024-10-09 15:17:31,0
+helenwhitehead/curling-at-the-beijing-olympics-2022-eda,Curling at the Beijing Olympics 2022 - EDA,Helen Whitehead,2024-10-08 10:35:41,4
+nikitavet/s04e10-mlp-tuned,S04E10 | MLP Tuned 🤙,Nikita.Vet,2024-10-07 12:48:12,8
+kevindasilva11/proyecto-1-computaci-n-emergente,Proyecto 1 - Computación Emergente,KevinDaSilva11,2024-10-08 14:57:37,1
+nikitabiswas1/dynamic-pricing-nikita,Dynamic Pricing-Nikita,Nikita Biswas,2024-10-08 12:15:11,3
+samybtt/bodmas-04-tl-0-98-auroc,BODMAS-04-TL-0.98-AUROC,samybtt,2024-10-08 16:31:37,0
+hhhung20/2001215835-btvn8,2001215835_BTVN8,Hứa Hùng Hưng,2024-10-08 16:30:59,0
+farahmostafaahmed/farah-s-eeg-classfication,Farah's EEG Classfication,farah mostafa ahmed,2024-10-08 16:26:37,0
+bettinakleemann/pdc-on-mental-disorders,PDC on Mental Disorders,Bettina Kleemann,2024-10-08 12:45:15,1
+mllion/fitness-tracking-eda,Fitness Tracking 🏃🏻‍♂️🏋🏻‍♂️⌚︎ | EDA📊📈,Saksham Nanda,2024-10-05 16:38:39,23
+jordanyoung993/create-dataset-thai-kjv,Create Dataset: Thai KJV,Jordan Young,2024-10-08 14:39:16,1
+akashraj1238/practice-adultdatacsv-eda,Practice_Adultdatacsv_EDA,Akash Raj,2024-10-08 16:15:57,0
+thomasdubail/2024-flame-second-try,2024 FLAME Second try,Thomas,2024-10-04 15:35:33,13
+renjiabarai/diabetes-prediction-using-by-smote,Diabetes Prediction using by SMOTE,sadık,2024-10-07 19:14:35,4
+priyanshu594/loan-approval-prediction-catboost-optuna,💵Loan approval prediction Catboost || Optuna  ,Priyanshu shukla,2024-10-01 16:54:26,23
+siavrez/nn-version-01,NN-Version-01,Siavash,2024-10-04 21:54:34,23
+snehalkhandewale/best-price-guaranteed,Best_Price_Guaranteed,Snehal,2024-10-01 09:07:01,3
+pavankumar4757/exercise-detection-eda-classification,Exercise Detection| EDA| Classification 🏋️‍♂️,Pavan Kumar S,2024-10-01 08:04:06,23
+sanlian/auto-review-labelling,Auto Review Labelling,Anil,2024-09-29 13:29:54,13
+zeeshanyounas001/mastering-stochastic-gradient-descent-an-optimiza,Mastering Stochastic Gradient Descent: An Optimiza,Zeeshan Younas,2024-09-27 19:16:31,23
+mahmoudsalama7/cv-filters,CV Filters,Mahmoud Salama,2024-09-26 15:34:47,3
+waqi786/impact-of-vr-on-education-insights,Impact of VR on Education Insights 📚🕶️,Waqar Ali,2024-09-25 12:47:42,13
+jtrotman/f1-race-traces-2017,F1 Race Traces — 2017 🏁,James Trotman,2024-08-19 02:59:37,23
+mtga87/starter-craigslist-cars-trucks-data-0c80b0db-4,Starter: Craigslist Cars+Trucks Data 0c80b0db-4,Mike G,2019-06-28 19:42:43,23
+sahityasetu/eda-data-science-salaries-2020-24,EDA - Data science salaries 2020-24,Sahitya Setu,2024-09-28 20:05:48,58
+dimitrijschulz/ps4e8-poisonousmushrooms-score-0-97775,PS4E8 - PoisonousMushrooms [Score: 0.97775],Dimitrij Schulz,2024-10-06 11:39:36,2
+mrkupo/lifespan-eda,Lifespan EDA,Jacob Mitchell,2024-10-08 00:00:37,1
+lonnieqin/ag-news-classification-with-transformer,AG-News Classification with Transformer,Lonnie,2024-10-08 14:33:04,1
+deniz2121/brist1d-blood-glucose-prediction-xgbregressor,BrisT1D Blood Glucose Prediction XGBRegressor,Deniz,2024-10-06 06:47:24,2
+saurabh23117129/notebookc0c53c6a2e,notebookc0c53c6a2e,SAURABH KALAWAT 23117129,2024-10-09 14:03:18,1
+devildyno/mumbai-rainfall-prediction-using-lstm,Mumbai Rainfall Prediction Using LSTM 🌧️,Rugved Patil,2024-10-07 18:28:24,4
+lngthlinh/dl-6-batch-8,dl-6-batch-8,Lương Thị Linh,2024-10-08 15:58:13,0
+nassimsfaxi/exploratory-data-analysis-eda,Exploratory Data Analysis(EDA),Nassim Sfaxi,2024-10-08 09:49:20,4
+omargowaily/98-accuracy-in-spam-detection-model-by-lstm,🎯98% Accuracy in Spam Detection Model by LSTM,Omar gowaily,2024-10-05 17:09:42,12
+gygyygygy/digit-recognizer,digit recognizer,opple,2024-10-08 15:55:14,0
+jtrotman/f1-race-traces-2007,F1 Race Traces — 2007 🏁,James Trotman,2024-08-10 04:54:38,57
+sauravvsrinku/starter-house-sales-in-king-county-8ceb15de-5,"Starter: House Sales in King County, 8ceb15de-5",Saurav Kumar,2019-09-02 06:04:42,57
+smohammedfardeen/notebookfa1865ded1,notebookfa1865ded1,S Mohammed Fardeen,2024-10-09 14:54:02,0
+nikitavet/s04e10-lama-ensemble,S04E10 | LAMA Ensemble 🤙,Nikita.Vet,2024-10-08 10:09:08,6
+junseokoh09/eda-on-titanic-data,🔎 EDA on 🛳️ Titanic data,JUNSEOKOH 09,2024-10-07 08:01:54,8
+bjoernholzhauer/ps-s04e10-loan-approval-exploratory-data-analysis, PS S04E10 Loan approval:Exploratory Data Analysis,Björn,2024-10-09 07:05:25,12
+davinascimento/data-visualization-with-pandas,📶 Data Visualization with Pandas 🐼,Davi N.,2024-10-03 23:12:31,12
+timurburovvv/nsemble-automl-hightest-scoree,Еnsemble AutoML hightest scoree ,Timur Burovvv,2024-10-06 09:14:17,22
+omeryldz4034/cnn2-flowers-omer-project,cnn2-flowers-omer-project,ömeryldz,2024-10-03 08:56:42,12
+juhyunsuh/loan-approval-catboost,Loan approval Catboost,Jay Suh,2024-10-07 02:52:04,12
+yousefzahran/heart-disease-prediction,Heart Disease Prediction,yousef zahran,2024-10-02 12:48:14,23
+ahmedhassan23mahmoud/image-classification-using-cnn,Image Classification using CNN ,Ahmed Hassan23 Mahmoud,2024-09-29 16:28:00,22
+ref,title,author,lastRunTime,totalVotes
+mohamedalabasy/data-scientists-salaries-eda,Data Scientists Salaries EDA,Mohamed Alabasy,2024-09-26 19:36:37,22
+samanyuk/loan-approval-prediction,Loan Approval Prediction,Samanyu K,2024-09-25 08:41:27,12
+dhruv5018/kagglex-fellowship-notebook,kagglex_fellowship_notebook,firstfly,2024-06-23 20:49:22,2
+lazaroaelida/starter-gas-prices-in-brazil-in-working,Starter: Gas Prices in Brazil in working,Lazaro e Aelida Oliveira,2019-07-31 02:29:36,22
+jeffatennis/starter-cyber-security-breaches-data-dc99ad12-a,Starter: Cyber Security Breaches Data dc99ad12-a,Jeff A Tennis,2019-04-09 15:21:17,22
+itzsalil/starter-mushroom-classification-1a2d7941-1,Starter: Mushroom Classification 1a2d7941-1,Salil,2019-04-08 14:04:57,22
+dansbecker/use-cases-for-model-insights-daily,Use Cases for Model Insights Daily,DanB,2019-04-23 17:28:16,22
+varnika777/starter-credit-card-fraud-detection-2cb0c438-f,Starter: Credit Card Fraud Detection 2cb0c438-f,Varnika Saini,2019-03-09 08:00:17,22
+hwbw1202/2001215823-nguyenquocgiahuy-btvn8,2001215823_NguyenQuocGiaHuy_BTVN8,Nguyễn Quốc Gia Huy,2024-10-08 14:22:26,1
+priyankadarshanam/text-classifcation-using-bert-tf,Text classifcation using bert & tf,Priyanka Darshanam,2024-10-08 14:13:14,1
+doancongdanh/2001203070-doancongdanh-btvn8,2001203070_DoanCongDanh_BTVN8,2001203070_Đoàn Công Danh,2024-10-08 15:48:39,0
+barbagrande007/bbg007-s4e-loanapproval,BBG007_S4E_LoanApproval,Barbagrande007,2024-10-07 15:43:15,6
+youssefabdelghfar/twitter-sentiment-analysis-nlp-lstm,Twitter Sentiment Analysis NLP || LSTM,Youssef Abdelghfar,2024-10-06 20:30:52,20
+anhtngdbdsb/danganhtu-2001216269-btvn8,DangAnhTu-2001216269-BTVN8,Đặng Anh Tú,2024-10-08 15:42:35,0
+akshayksks/amazone-analys,Amazone Analys,AKSHAYKSKS,2024-10-08 15:39:59,0
+atharvmohanjadhav/nirf-2024-college-rankings-using-web-scraping,NIRF 2024 College Rankings using Web Scraping,Atharv Mohan Jadhav,2024-10-08 15:37:02,0
+twentyj/untitle-001,untitle_001,twentyj,2024-10-08 15:37:29,0
+aleksandrapesh/hw-2-ml,HW_2_ML,Александра Пешкова,2024-10-08 13:55:05,1
+hebaaadel/linear-regression-orange-vs-apple,Linear Regression - orange vs apple,Heba Adel,2024-10-08 15:34:41,0
+nikitavet/s04e10-lama-denselight,S04E10 | LAMA Denselight 🤙,Nikita.Vet,2024-10-08 11:33:19,6
+alihaydardzenli/mumbai-rainfall-polinomial-and-random-forest-reg,mumbai-rainfall_Polinomial_and_Random-Forest reg.,Ali Haydar Düzenli,2024-10-07 20:39:44,2
+risakashiwabara/eda-animal-lifespan,[EDA] 🦖💗Animal lifespan🦕💗,riicon,2024-10-05 05:56:03,11
+zongaobian/loan-approval-prediction,💰Loan Approval Prediction,Zongao Bian,2024-10-02 05:50:31,11
+samanyuk/personality-prediction-90-accuracy,Personality Prediction (90% Accuracy),Samanyu K,2024-10-01 15:27:12,11
+samvelkoch/s4e9-eda-interactions-pdp-anomalies,"S4E9 EDA 🤖: Interactions, PDP, Anomalies",Samvel Kocharyan,2024-10-01 08:51:48,21
+bebechien/translator-of-old-korean-literature,Translator of Old Korean Literature,bebechien,2024-10-02 23:52:20,11
+abdelrahmanemad594/data-scientists-salariers-eda,Data-Scientists-Salariers-EDA,Abdelrahman Emad,2024-09-29 09:55:26,21
+swayamsingh48/cmi-knn-imputer,CMI_KNN imputer,Swayam Singh,2024-09-28 08:03:03,11
+tomo0531/top25-lgbm-gbr-good-preprocessing,【Top25％】LGBM+GBR ＆Good preprocessing,tomo0531,2024-09-27 04:07:36,21
+defdet/llama-3-training-on-tpu,llama 3 training on TPU,ImperfectKitto,2024-09-27 00:43:53,11
+jtrotman/f1-race-traces-2009,F1 Race Traces — 2009 🏁,James Trotman,2024-08-12 20:34:05,21
+claudiofn/starter-google-play-store-apps-9eb1edd5-e,Starter: Google Play Store Apps 9eb1edd5-e,Claudio,2019-09-25 00:09:58,21
+andersonyang/list-of-5-day-challenges,List of 5-Day Challenges,anderson,2019-09-22 05:15:41,21
+agnihotri/iris-dataset-data-analysis-and-predictions,Iris Dataset - Data Analysis and Predictions,Akash Agnihotri,2019-05-27 20:28:15,21
+glanda11/starter-a-z-handwritten-alphabets-in-86e67bc1-2,Starter: A-Z Handwritten Alphabets in . 86e67bc1-2,glanda,2019-04-19 03:40:17,21
+vedika22/starter-sign-language-mnist-8d927160-5,Starter: Sign Language MNIST 8d927160-5,Vedika,2019-04-17 23:28:23,21
+vangalabhargavi/3d-tbp-b,3d tbp - B,Vangala Bhargavi,2024-10-08 15:27:48,0
+jachepinkman/federated-vehicular-network-fvn, Federated Vehicular Network (FVN) ,Parthaw Goswami,2024-10-09 00:02:57,0
+fadykarmy/gans-fashion-minist,GANs_Fashion_MINIST,Fady Karmy,2024-10-08 16:54:53,1
+renjiabarai/hair-type-detection,Hair Type Detection,sadık,2024-10-07 20:00:41,2
+atharva0577/loan-approval-eda-baseline,Loan Approval - EDA + Baseline,Atharva Date,2024-10-06 07:50:39,10
+mithildamani/ai-generated-claasification,Ai_generated Claasification,Mithil Damani,2024-10-09 11:13:12,1
+lucascoringa/eda-credit-ebac-coringa,eda-credit-ebac-coringa,Lucas Coringa,2024-10-08 13:36:51,1
+drisrichman/zero-shot,Zero shot,DrisRichman,2024-10-08 15:13:47,0
+amalashok2308/atunetefd495f386,atunetefd495f386,AMAL ASHOK 2308,2024-10-08 15:13:54,0
+ravi20076/playgrounds4e10-baseline-v1,PlaygroundS4E10|Baseline|V1,Ravi Ramakrishnan,2024-10-01 07:43:59,60
+sameerzaidi/covid-layoffs,Covid Layoffs,Sameer Zaidi,2024-10-08 13:32:08,1
+zohairahmed007/kfold-cross-validation-python,KFold Cross Validation Python,Zohair Ahmed,2024-10-08 11:54:18,2
+oumaimagasmi/a-b-testing-by-oumaima,A/B testing by Oumaima,Oumaima Gasmi,2024-10-08 11:54:43,2
+metamadyeth/python-datatypes-b13,Python DataTypes B13 ,metamady.eth,2024-10-08 15:10:37,0

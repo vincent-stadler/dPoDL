@@ -162,3 +162,5 @@ cython_debug/
 /local-ToDo.md
 /tests/*.png
 /experiments/*.csv
+/experiments/github-csvs
+/experiments/github-downloads
