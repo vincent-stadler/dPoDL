@@ -164,3 +164,8 @@ cython_debug/
 /experiments/*.csv
 /experiments/github-csvs
 /experiments/github-downloads
+*.txt
+*.txt
+/experiments/filtered-search
+/experiments/github-results
+/experiments/paperswithcode
