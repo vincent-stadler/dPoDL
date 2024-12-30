@@ -25,6 +25,33 @@ def _training(threshold: float,
 
     iteration = 0
     accuracy = 0
+
+    for iteration in range(max_iteration):
+        task.train(epochs=1)
+        current_losses = task.history['loss']
+        if saturation_point(current_losses) < len(current_losses):
+            print("saturated stopped training")
+            break
+
+        next_loss, confidence = predict_next_loss(current_losses)
+        if confidence >= confidence_threshold:
+            # check if including the next predicted loss value the saturation point is among the empirically gathered loss values, if yes we return
+            if saturation_point(list(current_losses) + [next_loss]) < len(current_losses):
+                break
+
+            next_losses, confidences = predict_next_losses_hallucinate(current_losses, hallucinating_steps)
+            # hallucinating steps tells us that saturation is reached among current losses, we return
+            if saturation_point(list(current_losses) + list(next_losses)) < len(current_losses):
+                break
+    # out of training loop
+    if iteration == max_iteration - 1:
+        print("no saturation point found of model training")
+    else:
+        _, accuracy = task.evaluate()
+        print(f"traing saturation point found at iteration {iteration + 1} with accuracy {accuracy:.4f}")
+    task.save()
+    return
+
     while accuracy < threshold and iteration < max_iteration:
         print(f"Iteration {iteration + 1}/{max_iteration}")
         task.train(max_epoch=max_epoch, callbacks=[batch_logger, early_stopping])
@@ -51,7 +78,7 @@ def _training_fresh(hash_val: str,  threshold: float, max_epoch: int,
     return _training(threshold, max_epoch, max_iteration, task)
 
 
-def main_training(hash_val: str, threshold: float, max_epoch: int,
+def main_training(hash_val: str,
                   max_iteration: int, save_path: str, task, load_path: Optional[str] = None):
     if load_path is None and task.model is None:
         return _training_fresh(hash_val, threshold, max_epoch, max_iteration, save_path, task)
@@ -64,4 +91,4 @@ def main_training(hash_val: str, threshold: float, max_epoch: int,
         # Set the learning rate for the optimizer without resetting the learnable parameters
         task.model.optimizer.learning_rate.assign(task.learning_rate)
 
-    return _training(threshold, max_epoch, max_iteration, task)
+    return _training(max_iteration, task)

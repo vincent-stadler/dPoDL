@@ -24,6 +24,7 @@ class MNISTtask(TaskInterface):
         self.save_path = save_path
         self.batches = [8 * i for i in range(1, 17)]
         self.lrs = [0.001 * i for i in range(1, 11)]
+        self.history = {}
 
 
     def load_data(self):
@@ -38,15 +39,18 @@ class MNISTtask(TaskInterface):
     def evaluate(self):
         return self.model.evaluate(self.x_train, self.y_train, verbose=0)
 
-    def train(self, max_epoch, callbacks):
+    def train(self, epochs, callbacks=None):
         history = self.model.fit(self.x_train,
                                  self.y_train,
-                                 epochs=max_epoch,
+                                 epochs=epochs,
                                  batch_size=self.batch_size,
                                  verbose=0,
                                  callbacks=callbacks,
                                  validation_data=(self.x_test, self.y_test))
-        self.history = history.history
+        for key in history.history:
+            if key not in self.history:
+                self.history[key] = []
+            self.history[key].extend(history.history[key])
 
     def plot_metrics(self):
         # Plot accuracy

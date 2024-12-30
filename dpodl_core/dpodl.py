@@ -39,13 +39,13 @@ def dpodl_solver(prev_hash: str,
     # If there already exists a model, it will be used for the training.
     if load_path is None and task.model is None:
         # New model is instantiated and being trained
-        main_training(hash_val, threshold, max_epoch, max_iteration, save_path, task)
+        main_training(hash_val, max_iteration, save_path, task)
     elif load_path is not None and task.model is None:
         # Existing model is loaded from disk and being trained
-        main_training(hash_val, threshold, max_epoch, max_iteration, save_path, load_path)
+        main_training(hash_val, max_iteration, save_path, load_path)
     elif isinstance(task.model, Model):
         # Existing model that is saved in "referred" variable is being trained
-        main_training(hash_val, threshold, max_epoch, max_iteration, save_path, task)
+        main_training(hash_val, max_iteration, save_path, task)
     else:
         raise ValueError("Check 'referred' and 'load_path' parameters are adequate")
 
@@ -57,14 +57,21 @@ def dpodl_solver(prev_hash: str,
     # randomness is introduced and  ensures that no precomputed solution is possible.
     # At the same time a valid model could be discarded, and has to train at least one more epoch (or batch if the
     # callback EarlyStoppingByAccuracy is replaced by the  EarlyStoppingByBatchAccuracy callback)
+    easier_max_iteration = max_iteration
     while valid == 0 and post_check_iteration < max_post_check_iteration:
         print("Post hash verification failed. Continuing to train model")
-        main_training(hash_val, threshold, max_epoch, max_iteration, save_path, task)
+        easier_max_iteration = max(1, easier_max_iteration //2) # half max iterations time, at least 1
+        main_training(hash_val, max_iteration, save_path, task)
         print("Performing post hash verification of trained model")
         valid, post_hash = post_check(post_difficulty, nonce, task.model)
         post_check_iteration += 1
-
+        
     _, accuracy = task.evaluate()
+    if saturation_point(task.history["loss"]) < len(task.history["loss"]):
+        print(f"D-PoDL complete: Model accuracy {accuracy:.4f} with valid post hash {post_hash}.")
+    else:
+        print(f"D-PoDL failed: Reached max iterations (max_iteration: {max_iteration}, max_post_check_iteration: {max_post_check_iteration}) with final accuracy {accuracy:.4f}. Desired accuracy threshold is at {threshold}")
+    return
 
     if accuracy >= threshold and valid == 1:
         print(f"D-PoDL complete: Model accuracy {accuracy:.4f} with valid post hash {post_hash}.")
