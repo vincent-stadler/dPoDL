@@ -8,8 +8,9 @@ class FloatSequenceTransformer(nn.Module):
 
     TRAINING_MEAN = 0.2816047810688989
     TRAINING_STD = 0.22300906933601952
+    MAX_STD_TRAIN = mulitply current MAX_STD with training STD
 
-    def __init__(self, embedding_dim=32, num_heads=1, num_layers=1, dropout=0.2, input_length=60):
+    def __init__(self, embedding_dim=8, num_heads=1, num_layers=1, dropout=0.2, input_length=60):
         super(FloatSequenceTransformer, self).__init__()
 
         self.embedding = nn.Linear(1, embedding_dim)

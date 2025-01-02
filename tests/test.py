@@ -1,10 +1,10 @@
 import time
 import string
-import matplotlib.pyplot as plt
 import random
 from dPoDL.dpodl_core.verification import pre_pow
 from dPoDL.dpodl_core.dpodl import dpodl_solver
 from dPoDL.models.mnist_task import MNISTtask
+import matplotlib.pyplot as plt
 from typing import Optional, List
 
 
@@ -40,16 +40,14 @@ def test_pow(difficulty: int) -> float:
     return t2 - t1
 
 
-def test_dpodl(difficulty: int, threshold: float, post_difficulty: int, max_epoch: int, max_iteration: int,
-               max_post_check_iteration: int, save_path: str, load_path: Optional[str] = None) -> float:
+def test_dpodl(difficulty: int, post_difficulty: int, max_iteration: int,
+               max_post_check_iteration: int, save_path: str, load_path: Optional[str] = None):
     """
     Tests the D-PoDL (Distributed Proof of Deep Learning) solver with the given parameters.
 
     Args:
         difficulty (int): The difficulty level for the D-PoDL algorithm.
-        threshold (float): The accuracy threshold for stopping.
         post_difficulty (int): Post-check difficulty level.
-        max_epoch (int): Maximum number of epochs per training iteration.
         max_iteration (int): Maximum number of training iterations.
         max_post_check_iteration (int): Maximum number of post-check iterations.
         save_path (str): Path to save the final model.
@@ -65,9 +63,7 @@ def test_dpodl(difficulty: int, threshold: float, post_difficulty: int, max_epoc
     dpodl_solver(
         prev_hash=prev_hash,
         difficulty=difficulty,
-        threshold=threshold,
         post_difficulty=post_difficulty,
-        max_epoch=max_epoch,
         max_iteration=max_iteration,
         max_post_check_iteration=max_post_check_iteration,
         save_path=save_path,
@@ -101,15 +97,6 @@ def plot(res1: List[float], res2: List[float]) -> None:
     plt.grid(True)
     plt.xticks(x_values)
     plt.show()
-
-
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-import matplotlib.pyplot as plt
-import numpy as np
-import matplotlib.cm as cm  # Import cm to access colormaps
 
 def plot_aggregate_histories(histories, save_path='aggregate_metrics.png'):
     plt.figure(figsize=(12, 5))
@@ -152,8 +139,9 @@ def plot_aggregate_histories(histories, save_path='aggregate_metrics.png'):
 
 
 if __name__ == "__main__":
-    max_epoch = 3
-    max_iteration = 4
+    difficulty = 0
+    post_difficulty = 0
+    max_iteration = 100
     max_post_check_iteration = 10
     save_path = "result.keras"
     load_path = None
@@ -162,13 +150,14 @@ if __name__ == "__main__":
     dpodl_results: List[float] = []
     dpodl_models: List[float] = []
 
-    for i in range(2):
+    for i in range(1):
         print(f"Experiment {i + 1}:")
         pow_results.append(test_pow(4))
-        t, task = test_dpodl(10, 0.95, 0, max_epoch, max_iteration, max_post_check_iteration, save_path, load_path)
+        t, task = test_dpodl(difficulty=difficulty, post_difficulty=post_difficulty, max_iteration=max_iteration,
+                             max_post_check_iteration=max_post_check_iteration, save_path=save_path)
         dpodl_results.append(t)
         dpodl_models.append(task.history)
 
 
-    plot(pow_results, dpodl_results)
-    plot_aggregate_histories(dpodl_models)
+    #plot(pow_results, dpodl_results)
+    #plot_aggregate_histories(dpodl_models)

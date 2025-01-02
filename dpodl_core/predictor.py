@@ -28,6 +28,7 @@ class TransformerPredictor(Predictor):
         return (np.array(sequence) * FloatSequenceTransformer.TRAINING_STD) + FloatSequenceTransformer.TRAINING_MEAN
 
     def predict_next_value(self, sequence) -> (float, float):
+        sequence = sequence[-self.model.input_length:]  # make our sequence have max model.input_length
         sequence = TransformerPredictor.standardize_sequence(sequence)
         self.model.train()  # Set the model to training mode to keep dropout active
         predictions = []
@@ -53,7 +54,12 @@ class TransformerPredictor(Predictor):
         mean_prediction = predictions.mean(axis=0)  # Mean prediction across samples
         std_prediction = predictions.std(axis=0)  # Standard deviation as uncertainty
 
-        return mean_prediction, std_prediction
+        return mean_prediction, derive_confidence_score(std_prediction)
+
+    def derive_confidence_score(self, std_prediction):
+        normalized_s = std_prediction / MAX_STD_TRAIN  # Normalize by max_std (95th percentile)
+        confidence_score = np.exp(-alpha * normalized_s)  # Apply exponential decay
+        return confidence_score
 
     def predict_next_values(self, sequence, steps) -> (list, list):
         std_predictions = [0] * len(sequence)
