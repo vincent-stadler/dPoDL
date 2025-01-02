@@ -26,7 +26,6 @@ class MNISTtask(TaskInterface):
         self.lrs = [0.001 * i for i in range(1, 11)]
         self.history = {}
 
-
     def load_data(self):
         (x_train, y_train), (x_test, y_test) = mnist.load_data()
         self.x_train = x_train.astype("float32") / 255.0
@@ -35,9 +34,9 @@ class MNISTtask(TaskInterface):
         self.y_test = keras.utils.to_categorical(y_test, 10)
         print(f"Loaded MNIST dataset\nShape X: {self.x_train.shape}\nShape Y: {self.y_train.shape}")
 
-
-    def evaluate(self):
-        return self.model.evaluate(self.x_train, self.y_train, verbose=0)
+    def evaluate(self, test_data=True):
+        results = self.model.evaluate(self.x_test, self.y_test, verbose=0) if test_data else self.model.evaluate(self.x_train, self.y_train, verbose=0)
+        return results
 
     def train(self, epochs, callbacks=None):
         history = self.model.fit(self.x_train,
@@ -84,7 +83,6 @@ class MNISTtask(TaskInterface):
         # Display the plot
         plt.show()
 
-
     def create_model(self):
         input_shape = (28, 28)
         model = Sequential([
@@ -99,3 +97,5 @@ class MNISTtask(TaskInterface):
     def save(self):
         self.model.save(self.save_path)
 
+    def load_model(self, load_path):
+        self.model = keras.models.load_model(load_path)
