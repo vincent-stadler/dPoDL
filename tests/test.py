@@ -3,7 +3,9 @@ import string
 import random
 from dPoDL.dpodl_core.verification import pre_pow
 from dPoDL.dpodl_core.dpodl import dpodl_solver
+from dPoDL.models.task_interface import TaskInterface
 from dPoDL.models.mnist_task import MNISTtask
+from dPoDL.models.cifar10_task import CIFAR10task
 import matplotlib.pyplot as plt
 import os
 from typing import Optional, List
@@ -43,7 +45,7 @@ def test_pow(difficulty: int) -> float:
 
 
 def test_dpodl(difficulty: int, post_difficulty: int, max_iteration: int,
-               max_post_check_iteration: int, save_path: str, load_path: Optional[str] = None):
+               max_post_check_iteration: int, save_path: str, task: TaskInterface, load_path: Optional[str] = None):
     """
     Tests the D-PoDL (Distributed Proof of Deep Learning) solver with the given parameters.
 
@@ -58,7 +60,7 @@ def test_dpodl(difficulty: int, post_difficulty: int, max_iteration: int,
     Returns:
         float: The time taken to complete the D-PoDL process in seconds.
     """
-    task = MNISTtask(save_path)  # for this test we use the MNIST task
+
     prev_hash = gen_random_string()
 
     t1 = time.time()
@@ -149,6 +151,8 @@ if __name__ == "__main__":
     max_post_check_iteration = 10
     save_path = "result.keras"
     load_path = None
+    #task = MNISTtask(save_path)  # for this test we use the MNIST task
+    task = CIFAR10task(save_path)  # for this test we use the MNIST task
 
     pow_results: List[float] = []
     dpodl_results: List[float] = []
@@ -158,10 +162,10 @@ if __name__ == "__main__":
         print(f"Experiment {i + 1}:")
         pow_results.append(test_pow(4))
         t, task = test_dpodl(difficulty=difficulty, post_difficulty=post_difficulty, max_iteration=max_iteration,
-                             max_post_check_iteration=max_post_check_iteration, save_path=save_path)
+                             max_post_check_iteration=max_post_check_iteration, task=task, save_path=save_path)
         dpodl_results.append(t)
         dpodl_models.append(task.history)
 
 
-    #plot(pow_results, dpodl_results)
-    #plot_aggregate_histories(dpodl_models)
+    plot(pow_results, dpodl_results)
+    plot_aggregate_histories(dpodl_models)
