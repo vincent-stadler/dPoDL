@@ -57,6 +57,7 @@ class TransformerPredictor(Predictor):
             previous_input = np.concatenate((previous_input, np.array([y_hat])))
 
         predicted_sequence = previous_input[len(sequence):]
+        std_predictions = std_predictions[len(sequence): ]
 
         return predicted_sequence, std_predictions
 
@@ -82,15 +83,12 @@ class TransformerPredictor(Predictor):
 
 
 if __name__ == '__main__':
-    MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date27-12-2024.pth"
+    MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date05-01-2025.pth"
     FUTURE_STEPS = 5
     predictor = TransformerPredictor(
         model_path=MODEL_PATH,
         confidence_threshold=0.5)
     l = [1.933941125869751, 1.8403935432434082, 1.8168894052505493, 1.8017066717147827, 1.7927669286727905,
          1.7832093238830566, 1.7778414487838745, 1.7706481218338013, 1.7674061059951782,]
-    jupy = [1.93394113, 1.84039354, 1.81688941, 1.80170667, 1.79276693,
-       1.78320932, 1.77784145, 1.77064812, 1.76740611, 1.41293895,
-       1.28575154, 1.25993789, 1.20525609, 1.12371534, 1.00568934,
-       0.9452898 , 0.90059667, 0.90136967, 0.87590371]
     print(predictor.predict_next_values(l, 5))
+    adapt confidence score

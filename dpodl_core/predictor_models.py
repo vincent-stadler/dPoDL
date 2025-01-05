@@ -6,8 +6,8 @@ import numpy as np
 # Define the FloatSequenceTransformer class
 class FloatSequenceTransformer(nn.Module):
 
-    TRAINING_MEAN = 0.2816047810688989  # to (de)standardize input sequences
-    TRAINING_STD = 0.22300906933601952  # to (de)standardize input sequences
+    TRAINING_MEAN = 0.6728278730772329  # to (de)standardize input sequences
+    TRAINING_STD = 0.40318570563162165  # to (de)standardize input sequences
     MAX_STD_TRAIN = 0.05168254835470455   # to calculate confidence score
     ALPHA = 0.5   # to calculate confidence score
 
