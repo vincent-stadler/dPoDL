@@ -1,13 +1,13 @@
 import keras
 from dPoDL.models.task_interface import TaskInterface
 from keras.datasets import cifar10
-from keras.models import Sequential
-from keras.layers import Input, Dense, Flatten
 from typing import Tuple
 import numpy as np
 from keras import Model
 from keras.optimizers import Adam
 import matplotlib.pyplot as plt
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Input, Flatten, Dense, Conv2D, MaxPooling2D
 
 
 class CIFAR10task(TaskInterface):
@@ -86,10 +86,16 @@ class CIFAR10task(TaskInterface):
     def create_model(self):
         input_shape = (32, 32, 3)
         model = Sequential([
-            Input(shape=input_shape),  # Explicitly define the input shape here
+            Input(shape=input_shape),
+
+            # Lightweight convolutional layer
+            Conv2D(32, (3, 3), activation="relu", padding="same"),
+            MaxPooling2D((2, 2)),
+
+            # Flatten and fully connected layers
             Flatten(),
             Dense(128, activation="relu"),
-            Dense(10, activation="softmax")
+            Dense(10, activation="softmax")  # 10 classes for output
         ])
         model.compile(optimizer=Adam(self.learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
         self.model = model
