@@ -1,36 +1,55 @@
-MIN_DECREASE = -0.001
-MAX_INCREASE = 0.0005
-WINDOW = 10
-SLACK_RATE_DECREASE, SLACK_RATE_INCREASE = 0.3, 0.5
-SLACK_RATE_DECREASE, SLACK_RATE_INCREASE = SLACK_RATE_DECREASE * WINDOW, SLACK_RATE_INCREASE * WINDOW
+import numpy as np
 
 
-def find_stabilization_point(sequence):
-    """
-    Identifies the point at which the sequence stops significantly decreasing.
+def find_stabilization_point(
+    sequence,
+    window=5,
+    slope_threshold=0.005,
+    curvature_threshold=0.05,
+    patience=1,
+    oscillation_tolerance=0.001,
+    increasing_trend_threshold=0.01,
+    flat_change_threshold=0.003
+):
+    if len(sequence) < window * 2:
+        return float("inf")
 
-    :param sequence: List of float values (the sequence to analyze)
-    :return: The index of the first value where the sequence stops significantly decreasing, or None if not found
-    """
+    # Smooth the sequence using a moving average
+    smoothed_sequence = np.convolve(sequence, np.ones(window) / window, mode='valid')
 
-    if len(sequence) < WINDOW:
-        return float("inf")  # A sequence with less than 2 values can't have a significant decrease
+    # Calculate slopes and curvatures
+    slopes = np.diff(smoothed_sequence) / smoothed_sequence[:-1]
+    curvatures = np.diff(slopes)
 
-    changes = []  # List to track the relative changes in values
+    stabilization_count = 0
+    for i in range(len(slopes) - window):
+        recent_slopes = slopes[i: i + window]
+        recent_curvatures = curvatures[i: i + window - 1]
 
-    for i in range(1, len(sequence)):
-        change = (sequence[i] - sequence[i - 1]) / abs(sequence[i - 1])
-        changes.append(change)
+        # Stabilization conditions
+        is_stabilized = (
+            np.all(np.abs(recent_slopes) < slope_threshold) and
+            np.all(np.abs(recent_curvatures) < curvature_threshold)
+        )
 
-    # Check if consecutive changes are consistently smaller than the threshold
-    for i in range(WINDOW, len(changes)):
-        # Consider the last few changes for oscillation detection
-        # check for increasing behaviour:
-        if [change > MAX_INCREASE for change in changes[i - WINDOW: i]].count(True) >= SLACK_RATE_INCREASE:
-            return i - WINDOW
+        # Oscillation detection
+        recent_values = smoothed_sequence[i: i + window]
+        oscillation_range = np.ptp(recent_values)
+        is_oscillating = oscillation_range < oscillation_tolerance
 
-        # check for decreasing behaviour:
-        if [change > MIN_DECREASE for change in changes[i - WINDOW: i]].count(True) >= SLACK_RATE_DECREASE:
-            return i
+        # Increasing trend detection
+        has_increasing_trend = np.all(recent_slopes > increasing_trend_threshold)
 
-    return float("inf")  # No stabilization point found
+        # Flat change detection
+        flat_change = np.abs(smoothed_sequence[i + window - 1] - smoothed_sequence[i]) < flat_change_threshold
+
+        if is_stabilized or is_oscillating or flat_change:
+            stabilization_count += 1
+            if stabilization_count >= patience:
+                return i + window
+        elif has_increasing_trend:
+            return i + window
+        else:
+            stabilization_count = 0
+
+    return float("inf")

@@ -9,7 +9,7 @@ from typing import Optional, Tuple
 
 
 MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date27-12-2024.pth"
-FUTURE_STEPS = 20
+FUTURE_STEPS = 10
 predictor = TransformerPredictor(
     model_path=MODEL_PATH,
     confidence_threshold=0.5)
@@ -33,7 +33,7 @@ def _training(max_iteration: int, task: TaskInterface):
         print(f"[training iteration {iteration + 1}]".upper())
         task.train(epochs=1)
         current_losses = task.history['loss']
-        print('new loss:', current_losses)
+        print('loss values:', current_losses)
         print("checking if saturation point of loss sequence has been reached")
         if find_stabilization_point(current_losses) < len(current_losses):
             print("saturated stopped training")
@@ -47,14 +47,16 @@ def _training(max_iteration: int, task: TaskInterface):
             # check if including the next predicted loss value the saturation point is among the empirically gathered
             # loss values, if yes we return
             if find_stabilization_point(list(current_losses) + [next_loss]) < len(current_losses):
-                print("saturation point reached, stopping training")
+                print("saturation point reached when checking with 1 HALLUCINATED value, stopping training")
                 break
 
             print(f"using predictor to predict the next {FUTURE_STEPS} steps")
             next_losses, confidences = predictor.predict_next_values(sequence=current_losses, steps=FUTURE_STEPS)
             # hallucinating steps tells us that saturation is reached among current losses, we return
             if find_stabilization_point(list(current_losses) + list(next_losses)) < len(current_losses):
-                print("saturation point reached, stopping training")
+                print(f"saturation point reached when checking with {FUTURE_STEPS} HALLUCINATED values, stopping training")
+                print("current losses:", list(current_losses))
+                print("hallucinates losses:", list(next_losses))
                 break
             print("continuing training since no saturation point reached")
         else:
@@ -66,6 +68,9 @@ def _training(max_iteration: int, task: TaskInterface):
     else:
         _, accuracy = task.evaluate()
         print(f"traing saturation point found at iteration {iteration + 1} with accuracy {accuracy:.4f}")
+        print("letting model train 5 more epochs to see if we made good choice")
+        task.train(epochs=5)
+        print(task.history['loss'])
     task.save()
 
 
