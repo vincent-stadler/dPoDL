@@ -13,7 +13,7 @@ def find_stabilization_point(sequence):
     :return: The index of the first value where the sequence stops significantly decreasing, or None if not found
     """
 
-    if len(sequence) < 2:
+    if len(sequence) < WINDOW:
         return float("inf")  # A sequence with less than 2 values can't have a significant decrease
 
     changes = []  # List to track the relative changes in values

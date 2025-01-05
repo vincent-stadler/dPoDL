@@ -9,6 +9,7 @@ from typing import Optional, Tuple
 
 
 MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date27-12-2024.pth"
+FUTURE_STEPS = 20
 predictor = TransformerPredictor(
     model_path=MODEL_PATH,
     confidence_threshold=0.5)
@@ -28,23 +29,37 @@ def hash_to_architecture(hash_val: str, task: TaskInterface):
 
 def _training(max_iteration: int, task: TaskInterface):
     for iteration in range(max_iteration):
+        print("##############################################################################")
+        print(f"[training iteration {iteration + 1}]".upper())
         task.train(epochs=1)
         current_losses = task.history['loss']
+        print('new loss:', current_losses)
+        print("checking if saturation point of loss sequence has been reached")
         if find_stabilization_point(current_losses) < len(current_losses):
             print("saturated stopped training")
             break
 
+        print("saturation point not reached.\nusing predictor to predict next loss value")
         next_loss, confidence = predictor.predict_next_value(current_losses)
+        print(f"predicted next loss value: {next_loss:.4f}, with confidence: {confidence}")
         if confidence >= predictor.confidence_threshold:
+            print(f"confidence above required confidence threshold ({predictor.confidence_threshold}) considering predicted value to check for saturation point")
             # check if including the next predicted loss value the saturation point is among the empirically gathered
             # loss values, if yes we return
             if find_stabilization_point(list(current_losses) + [next_loss]) < len(current_losses):
+                print("saturation point reached, stopping training")
                 break
 
-            next_losses, confidences = predictor.predict_next_values(sequence=current_losses, steps=20)
+            print(f"using predictor to predict the next {FUTURE_STEPS} steps")
+            next_losses, confidences = predictor.predict_next_values(sequence=current_losses, steps=FUTURE_STEPS)
             # hallucinating steps tells us that saturation is reached among current losses, we return
             if find_stabilization_point(list(current_losses) + list(next_losses)) < len(current_losses):
+                print("saturation point reached, stopping training")
                 break
+            print("continuing training since no saturation point reached")
+        else:
+            print( f"confidence below required confidence threshold ({predictor.confidence_threshold}), not considering predicted value")
+        print("##############################################################################")
     # out of training loop
     if iteration == max_iteration - 1:
         print("no saturation point found of model training")

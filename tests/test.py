@@ -5,7 +5,9 @@ from dPoDL.dpodl_core.verification import pre_pow
 from dPoDL.dpodl_core.dpodl import dpodl_solver
 from dPoDL.models.mnist_task import MNISTtask
 import matplotlib.pyplot as plt
+import os
 from typing import Optional, List
+from tensorflow import get_logger
 
 
 def gen_random_string(length: int = 100) -> str:
@@ -139,6 +141,8 @@ def plot_aggregate_histories(histories, save_path='aggregate_metrics.png'):
 
 
 if __name__ == "__main__":
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  #no warning
+    get_logger().setLevel('ERROR')
     difficulty = 0
     post_difficulty = 0
     max_iteration = 100

@@ -19,14 +19,6 @@ class TransformerPredictor(Predictor):
         self.model = TransformerPredictor.load_model(model_path)
         self.confidence_threshold = confidence_threshold
 
-    @staticmethod
-    def standardize_sequence(sequence):
-        return (np.array(sequence) - FloatSequenceTransformer.TRAINING_MEAN) / FloatSequenceTransformer.TRAINING_STD
-
-    @staticmethod
-    def destandardize_sequence(sequence):
-        return (np.array(sequence) * FloatSequenceTransformer.TRAINING_STD) + FloatSequenceTransformer.TRAINING_MEAN
-
     def predict_next_value(self, sequence) -> (float, float):
         sequence = sequence[-self.model.input_length:]  # make our sequence have max model.input_length
         sequence = TransformerPredictor.standardize_sequence(sequence)
@@ -49,17 +41,11 @@ class TransformerPredictor(Predictor):
             for _ in range(40):  # 40 times prediction is made with dropout
                 prediction = self.model(padded_input, key_padding_mask)
                 predictions.append(prediction.item())  # Store the predictions (detached from the computation graph)
-
         predictions = np.array([TransformerPredictor.destandardize_sequence(prediction) for prediction in predictions])
         mean_prediction = predictions.mean(axis=0)  # Mean prediction across samples
         std_prediction = predictions.std(axis=0)  # Standard deviation as uncertainty
 
-        return mean_prediction, derive_confidence_score(std_prediction)
-
-    def derive_confidence_score(self, std_prediction):
-        normalized_s = std_prediction / MAX_STD_TRAIN  # Normalize by max_std (95th percentile)
-        confidence_score = np.exp(-alpha * normalized_s)  # Apply exponential decay
-        return confidence_score
+        return max(0, mean_prediction), self.derive_confidence_score(std_prediction)  # can't predict negative loss val
 
     def predict_next_values(self, sequence, steps) -> (list, list):
         std_predictions = [0] * len(sequence)
@@ -75,8 +61,21 @@ class TransformerPredictor(Predictor):
         return predicted_sequence, std_predictions
 
     @staticmethod
+    def derive_confidence_score(std_prediction):
+        normalized_s = std_prediction / FloatSequenceTransformer.MAX_STD_TRAIN  # Normalize by max_std (95th percentile)
+        confidence_score = np.exp(-FloatSequenceTransformer.ALPHA * normalized_s)  # Apply exponential decay
+        return confidence_score
+
+    @staticmethod
     def load_model(model_path):
         model = FloatSequenceTransformer()
         model.load_state_dict(torch.load(model_path))
         return model
 
+    @staticmethod
+    def standardize_sequence(sequence):
+        return (np.array(sequence) - FloatSequenceTransformer.TRAINING_MEAN) / FloatSequenceTransformer.TRAINING_STD
+
+    @staticmethod
+    def destandardize_sequence(sequence):
+        return (np.array(sequence) * FloatSequenceTransformer.TRAINING_STD) + FloatSequenceTransformer.TRAINING_MEAN

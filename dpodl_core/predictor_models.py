@@ -6,9 +6,10 @@ import numpy as np
 # Define the FloatSequenceTransformer class
 class FloatSequenceTransformer(nn.Module):
 
-    TRAINING_MEAN = 0.2816047810688989
-    TRAINING_STD = 0.22300906933601952
-    MAX_STD_TRAIN = mulitply current MAX_STD with training STD
+    TRAINING_MEAN = 0.2816047810688989  # to (de)standardize input sequences
+    TRAINING_STD = 0.22300906933601952  # to (de)standardize input sequences
+    MAX_STD_TRAIN = 0.05168254835470455   # to calculate confidence score
+    ALPHA = 0.5   # to calculate confidence score
 
     def __init__(self, embedding_dim=8, num_heads=1, num_layers=1, dropout=0.2, input_length=60):
         super(FloatSequenceTransformer, self).__init__()
