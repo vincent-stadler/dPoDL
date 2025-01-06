@@ -28,6 +28,7 @@ class CIFAR10task(TaskInterface):
 
     def load_data(self):
         (x_train, y_train), (x_test, y_test) = cifar10.load_data()
+        (x_train, y_train) = (x_train[:len(x_train)//3], y_train[:len(x_train)//3])
         self.x_train = x_train.astype("float32") / 255.0
         self.x_test = x_test.astype("float32") / 255.0
         self.y_train = keras.utils.to_categorical(y_train, 10)

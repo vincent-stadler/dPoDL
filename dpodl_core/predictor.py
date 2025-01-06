@@ -41,9 +41,10 @@ class TransformerPredictor(Predictor):
             for _ in range(40):  # 40 times prediction is made with dropout
                 prediction = self.model(padded_input, key_padding_mask)
                 predictions.append(prediction.item())  # Store the predictions (detached from the computation graph)
+
+        std_prediction = np.array(predictions).std(axis=0)  # Standard deviation as uncertainty
         predictions = TransformerPredictor.destandardize_sequence(predictions)
         mean_prediction = predictions.mean(axis=0)  # Mean prediction across samples
-        std_prediction = predictions.std(axis=0)  # Standard deviation as uncertainty
 
         return max(0, mean_prediction), self.derive_confidence_score(std_prediction)  # can't predict negative loss val
 
@@ -83,7 +84,7 @@ class TransformerPredictor(Predictor):
 
 
 if __name__ == '__main__':
-    MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date05-01-2025.pth"
+    MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date06-01-2025.pth"
     FUTURE_STEPS = 5
     predictor = TransformerPredictor(
         model_path=MODEL_PATH,
@@ -91,4 +92,3 @@ if __name__ == '__main__':
     l = [1.933941125869751, 1.8403935432434082, 1.8168894052505493, 1.8017066717147827, 1.7927669286727905,
          1.7832093238830566, 1.7778414487838745, 1.7706481218338013, 1.7674061059951782,]
     print(predictor.predict_next_values(l, 5))
-    adapt confidence score

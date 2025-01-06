@@ -7,12 +7,12 @@ from dPoDL.models.task_interface import TaskInterface
 from dPoDL.callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
 from typing import Optional, Tuple
 
-
-MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date05-01-2025.pth"
+MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date06-01-2025.pth"
 FUTURE_STEPS = 5
 predictor = TransformerPredictor(
     model_path=MODEL_PATH,
     confidence_threshold=0.5)
+LOSS = "loss"
 
 
 def hash_to_architecture(hash_val: str, task: TaskInterface):
@@ -32,7 +32,7 @@ def _training(max_iteration: int, task: TaskInterface):
         print("##############################################################################")
         print(f"[training iteration {iteration + 1}]".upper())
         task.train(epochs=1)
-        current_losses = task.history['loss']
+        current_losses = task.history[LOSS]
         print('loss values:', current_losses)
         print("checking if saturation point of loss sequence has been reached")
         if find_stabilization_point(current_losses) < len(current_losses):
@@ -70,7 +70,7 @@ def _training(max_iteration: int, task: TaskInterface):
         print(f"traing saturation point found at iteration {iteration + 1} with accuracy {accuracy:.4f}")
         print("letting model train 5 more epochs to see if we made good choice")
         task.train(epochs=5)
-        print(task.history['loss'])
+        print(task.history[LOSS])
     task.save()
 
 

@@ -152,7 +152,7 @@ if __name__ == "__main__":
     save_path = "result.keras"
     load_path = None
     #task = MNISTtask(save_path)  # for this test we use the MNIST task
-    task = CIFAR10task(save_path)  # for this test we use the MNIST task
+    task = CIFAR10task(save_path)  # for this test we use the CIFAR10 task
 
     pow_results: List[float] = []
     dpodl_results: List[float] = []
