@@ -85,18 +85,14 @@ class CIFAR10task(TaskInterface):
         plt.show()
 
     def create_model(self):
-        input_shape = (32, 32, 3)
         model = Sequential([
-            Input(shape=input_shape),
-
-            # Lightweight convolutional layer
-            Conv2D(32, (3, 3), activation="relu", padding="same"),
+            Conv2D(16, (3, 3), activation='relu', input_shape=(32, 32, 3)),
             MaxPooling2D((2, 2)),
-
-            # Flatten and fully connected layers
+            Conv2D(32, (3, 3), activation='relu'),
+            MaxPooling2D((2, 2)),
             Flatten(),
-            Dense(128, activation="relu"),
-            Dense(10, activation="softmax")  # 10 classes for output
+            Dense(64, activation='relu'),
+            Dense(10, activation='softmax')
         ])
         model.compile(optimizer=Adam(self.learning_rate), loss="categorical_crossentropy", metrics=["accuracy"])
         self.model = model
