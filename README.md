@@ -40,6 +40,3 @@ Then, execute the test script with:
 python test.py
 ```
 This will execute the PoW and D-PoDL tasks, logging runtimes and generating performance plots. At the end, two plots will be produced, showing the trained models' accuracy and loss over time. Additionally, during the entire training process, console outputs will provide insights into the progress.
-
-## Contributions
-Contributions are welcome! Feel free to add new tasks, improve predictors, or optimize the PoW/D-PoDL framework to enhance efficiency and adaptability.
