@@ -4,15 +4,14 @@ from dPoDL.models.model_utils import reset_weights
 from dPoDL.dpodl_core.predictor import TransformerPredictor
 from dPoDL.dpodl_core.saturation import find_stabilization_point
 from dPoDL.models.task_interface import TaskInterface
-from dPoDL.callbacks.callbacks import BatchLogger, EarlyStoppingByAccuracy
 from typing import Optional, Tuple
 
-MODEL_PATH = r"C:\Users\daV\Documents\ZHAW\HS 2024\dPoDL\dPoDL\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date06-01-2025.pth"
-FUTURE_STEPS = 5
+MODEL_PATH = r"..\experiments\training\models\cnns_cifar10_categorical\transformer-model_emb8_dropout0.2_layers1_heads1_date06-01-2025.pth"
+FUTURE_STEPS = 5  # how many loss values should we forecast into the future
 predictor = TransformerPredictor(
     model_path=MODEL_PATH,
     confidence_threshold=0.5)
-LOSS = "loss"
+LOSS = "val_loss"  # which loss should be considered (val_loss or loss)
 
 
 def hash_to_architecture(hash_val: str, task: TaskInterface):
@@ -33,7 +32,7 @@ def _training(max_iteration: int, task: TaskInterface):
         print(f"[training iteration {iteration + 1}]".upper())
         task.train(epochs=1)
         current_losses = task.history[LOSS]
-        print('loss values:', current_losses)
+        print(f'{LOSS} values:', current_losses)
         print("checking if saturation point of loss sequence has been reached")
         if find_stabilization_point(current_losses) < len(current_losses):
             print("saturated stopped training")
