@@ -66,7 +66,7 @@ def dpodl_solver(prev_hash: str,
         post_check_iteration += 1
 
     _, accuracy = task.evaluate()
-    if find_stabilization_point(task.history["loss"]) < len(task.history["loss"]):
+    if find_stabilization_point(task.history["loss"]) < len(task.history["loss"]) or find_stabilization_point(task.history["val_loss"]) < len(task.history["val_loss"]):
         print(f"D-PoDL complete: Model accuracy {accuracy:.4f} with valid post hash {post_hash}.")
     else:
         print(f"D-PoDL failed: Reached max iterations (max_iteration: {max_iteration}, max_post_check_iteration: {max_post_check_iteration}) with final accuracy {accuracy:.4f}.")
