@@ -1,14 +1,11 @@
-# Proof of Useful Work (D-PoDL) Test Pipeline
+# Proof-of-Useful-Work Framework
 
 ## Introduction
-Blockchain technologies have revolutionized decentralized networks, but traditional Proof-of-Work (PoW) systems suffer from excessive energy consumption. This project explores an alternative approach—Proof-of-Useful-Work (PoUW)—by integrating deep learning tasks into mining. Specifically, it focuses on Proof-of-Deep-Learning (PoDL), where computational resources are used for training machine learning models instead of solving cryptographic puzzles.
+Traditional Proof-of-Work systems consume excessive energy without producing useful computations. This project explores Proof-of-Useful-Work (PoUW), specifically Proof-of-Deep-Learning (PoDL), where mining power is used for training deep learning models instead of solving cryptographic puzzles.
 
-A key challenge in PoDL is determining when model training remains useful. This project introduces a Transformer-based model to predict the evolution of a model’s loss function, identifying saturation points where further training yields diminishing returns. Additionally, a stabilization algorithm detects when training is no longer productive.
-
-Experimental results show that this framework optimizes resource allocation by stopping inefficient training, thereby improving computational efficiency. The proposed enhancements address limitations of static thresholds and contribute to a more adaptive D-PoDL system.
-
+A key challenge in PoDL is identifying when training remains beneficial. This framework integrates a Transformer-based predictor and a stabilization algorithm to detect loss saturation points, optimizing resource allocation by stopping inefficient training. Experimental results show improved computational efficiency and adaptability compared to static threshold approaches.
 ## About This Repository
-This repository provides a test pipeline for the Proof-of-Useful-Work (D-PoDL) framework. The test script `test.py` allows users to evaluate the pipeline by running proof-of-work (PoW) and distributed proof-of-deep-learning (D-PoDL) tasks. The modular architecture enables flexibility in swapping predictor models and tasks, making it highly customizable.
+This repository provides a test pipeline for the Proof-of-Useful-Work framework. The test script `test.py` allows users to evaluate the pipeline by running PoW and distributed proof-of-deep-learning tasks. The modular architecture enables flexibility in swapping predictor models and tasks, making it highly customizable.
 
 ## Parameters in `test.py`
 The following parameters in `test.py` control the execution of the pipeline:
