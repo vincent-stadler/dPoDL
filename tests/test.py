@@ -145,8 +145,8 @@ def plot_aggregate_histories(histories, save_path='aggregate_metrics.png'):
 if __name__ == "__main__":
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  #no warning
     get_logger().setLevel('ERROR')
-    difficulty = 0
-    post_difficulty = 0
+    difficulty = 0 # pre hash difficulty
+    post_difficulty = 0 # post hash difficulty
     max_iteration = 100
     max_post_check_iteration = 10
     save_path = "result.keras"
